@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    display: inline;
+    margin-right: 60px;
+}
+
+.role {
+    margin-left: 60px;
+}
+
+.menu {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #005EB8;
+    padding-top: 30px;
+    color: #fff;
+    z-index: 3;
+    position: absolute;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: #00A3E0;
+    position: absolute;
+}
+
+.sol {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #48A23F;
+}
+    
