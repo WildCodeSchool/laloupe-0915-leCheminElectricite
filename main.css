@@ -24,8 +24,9 @@ li {
 }
 
 .menu {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 header {
@@ -34,8 +35,9 @@ header {
     background-color: #005EB8;
     padding-top: 30px;
     color: #fff;
-    z-index: 3;
+    z-index: 1;
     position: absolute;
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
 }
 
 .content {
@@ -43,6 +45,7 @@ header {
     width: 100%;
     background-color: #88defb;
     position: absolute;
+    z-index: -3;
 }
 
 .sol {
@@ -93,15 +96,12 @@ header {
 	
 	position: relative;
 	margin: 20;
-    
-    z-index: 3;
 }
 
 .cloud:after, .cloud:before {
 	content: '';
 	position: absolute;
 	background: #f2f9fe;
-	z-index: 2;
 }
 
 .cloud:after {
@@ -126,7 +126,7 @@ header {
 	width: calc(350px / 2);
 	position: absolute; bottom: -10px; 
 	background: #000;
-	z-index: 2;
+	z-index: -1;
 	
 	box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
 	-moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
