@@ -11,6 +11,6 @@ $(document).ready(function() {
         cloud();
     };
     
-    cloud();
+  //  cloud();
     
 });
