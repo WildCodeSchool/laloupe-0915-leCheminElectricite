@@ -153,9 +153,8 @@ header {
 }
 
 .heoliene {
-    min-height: 20%;
-    width: 8%;
-    min-width: 8%;
+    width: 50px;
+    height: 140px;
     position: absolute;
     bottom: 24%;
     left: 3%;
@@ -167,7 +166,7 @@ header {
     background-color: #000;
     bottom: 0;
     position: absolute;
-    left: 46%;
+    left: 21px;
 }
 
 .mat:before {
@@ -188,7 +187,7 @@ header {
     border-radius: 40px / 4px;
     background-color: #000;
     
-    left: 50%; top: 25%;
+    left: 25px; bottom: 100px;
     position: absolute;
     
     transform-origin: center left;

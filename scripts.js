@@ -15,6 +15,6 @@ $(document).ready(function() {
         $('.rotor').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
     };
     
-  //  cloud();
     rotor();
+    cloud();
 });
