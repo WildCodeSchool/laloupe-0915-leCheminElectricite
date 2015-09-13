@@ -24,7 +24,7 @@ li {
 }
 
 .menu {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -46,6 +46,7 @@ header {
     background-color: #88defb;
     position: absolute;
     z-index: -3;
+    overflow: hidden;
 }
 
 .sol {
@@ -157,7 +158,17 @@ header {
     height: 140px;
     position: absolute;
     bottom: 24%;
-    left: 3%;
+    left: 5%;
+}
+
+.heoliene-2, .mat-2, .rotor-2 {
+    left: 10%;
+    z-index: -2;
+    bottom: 24.5%;
+}
+
+.rotor-2 {
+    z-index: -3 !important;
 }
 
 .mat {
@@ -167,6 +178,7 @@ header {
     bottom: 0;
     position: absolute;
     left: 21px;
+    border-radius: 16px / 50px;
 }
 
 .mat:before {
@@ -185,10 +197,11 @@ header {
     height: 8px;
     
     border-radius: 40px / 4px;
-    background-color: #000;
+    background-color: #383838;
     
     left: 25px; bottom: 100px;
     position: absolute;
+    z-index: -1;
     
     transform-origin: center left;
 }
@@ -199,7 +212,7 @@ header {
     height: 8px;
     
     border-radius: 40px / 4px;
-    background-color: #000;
+    background-color: inherit;
     content: '';
     
     position: absolute;
@@ -215,7 +228,7 @@ header {
     
     content: '';
     border-radius: 40px / 4px;
-    background-color: #000;
+    background-color: inherit;
     
     position: absolute;
     transform: rotate(120deg);
