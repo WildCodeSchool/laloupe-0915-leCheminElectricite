@@ -1,0 +1,55 @@
+html {
+    font-size: 62.5%;
+}
+
+* a, * a:hover, * a:active, * a:visited {
+    text-decoration: none;
+}
+
+#start {
+    background-color: brown;
+}
+
+#un {
+    background-color: black;
+}
+
+#deux {
+    background-color: blue;
+}
+
+#trois {
+    background-color: coral;
+}
+
+#quatre {
+    background-color: forestgreen;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 2.6rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+#menu li a:hover {
+    color: #00A3E0;
+}
+
+#menu li a {
+    text-transform: uppercase;
+    color: #005EB8;
+}
+
+header {
+    height: 7rem;
+    width: 100%;
+    font-family: calibri;
+    background-color: #ffffff;
+    padding-top: 0.5rem;
+    z-index: 3;
+}

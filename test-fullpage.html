@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <script src="jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    anchors:['startPage', 'cheminElectricite'],
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+
+        <div id="fullpage">
+
+            <div class="section" id="start"></div>
+
+            <div class="section">
+
+                <header>
+                    <ul id="menu">
+                        <li><a href="#cheminElectricite/production">Production</a></li>
+                        <li><a href="#cheminElectricite/transport">Transport</a></li>
+                        <li><a href="#cheminElectricite/distribution">Distribution</a></li>
+                        <li><a href="#cheminElectricite/fourniture">Fourniture</a></li>
+                    </ul>
+                </header>
+
+                <div class="slide" id="un" data-anchor="production"></div>
+
+                <div class="slide" id="deux" data-anchor="transport"></div>
+
+                <div class="slide" id="trois" data-anchor="distribution"></div>
+
+                <div class="slide" id="quatre" data-anchor="fourniture"></div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
