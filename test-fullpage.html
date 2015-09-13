@@ -14,6 +14,13 @@
                 $('#fullpage').fullpage({
                     anchors:['startPage', 'cheminElectricite'],
                 });
+                $('.test-anim').on('click', function (event) {
+                    var visible = $(this).children('p').css('visibility');
+                    event.preventDefault();
+                    $(this).toggleClass('expanded');
+                    if (visible == 'visible') { $(this).children('p').css('visibility', 'hidden'); }
+                    else { $(this).children('p').css('visibility', 'visible'); };
+                });
             });
         </script>
     </head>
@@ -35,7 +42,7 @@
                     </ul>
                 </header>
 
-                <div class="slide" id="un" data-anchor="production"></div>
+                <div class="slide" id="un" data-anchor="production"><div id="test-side"></div><div class="test-anim"><p>Il etait une fois...</p></div></div>
 
                 <div class="slide" id="deux" data-anchor="transport"></div>
 

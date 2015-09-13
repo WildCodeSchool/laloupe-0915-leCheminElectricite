@@ -1,9 +1,44 @@
+#test-side {
+    height: 20rem;
+    width: 20rem;
+    margin: 50px;
+    background-color: chartreuse;
+}
+
+.test-anim {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    background-color: #005EB8;
+    transition: all 1s ease-out;
+}
+
+.test-anim.expanded {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 6%;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    visibility: hidden;
+}
+
 html {
     font-size: 62.5%;
 }
 
 * a, * a:hover, * a:active, * a:visited {
     text-decoration: none;
+}
+
+.slide {
+    position: relative;
 }
 
 #start {
