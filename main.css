@@ -191,7 +191,7 @@ header {
     left: 50%; top: 25%;
     position: absolute;
     
-    transform-origin: bottom left;
+    transform-origin: center left;
 }
 
 .rotor:before {
@@ -203,8 +203,10 @@ header {
     background-color: #000;
     content: '';
     
-    right: 100%;
     position: absolute;
+    
+    transform: rotate(240deg);
+    transform-origin: center left;
 }
 
 .rotor:after {
@@ -215,8 +217,8 @@ header {
     content: '';
     border-radius: 40px / 4px;
     background-color: #000;
-    right: 50%; top: -500%;
     
-    transform: rotate(90deg);
     position: absolute;
+    transform: rotate(120deg);
+    transform-origin: center left;
 }
