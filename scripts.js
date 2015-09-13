@@ -12,11 +12,10 @@ $(document).ready(function() {
     };
     
     function rotor() {
-        $('.rotor').transition({ rotate: '360deg' }, 7500, 'linear');
-        $('.rotor').transition({ rotate: '0' }, 7500, 'linear');
+        $('.rotor').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
         rotor();
-    }
+    };
     
   //  cloud();
-    rotor();
+        rotor();
 });
