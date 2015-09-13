@@ -190,6 +190,8 @@ header {
     
     left: 50%; top: 25%;
     position: absolute;
+    
+    transform-origin: bottom left;
 }
 
 .rotor:before {
