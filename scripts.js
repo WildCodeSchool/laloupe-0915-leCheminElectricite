@@ -4,6 +4,21 @@ $(document).ready(function() {
         anchors:['startPage', 'mainPath'],
     });
     
+    var slide = 1;
+    
+    $(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: slide--;
+        break;
+
+        case 39: slide++;
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+    
     function cloud() {
         $('.cloud').animate({
             top: "23%"
