@@ -31,7 +31,7 @@ a {
 #start #logo {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left:0;
     right:0;
     margin-left:auto;
@@ -42,8 +42,11 @@ a {
 .menu #logo {
     position: absolute;
     left: 2%;
-    top: 10%;
+    top: 0;
+    bottom: 0;
     width: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .role {
