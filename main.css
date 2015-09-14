@@ -1,9 +1,12 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     font-family: 'calibri', sans-serif;
     font-weight: 700;
-    font-size: 1.3em;
 }
 
 .menu {
@@ -13,7 +16,7 @@ body {
 .menu li {
     display: inline;
     color: #005EB8;
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 
 .menu li a:hover {
@@ -110,7 +113,6 @@ header {
 }
 
 .cloud {
-<<<<<<< HEAD
 	width: calc(350px / 2); height: calc(120px / 2);
 	
 	background: #f2f9fe;
