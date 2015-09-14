@@ -35,7 +35,7 @@ header {
     background-color: #005EB8;
     padding-top: 30px;
     color: #fff;
-    z-index: 1;
+    z-index: 3;
     position: absolute;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
 }
@@ -44,7 +44,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: #88defb;
-    position: absolute;
+    position: relative;
     z-index: -3;
     overflow: hidden;
 }
@@ -53,7 +53,7 @@ header {
     position: absolute;
     z-index: 1;
     bottom: 0;
-    height: 120px;
+    height: 180px;
     width: 100%;
     background-color: #48A23F;
 }
@@ -64,13 +64,14 @@ header {
      height: 23%; 
      margin: 20px 0; 
      background: #48A23F; 
-     border-radius: 50% / 10%; 
+     border-radius: 10% / 5%; 
      color: white; 
      text-align: center; 
      text-indent: .1em;
      z-index: 3;
     bottom: 0;
     overflow: hidden;
+    display: none;
  } 
 
 .sol-shape:before { 

@@ -1,5 +1,8 @@
 $(document).ready(function() {
     
+    $('#fullpage').fullpage({
+        anchors:['startPage', 'mainPath'],
+    });
     
     function cloud() {
         $('.cloud').animate({
