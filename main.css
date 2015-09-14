@@ -14,6 +14,11 @@ li {
     display: inline;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo {
     display: inline;
     margin-right: 60px;
@@ -32,9 +37,9 @@ li {
 header {
     height: 70px;
     width: 100%;
-    background-color: #005EB8;
+    background-color: #fff;
     padding-top: 30px;
-    color: #fff;
+    color: #000;
     z-index: 3;
     position: absolute;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
@@ -43,7 +48,7 @@ header {
 .content {
     height: 100%;
     width: 100%;
-    background-color: #88defb;
+    background: -moz-linear-gradient(center top , #00c4ff, #00c4ff, #00c4ff);
     position: relative;
     z-index: -3;
     overflow: hidden;
@@ -55,7 +60,7 @@ header {
     bottom: 0;
     height: 180px;
     width: 100%;
-    background-color: #48A23F;
+    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
 }
 
 .sol-shape { 
@@ -298,7 +303,7 @@ header {
     position: absolute;
     content: '';
     
-    background-color: #029112;
+    background-color: inherit;
 }
 
 .feuilles:after {
@@ -312,5 +317,25 @@ header {
     position: absolute;
     content: '';
     
-    background-color: #029112;
+    background-color: inherit;
 }
+
+.sun {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    background: -moz-linear-gradient(top, #fff500, #e2c800);
+}
+
+.sun:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 80px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);

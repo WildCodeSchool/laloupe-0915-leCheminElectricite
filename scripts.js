@@ -22,6 +22,8 @@ $(document).ready(function() {
         $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
     
+    var x = 1;
+    
     rotor();
     rotor2();
     cloud();
