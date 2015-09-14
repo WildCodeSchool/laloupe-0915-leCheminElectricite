@@ -254,7 +254,8 @@ header {
     left: 22px;
     position: absolute;
     
-    background-color: #993200;
+    background: linear-gradient(left, #993200, #914902);
+    background: -moz-linear-gradient(left, #993200, #914902);
 }
 
 .tronc:before {
