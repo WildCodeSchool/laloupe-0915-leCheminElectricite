@@ -1,17 +1,23 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'calibri', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
 }
 
-ul {
-    display: inline;
+.menu {
+    text-align: center;
 }
 
-li {
+.menu li {
     display: inline;
+    color: #005EB8;
+    font-size: 1.5em;
+}
+
+.menu li a:hover {
+    color: #00A3E0;
 }
 
 a {
@@ -19,19 +25,27 @@ a {
     color: inherit;
 }
 
-.logo {
-    display: inline;
-    margin-right: 60px;
+#start #logo {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+
+.menu #logo {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 8%;
 }
 
 .role {
-    margin-left: 60px;
-}
-
-.menu {
-    width: 80%;
-    margin: 0 auto;
-    cursor: pointer;
+    float: right;
+    margin-right: 3%;
 }
 
 header {
@@ -64,20 +78,20 @@ header {
 }
 
 .sol-shape { 
-     position: absolute; 
-     width: 100%; 
-     height: 23%; 
-     margin: 20px 0; 
-     background: #48A23F; 
-     border-radius: 10% / 5%; 
-     color: white; 
-     text-align: center; 
-     text-indent: .1em;
-     z-index: 3;
+    position: absolute; 
+    width: 100%; 
+    height: 23%; 
+    margin: 20px 0; 
+    background: #48A23F; 
+    border-radius: 10% / 5%; 
+    color: white; 
+    text-align: center; 
+    text-indent: .1em;
+    z-index: 3;
     bottom: 0;
     overflow: hidden;
     display: none;
- } 
+} 
 
 .sol-shape:before { 
     content: ''; 
@@ -96,6 +110,7 @@ header {
 }
 
 .cloud {
+<<<<<<< HEAD
 	width: calc(350px / 2); height: calc(120px / 2);
 	
 	background: #f2f9fe;
@@ -115,43 +130,43 @@ header {
 }
 
 .cloud:after, .cloud:before {
-	content: '';
-	position: absolute;
-	background: #f2f9fe;
+    content: '';
+    position: absolute;
+    background: #f2f9fe;
     z-index: -1;
 }
 
 .cloud:after {
-	width: calc(100px / 2); height: calc(100px / 2);
-	top: calc(-50px / 2); left: calc(50px / 2);
-	
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
+    width: calc(100px / 2); height: calc(100px / 2);
+    top: calc(-50px / 2); left: calc(50px / 2);
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
 }
 
 .cloud:before {
-	width: calc(180px / 2); height: calc(180px / 2);
-	top: calc(-90px / 2); right: calc(50px / 2);
-	
-	border-radius: calc(200px / 2);
-	-webkit-border-radius: calc(200px / 2);
-	-moz-border-radius: calc(200px / 2);
+    width: calc(180px / 2); height: calc(180px / 2);
+    top: calc(-90px / 2); right: calc(50px / 2);
+
+    border-radius: calc(200px / 2);
+    -webkit-border-radius: calc(200px / 2);
+    -moz-border-radius: calc(200px / 2);
 }
 
 .shadow {
-	width: calc(350px / 2);
-	position: absolute; bottom: -10px; 
-	background: #000;
-	z-index: -1;
-	
-	box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
-	-webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
-	
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
+    width: calc(350px / 2);
+    position: absolute; bottom: -10px; 
+    background: #000;
+    z-index: -1;
+
+    box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
 .cloud-one {
@@ -159,7 +174,7 @@ header {
 }
 
 .cloud-two {
-	top: 20%; left: 70%;
+    top: 20%; left: 70%;
 }
 
 .heoliene {
@@ -204,122 +219,122 @@ header {
 .rotor {
     width: 80px;
     height: 8px;
-    
+
     border-radius: 40px / 4px;
     background-color: #383838;
-    
+
     left: 25px; bottom: 100px;
     position: absolute;
     z-index: -1;
-    
+
     transform-origin: center left;
 }
 
 .rotor:before {
-    
+
     width: 80px;
     height: 8px;
-    
+
     border-radius: 40px / 4px;
     background-color: inherit;
     content: '';
-    
+
     position: absolute;
-    
+
     transform: rotate(240deg);
     transform-origin: center left;
 }
 
 .rotor:after {
-    
+
     width: 80px;
     height: 8px;
-    
+
     content: '';
     border-radius: 40px / 4px;
     background-color: inherit;
-    
+
     position: absolute;
     transform: rotate(120deg);
     transform-origin: center left;
 }
 
 .arbre {
-    
+
     width: 50px;
     height: 70px;
-    
+
     bottom: 25%;
     left: 47%;
     position: absolute;
 }
 
 .tronc {
-    
+
     width: 5px;
     height: 30px;
-    
+
     bottom: 0;
     left: 22px;
     position: absolute;
-    
+
     background: linear-gradient(left, #993200, #914902);
     background: -moz-linear-gradient(left, #993200, #914902);
 }
 
 .tronc:before {
-    
+
     width: 10px;
     height: 10px;
     border-radius: calc(10px / 2);
-    
+
     top: -8px;
     left: -5px;
     position: absolute;
     content: '';
-    
+
     background-color: #029112;
 }
 
 .feuilles {
-    
+
     width: 10px;
     height: 10px;
     border-radius: calc(10px / 2);
-    
+
     bottom: 30px;
     left: 24px;
     position: absolute;
     content: '';
-    
+
     background-color: #029112;
 }
 
 .feuilles:before {
-    
+
     width: 12px;
     height: 12px;
     border-radius: calc(12px / 2);
-    
+
     left: -8px;
     bottom: 2px;
     position: absolute;
     content: '';
-    
+
     background-color: inherit;
 }
 
 .feuilles:after {
-    
+
     width: 10px;
     height: 10px;
     border-radius: calc(10px / 2);
-    
+
     bottom: 4px;
     left: -1px;
     position: absolute;
     content: '';
-    
+
     background-color: inherit;
 }
 
@@ -327,11 +342,11 @@ header {
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    
+
     position: absolute;
     top: 30%;
     left: 30%;
-    
+
     background: -moz-linear-gradient(top, #fff500, #e2c800);
 }
 
@@ -342,3 +357,4 @@ header {
     bottom: -5px;
     width: 80px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+}
