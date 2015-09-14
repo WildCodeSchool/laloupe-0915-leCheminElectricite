@@ -37,16 +37,27 @@ html {
     text-decoration: none;
 }
 
-.slide {
+.slide, .section {
     position: relative;
 }
 
 #start {
-    background-color: brown;
+    background: linear-gradient(to bottom, #fff, #fff, #88defb);
+}
+
+#start #logo {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
 }
 
 #un {
-    background-color: black;
+    background-color: #88defb;
 }
 
 #deux {
