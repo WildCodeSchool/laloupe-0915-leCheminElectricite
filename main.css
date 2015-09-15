@@ -39,9 +39,21 @@ a {
     width: 50%;
 }
 
-#start .godown {
-	width: 6%;
+#start {
+	position: relative;
+}
+
+#start #godown {
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+}
+
+#start .img-godown {
+	width: 20%;
 	transform: rotate(-90deg);
+	margin-left: -46px;
+	opacity: 0.5;
 }
 
 .menu #logo {
