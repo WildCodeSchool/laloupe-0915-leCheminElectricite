@@ -32,11 +32,16 @@ a {
     display: block;
     position: absolute;
     top: 20%;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+}
+
+#start .godown {
+	width: 6%;
+	transform: rotate(-90deg);
 }
 
 .menu #logo {
