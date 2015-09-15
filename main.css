@@ -11,6 +11,8 @@ body {
 
 .menu {
     text-align: center;
+    vertical-align: baseline;
+    margin-top: 8px;
 }
 
 .menu li {
