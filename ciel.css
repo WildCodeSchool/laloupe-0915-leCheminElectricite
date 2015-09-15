@@ -1,0 +1,91 @@
+/* ---- SUN ---- */
+
+.sun {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+    background: -moz-linear-gradient(top, #fff500, #e2c800);
+}
+
+.sun:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 80px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ---- CLOUDS ----- */
+
+.cloud {
+	width: calc(350px / 2); height: calc(120px / 2);
+	
+	background: #f2f9fe;
+	background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -webkit-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+
+	
+	border-radius: calc(100px / 2);
+	-webkit-border-radius: calc(100px / 2);
+	-moz-border-radius: calc(100px / 2);
+	
+	position: absolute;
+    top: 30%;
+}
+
+.cloud:after, .cloud:before {
+    content: '';
+    position: absolute;
+    background: #f2f9fe;
+    z-index: -1;
+}
+
+.cloud:after {
+    width: calc(100px / 2); height: calc(100px / 2);
+    top: calc(-50px / 2); left: calc(50px / 2);
+
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.cloud:before {
+    width: calc(180px / 2); height: calc(180px / 2);
+    top: calc(-90px / 2); right: calc(50px / 2);
+
+    border-radius: calc(200px / 2);
+    -webkit-border-radius: calc(200px / 2);
+    -moz-border-radius: calc(200px / 2);
+}
+
+.shadow {
+    width: calc(350px / 2);
+    position: absolute; bottom: -10px; 
+    background: #000;
+    z-index: -1;
+
+    box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.cloud-one {
+    top: 22%; left: 10%;
+}
+
+.cloud-two {
+    top: 20%; left: 70%;
+}

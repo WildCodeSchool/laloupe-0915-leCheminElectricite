@@ -1,0 +1,204 @@
+/* ---- SOL ----*/
+
+.sol {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
+}
+
+.sol-shape { 
+    position: absolute; 
+    width: 100%; 
+    height: 23%; 
+    margin: 20px 0; 
+    background: #48A23F; 
+    border-radius: 10% / 5%; 
+    color: white; 
+    text-align: center; 
+    text-indent: .1em;
+    z-index: 3;
+    bottom: 0;
+    overflow: hidden;
+    display: none;
+} 
+
+.sol-shape:before { 
+    content: ''; 
+    position: absolute; 
+    top: 10%; 
+    bottom: 10%; 
+    right: -5%; 
+    left: -5%; 
+    background: inherit; 
+    border-radius: 5% / 50%;
+    z-index: 3;
+} 
+
+/* ---- HEOLIENNE ---- */
+
+.heoliene {
+    width: 50px;
+    height: 140px;
+    position: absolute;
+    bottom: 24%;
+    left: 5%;
+}
+
+.heoliene-2, .mat-2, .rotor-2 {
+    left: 10%;
+    z-index: -2;
+    bottom: 24.5%;
+}
+
+.rotor-2 {
+    z-index: -3 !important;
+}
+
+.mat {
+    height: 100px;
+    width: 8px;
+    background-color: #000;
+    bottom: 0;
+    position: absolute;
+    left: 21px;
+    border-radius: 16px / 50px;
+}
+
+.mat:before {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    border-radius: calc(16px / 2);
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -4px;
+}
+
+.rotor {
+    width: 80px;
+    height: 8px;
+
+    border-radius: 40px / 4px;
+    background-color: #383838;
+
+    left: 25px; bottom: 100px;
+    position: absolute;
+    z-index: -1;
+
+    transform-origin: center left;
+}
+
+.rotor:before {
+
+    width: 80px;
+    height: 8px;
+
+    border-radius: 40px / 4px;
+    background-color: inherit;
+    content: '';
+
+    position: absolute;
+
+    transform: rotate(240deg);
+    transform-origin: center left;
+}
+
+.rotor:after {
+
+    width: 80px;
+    height: 8px;
+
+    content: '';
+    border-radius: 40px / 4px;
+    background-color: inherit;
+
+    position: absolute;
+    transform: rotate(120deg);
+    transform-origin: center left;
+}
+
+
+/* ---- ARBRE ----*/
+
+.arbre {
+
+    width: 4%;
+    height: 8%;
+
+    bottom: 25%;
+    left: 47%;
+    position: absolute;
+}
+
+.tronc {
+
+    width: 17%;
+    height: 60%;
+
+    bottom: 0;
+    left: 24px;
+    position: absolute;
+
+    background: linear-gradient(left, #993200, #914902);
+    background: -moz-linear-gradient(left, #993200, #914902);
+}
+
+.tronc:before {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    top: -8px;
+    left: -5px;
+    position: absolute;
+    content: '';
+
+    background-color: #029112;
+}
+
+.feuilles {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    bottom: 28px;
+    left: 24px;
+    position: absolute;
+    content: '';
+
+    background-color: #029112;
+}
+
+.feuilles:before {
+
+    width: 14px;
+    height: 14px;
+    border-radius: calc(14px / 2);
+
+    left: -8px;
+    bottom: 2px;
+    position: absolute;
+    content: '';
+
+    background-color: inherit;
+}
+
+.feuilles:after {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    bottom: 4px;
+    left: -1px;
+    position: absolute;
+    content: '';
+
+    background-color: inherit;
+}
