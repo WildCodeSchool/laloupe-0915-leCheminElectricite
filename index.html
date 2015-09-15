@@ -17,9 +17,9 @@
 </head>
 <body>
    
-    <div class="md-modal md-effect-1" id="modal-1">
+    <div class="md-modal md-effect-16" id="modal-1">
 	<div class="md-content">
-		<h1>Test Modal</h1>
+		<h3>Test Modal</h3>
 		<div>
 			<p>This is a modal window. You can do the following things with it:</p>
 			<ul>
@@ -35,6 +35,7 @@
     <div id="fullpage">
     
     <div class="section" id="start">
+       <button class="md-trigger" data-modal="modal-1" style="margin-top: 300px">Fade in &amp; Scale</button>
         <img id="logo" src="img/ERDF_Baseline_CMJN.png">
     </div>
     
@@ -60,7 +61,6 @@
     <div class="slide" id="un" data-anchor="production">
     
     <div class="content">
-      
        
        <div class="heoliene heoliene-1">
            <div class="mat mat-1"></div>
@@ -139,6 +139,8 @@
     <script src="jquery.transit.min.js"></script>
     <script src="jquery.fullPage.js"></script>
     <script src="scripts.js"></script>
+    <script src="classie.js"></script>
+    <script src="modalEffects.js"></script>
     
 </body>
 </html>

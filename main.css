@@ -106,13 +106,60 @@ header {
 	left: 0;
 	z-index: 1000;
 	opacity: 0;
-	background: rgba(143,27,15,0.8);
+	background: rgba(188, 188, 188, 0.8);
 	transition: all 0.3s;
 }
 
 .md-show ~ .md-overlay {
 	opacity: 1;
 	visibility: visible;
+}
+
+/* Modal Content styles */
+.md-content {
+	color: #000000;
+	background: #ffffff;
+	position: relative;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.md-content h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+
+.md-content > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+}
+
+.md-content > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.md-content > div ul {
+	margin: 0;
+	padding: 0 0 30px 20px;
+}
+
+.md-content > div ul li {
+	padding: 5px 0;
+}
+
+.md-content button {
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
 }
 
 /* Effect 1: Fade in and scale up */
@@ -135,9 +182,10 @@ header {
 	opacity: 1;
 }
 
+
 /* Blur Effect */
 .md-show.md-effect-16 ~ .md-overlay {
-	background: rgba(180,46,32,0.5);
+	background: rgba(154, 154, 154, 0.5);
 }
 
 .md-show.md-effect-16 ~ .container {
