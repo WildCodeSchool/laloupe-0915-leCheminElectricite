@@ -16,7 +16,7 @@ body {
 .menu li {
     display: inline;
     color: #005EB8;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .menu li a:hover {
@@ -135,7 +135,7 @@ header {
 .md-content {
 	height: 100%;
 	color: rgba(0, 0, 0, 0.7);
-	background: #ffffff;
+	background: rgba(255, 255, 255, 0.9);
 	position: relative;
 	border: 10px solid #005EB8;
 	margin: 0 auto;
