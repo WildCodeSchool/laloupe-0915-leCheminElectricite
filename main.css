@@ -51,7 +51,7 @@ a {
 	position: relative;
 	bottom: -20%;
 	color: #00A3E0;
-	font-size: 6rem;
+	font-size: 4vw;
 }
 
 #start #godown {
@@ -98,7 +98,9 @@ header {
 .content {
     height: 100%;
     width: 100%;
-    background: -moz-linear-gradient(top , #90E2FB, #90E2FB, #00bdf5);
+    background: -webkit-linear-gradient(top , #90E2FB, #90E2FB, #00bdf5);
+	background: -moz-linear-gradient(top , #90E2FB, #90E2FB, #00bdf5);
+	background: linear-gradient(top , #90E2FB, #90E2FB, #00bdf5);
     position: relative;
     z-index: -3;
     overflow: hidden;

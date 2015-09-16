@@ -6,7 +6,9 @@
     bottom: 0;
     height: 25%;
     width: 100%;
-    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
+    background: -webkit-linear-gradient(top, #48A23F, #48A23F, #008000);
+    background: -moz-linear-gradient(top, #48A23F, #48A23F, #008000);
+    background: linear-gradient(top, #48A23F, #48A23F, #008000);
 }
 
 .sol-shape { 

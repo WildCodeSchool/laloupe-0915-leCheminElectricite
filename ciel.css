@@ -10,6 +10,8 @@
     left: 30%;
 
     background: -moz-linear-gradient(top, #fff500, #e2c800);
+    background: -webkit-linear-gradient(top, #fff500, #e2c800);
+    background: linear-gradient(top, #fff500, #e2c800);
 }
 
 .sun:before {
