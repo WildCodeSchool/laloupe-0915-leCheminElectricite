@@ -5,6 +5,7 @@
     z-index: 1;
     bottom: 0;
     height: 25%;
+    max-height: 200px;
     width: 100%;
     background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
 }
@@ -41,10 +42,10 @@
 
 .heoliene {
     width: 50px;
-    height: 140px;
+    height: 150px;
     position: absolute;
     bottom: 24%;
-    left: 5%;
+    left: 15%;
 }
 
 .heoliene-2, .mat-2, .rotor-2 {
@@ -60,8 +61,8 @@
 .mat {
     height: 100px;
     width: 8px;
-    background-color: #ebebeb;
-    bottom: 0;
+    background-color: white;
+    bottom: -2px;
     position: absolute;
     left: 21px;
     border-radius: 16px / 50px;
@@ -70,7 +71,7 @@
 .mat:before {
     width: 16px;
     height: 16px;
-    background-color: #d6d6d6;
+    background-color: white;
     border-radius: calc(16px / 2);
     content: '';
     position: absolute;
@@ -81,14 +82,11 @@
 .rotor {
     width: 80px;
     height: 8px;
-
     border-radius: 40px / 4px;
-    background-color: #ebebeb;
-
+    background-color: white;
     left: 25px; bottom: 100px;
     position: absolute;
     z-index: -1;
-
     transform-origin: center left;
 }
 
@@ -201,4 +199,48 @@
     content: '';
 
     background-color: inherit;
+}
+
+.centrale {
+    
+    width: 400px;
+    height: 400px;
+    
+    position: absolute;
+    bottom: 3.4%;
+    left: 50%;
+    
+    background-image: url(img/ERDF%20centrale%20nuc.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.gro-poteau {
+    width: 400px;
+    height: 400px;
+    
+    position: absolute;
+    bottom: 19.5%;
+    left: 50%;
+    
+    background-image: url(img/poteaux_mega_gros.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.gro-poteau-2 {
+    left: -5%;
+}
+
+.fil {
+    width: 1660px;
+    height: 50px;
+    
+    position: absolute;
+    bottom: 46%;
+    left: -32.5%;
+    
+    background-image: url(img/fils.svg);
+    background-position: center center;
+    background-size: cover;
 }

@@ -8,12 +8,13 @@
     position: absolute;
     top: 30%;
     left: 30%;
+    z-index: -5;
 
     background: -moz-linear-gradient(top, #fff500, #e2c800);
 }
 
 .sun:before {
-    z-index: -1;
+    z-index: -6;
     content: '';
     position: absolute;
     bottom: -5px;
@@ -94,5 +95,5 @@
 }
 
 .cloud-two {
-    top: 20%; left: 70%;
+    top: 19%; left: 70%;
 }
