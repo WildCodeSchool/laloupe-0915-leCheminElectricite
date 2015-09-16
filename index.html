@@ -1,149 +1,149 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--CSS-->
-    
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="jquery.fullPage.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="sol.css">
-    <link rel="stylesheet" href="ciel.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
-    
-    <title>Le Chemin de l'Electricité</title>
-</head>
-<body>
-   
-    <div class="md-modal md-effect-16" id="modal-1">
-	<div class="md-content">
-		<h3>Test Modal</h3>
-		<div>
-			<p>This is a modal window. You can do the following things with it:</p>
-			<ul>
-				<li><strong>Read:</strong> Modal windows will probably tell you something important so don't forget to read what it says.</li>
-				<li><strong>Look:</strong> modal windows enjoy a certain kind of attention; just look at it and appreciate its presence.</li>
-				<li><strong>Close:</strong> click on the button below to close the modal.</li>
-			</ul>
-			<button class="md-close">Close me!</button>
-		</div>
-	</div>
-    </div>
-    
-    <div id="fullpage">
-    
-    <div class="section" id="start">
-        <img id="logo" src="img/ERDF_Baseline_CMJN.png">
-        <h1>Le Chemin de l'Électricité</h1>
-        <a href="#mainPath" class="swing" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
-        <button class="md-trigger" data-modal="modal-1" style="margin-top: 300px; position: fixed">Test Modal</button>
-    </div>
-    
-    <div class="section">
-      
-    <header>
-      <div class="menu">
-            <img id="logo" src="img/ERDF_Baseline_CMJN.png">
-            <ul>
-                <li><a href="#mainPath/production">Production</a> ></li>
-                <li><a href="#mainPath/transport">Transport</a> ></li>
-                <li><a href="#mainPath/distribution">Distribution</a> ></li>
-                <li><a href="#mainPath/fourniture">Fourniture</a></li>
-                <li><a class="role" href="#">Le rôle d'ERDF</a></li> 
-            </ul>
-      </div>
-        
-    </header>
-    
-     <div class="cloud cloud-one"><span class="shadow"></span></div>
-       
-     <div class="cloud cloud-two"><span class="shadow"></span></div>
-    
-    <div class="slide" id="un" data-anchor="production">
-    
-    <div class="content">
-       
-       <div class="éolienne éolienne-1">
-           <div class="mat mat-1"></div>
-           <div class="rotor rotor-1"></div>
-       </div>
-       
-      <div class="éolienne éolienne-2">
-           <div class="mat mat-2"></div>
-           <div class="rotor rotor-2"></div>
-       </div>
-       
-       <div class="arbre">
-           <div class="tronc"></div>
-           <div class="feuilles"></div>
-       </div>
-       
-        <div class="sol-shape"></div>
-        <div class="sol"></div>
-        
-        </div> <!--content-->
-        
-        </div> <!--slide un-->
-        
-        
-        <div class="slide" id="deux" data-anchor="transport">
-        
-            <div class="content">
-               
-               <div class="sun"></div>
-                
-                <div class="sol"></div>
-                
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--CSS-->
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="jquery.fullPage.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="sol.css">
+        <link rel="stylesheet" href="ciel.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+        <title>Le Chemin de l'Electricité</title>
+    </head>
+    <body>
+
+        <div class="md-modal md-effect-16" id="modal-1">
+            <div class="md-content">
+                <h3>Test Modal</h3>
+                <div>
+                    <p>This is a modal window. You can do the following things with it:</p>
+                    <ul>
+                        <li><strong>Read:</strong> Modal windows will probably tell you something important so don't forget to read what it says.</li>
+                        <li><strong>Look:</strong> modal windows enjoy a certain kind of attention; just look at it and appreciate its presence.</li>
+                        <li><strong>Close:</strong> click on the button below to close the modal.</li>
+                    </ul>
+                    <button class="md-close">Close me!</button>
+                </div>
             </div>
-       
-        </div> <!--slide deux-->
-        
-            <div class="slide" id="trois" data-anchor="distribution">
-    
-    <div class="content">
-      
-      <div class="sol"></div>
-      
-       
-       <div class="arbre">
-           <div class="tronc"></div>
-           <div class="feuilles"></div>
-       </div>
-       
-                </div> <!--content-->
-                
-        </div> <!--slide trois-->
-        
-        <div class="slide" id="quatre" data-anchor="fourniture">
-    
-    <div class="content">
-      
-      <div class="sol"></div>
-      
-      
-       <div class="arbre">
-           <div class="tronc"></div>
-           <div class="feuilles"></div>
-       </div>
-       
-                </div> <!--content-->
-                
-        </div> <!--slide quatre-->
-        
-        </div> <!--section-->
-        
-    </div> <!--fullpage-->
-    
-    <div class="md-overlay"></div> <!-- the overlay element -->
-    
-    <script src="jquery-1.11.3.min.js"></script>
-    <script src="jquery.transit.min.js"></script>
-    <script src="jquery.fullPage.js"></script>
-    <script src="scripts.js"></script>
-    <script src="classie.js"></script>
-    <script src="modalEffects.js"></script>
-    
-</body>
+        </div>
+
+        <div id="fullpage">
+
+            <div class="section" id="start">
+                <img id="logo" src="img/ERDF_Baseline_CMJN.png">
+                <h1>Le Chemin de l'Électricité</h1>
+                <a href="#mainPath" class="swing md-trigger" data-modal="modal-1" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
+                <button class="md-trigger" data-modal="modal-1" style="margin-top: 300px; position: fixed">Test Modal</button>
+            </div>
+
+            <div class="section" id="ex-popup">
+
+                <header>
+                    <div class="menu">
+                        <img id="logo" src="img/ERDF_Baseline_CMJN.png">
+                        <ul>
+                            <li><a href="#mainPath/production">Production</a> ></li>
+                            <li><a href="#mainPath/transport">Transport</a> ></li>
+                            <li><a href="#mainPath/distribution">Distribution</a> ></li>
+                            <li><a href="#mainPath/fourniture">Fourniture</a></li>
+                            <li><a class="role" href="#">Le rôle d'ERDF</a></li> 
+                        </ul>
+                    </div>
+
+                </header>
+
+                <div class="cloud cloud-one"><span class="shadow"></span></div>
+
+                <div class="cloud cloud-two"><span class="shadow"></span></div>
+
+                <div class="slide" id="un" data-anchor="production">
+
+                    <div class="content">
+
+                        <div class="éolienne éolienne-1">
+                            <div class="mat mat-1"></div>
+                            <div class="rotor rotor-1"></div>
+                        </div>
+
+                        <div class="éolienne éolienne-2">
+                            <div class="mat mat-2"></div>
+                            <div class="rotor rotor-2"></div>
+                        </div>
+
+                        <div class="arbre">
+                            <div class="tronc"></div>
+                            <div class="feuilles"></div>
+                        </div>
+
+                        <div class="sol-shape"></div>
+                        <div class="sol"></div>
+
+                    </div> <!--content-->
+
+                </div> <!--slide un-->
+
+
+                <div class="slide" id="deux" data-anchor="transport">
+
+                    <div class="content">
+
+                        <div class="sun"></div>
+
+                        <div class="sol"></div>
+
+                    </div>
+
+                </div> <!--slide deux-->
+
+                <div class="slide" id="trois" data-anchor="distribution">
+
+                    <div class="content">
+
+                        <div class="sol"></div>
+
+
+                        <div class="arbre">
+                            <div class="tronc"></div>
+                            <div class="feuilles"></div>
+                        </div>
+
+                    </div> <!--content-->
+
+                </div> <!--slide trois-->
+
+                <div class="slide" id="quatre" data-anchor="fourniture">
+
+                    <div class="content">
+
+                        <div class="sol"></div>
+
+
+                        <div class="arbre">
+                            <div class="tronc"></div>
+                            <div class="feuilles"></div>
+                        </div>
+
+                    </div> <!--content-->
+
+                </div> <!--slide quatre-->
+
+            </div> <!--section-->
+
+        </div> <!--fullpage-->
+
+        <div class="md-overlay"></div> <!-- the overlay element -->
+
+        <script src="jquery-1.11.3.min.js"></script>
+        <script src="jquery.transit.min.js"></script>
+        <script src="jquery.fullPage.js"></script>
+        <script src="scripts.js"></script>
+        <script src="classie.js"></script>
+        <script src="modalEffects.js"></script>
+
+    </body>
 </html>
