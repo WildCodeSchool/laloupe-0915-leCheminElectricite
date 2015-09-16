@@ -6,13 +6,25 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'calibri', sans-serif;
-    font-weight: 700;
+    
 }
+
+/*taille li*/
+
+p, li {
+	font-size: 1.4em;
+	text-decoration: none;
+	color: grey; 
+}
+
+
+
 
 .menu {
     text-align: center;
     vertical-align: baseline;
     margin-top: 8px;
+    font-weight: 700;
 }
 
 .menu li {
