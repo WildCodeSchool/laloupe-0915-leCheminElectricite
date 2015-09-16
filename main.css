@@ -240,3 +240,40 @@ header {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
+/* Arrow Effect */
+@-webkit-keyframes swing
+{
+    50%
+    {
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes swing
+{
+    50%
+    {
+        -webkit-transform: translateY(7px);
+        transform: translateY(7px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+.swing
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+}
