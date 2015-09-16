@@ -60,7 +60,7 @@
 .mat {
     height: 100px;
     width: 8px;
-    background-color: #000;
+    background-color: #ebebeb;
     bottom: 0;
     position: absolute;
     left: 21px;
@@ -70,7 +70,7 @@
 .mat:before {
     width: 16px;
     height: 16px;
-    background-color: #000;
+    background-color: #d6d6d6;
     border-radius: calc(16px / 2);
     content: '';
     position: absolute;
@@ -83,7 +83,7 @@
     height: 8px;
 
     border-radius: 40px / 4px;
-    background-color: #383838;
+    background-color: #ebebeb;
 
     left: 25px; bottom: 100px;
     position: absolute;

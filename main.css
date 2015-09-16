@@ -31,7 +31,7 @@ a {
 #start #logo {
     display: block;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -41,18 +41,28 @@ a {
 
 #start {
 	position: relative;
+	text-align: center;
+}
+
+#start h1 {
+	display: inline;
+	position: relative;
+	bottom: -20%;
+	color: #00A3E0;
+	font-size: 6rem;
 }
 
 #start #godown {
 	position: absolute;
 	left: 50%;
+	margin-left: -256px;
 	bottom: 3%;
 }
 
 #start .img-godown {
+	position: relative;
 	width: 20%;
 	transform: rotate(-90deg);
-	margin-left: -46px;
 	opacity: 0.5;
 }
 
@@ -102,11 +112,26 @@ header {
 	top: 50%;
 	left: 50%;
 	width: 80%;
-	height: 80%;
+	height: 70%;
 	z-index: 2000;
 	visibility: hidden;
 	backface-visibility: hidden;
 	transform: translateX(-50%) translateY(-50%);
+}
+
+.md-content:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-bottom: 40px solid transparent;
+	border-top: 40px solid #005EB8;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	margin-left: -40px;
 }
 
 .md-show {
@@ -135,7 +160,7 @@ header {
 .md-content {
 	height: 100%;
 	color: rgba(0, 0, 0, 0.7);
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.95);
 	position: relative;
 	border: 10px solid #005EB8;
 	margin: 0 auto;
@@ -201,13 +226,13 @@ header {
 	background: rgba(154, 154, 154, 0.5);
 }
 
-.md-show.md-effect-16 ~ .container {
+.md-show.md-effect-16 ~ #fullpage {
 	-webkit-filter: blur(3px);
 	-moz-filter: blur(3px);
 	filter: blur(3px);
 }
 
-.md-show.md-effect-16 ~ .container,
+.md-show.md-effect-16 ~ #fullpage,
 .md-effect-16 .md-content {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
