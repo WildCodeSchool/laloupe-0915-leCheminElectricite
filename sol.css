@@ -147,6 +147,7 @@
 
     background: linear-gradient(left, #993200, #914902);
     background: -moz-linear-gradient(left, #993200, #914902);
+    background: -webkit-linear-gradient(left, #993200, #914902);
 }
 
 .tronc:before {
