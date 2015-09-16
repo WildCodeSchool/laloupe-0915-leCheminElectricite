@@ -5,6 +5,7 @@
     z-index: 1;
     bottom: 0;
     height: 25%;
+    max-height: 200px;
     width: 100%;
     background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
 }
@@ -41,10 +42,10 @@
 
 .heoliene {
     width: 50px;
-    height: 140px;
+    height: 150px;
     position: absolute;
     bottom: 24%;
-    left: 5%;
+    left: 15%;
 }
 
 .heoliene-2, .mat-2, .rotor-2 {
@@ -60,7 +61,7 @@
 .mat {
     height: 100px;
     width: 8px;
-    background-color: #000;
+    background-color: white;
     bottom: -2px;
     position: absolute;
     left: 21px;
@@ -70,7 +71,7 @@
 .mat:before {
     width: 16px;
     height: 16px;
-    background-color: #000;
+    background-color: white;
     border-radius: calc(16px / 2);
     content: '';
     position: absolute;
@@ -83,7 +84,7 @@
     height: 8px;
 
     border-radius: 40px / 4px;
-    background-color: #383838;
+    background-color: white;
 
     left: 25px; bottom: 100px;
     position: absolute;
