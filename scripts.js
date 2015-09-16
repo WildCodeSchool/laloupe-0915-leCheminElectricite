@@ -3,21 +3,84 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
     });
+            
+    function rotor() {
+        $('.rotor-1').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
+    };
+
+    function rotor2() {
+        $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
+    };
     
     var slide = 1;
     
-    $(document).keydown(function(e) {
-    switch(e.which) {
-        case 37: slide--;
-        break;
-
-        case 39: slide++;
-        break;
-
-        default: return; // exit this handler for other keys
+    function moveCloud(slide) {
+        switch(slide) {
+            case 1:  
+                $('.cloud-one').animate({
+                    left: '40%'
+                }, 800);
+                $('.cloud-two').animate({
+                    left: '100%'
+                }, 800);
+            break;
+        
+            case 2:
+                $('.cloud-one').animate({
+                    left: '30%'
+                }, 800);
+                $('.cloud-two').animate({
+                    left: '90%'
+                }, 800);
+            break;
+                
+            case 3:
+                $('.cloud-one').animate({
+                    left: '20%'
+                }, 800);
+                $('.cloud-two').animate({
+                    left: '80%'
+                }, 800);
+            break;
+                
+            case 4:
+                $('.cloud-one').animate({
+                    left: '10%'
+                }, 800);
+                $('.cloud-two').animate({
+                    left: '70%'
+                }, 800);
+            break;
+        }
     }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
-});
+    
+    function goGoGo(direction, slide) {
+        moveCloud(slide);
+        if (slide == 1) {
+            rotor();
+            rotor2();
+        }
+    };
+    
+    $(document).keydown(function(e) {
+        switch(e.which) {
+            case 37: //gauche
+                slide--;
+                if (!(slide))
+                    slide = 4;
+                goGoGo(0, slide);
+            break;
+
+            case 39: //droite
+                slide++;
+                if (slide == 5)
+                    slide = 1;
+                goGoGo(1, slide);
+            break;
+
+            default: return;
+        }
+    });
     
     function cloud() {
         $('.cloud').animate({
@@ -29,17 +92,8 @@ $(document).ready(function() {
         cloud();
     };
     
-    function rotor() {
-        $('.rotor-1').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
-    };
-    
-    function rotor2() {
-        $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
-    };
-    
     var x = 1;
     
-    rotor();
-    rotor2();
-    cloud();
+    goGoGo(0, slide);
+    
 });

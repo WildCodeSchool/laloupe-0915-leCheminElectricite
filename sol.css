@@ -61,7 +61,7 @@
     height: 100px;
     width: 8px;
     background-color: #000;
-    bottom: 0;
+    bottom: -2px;
     position: absolute;
     left: 21px;
     border-radius: 16px / 50px;
@@ -201,4 +201,48 @@
     content: '';
 
     background-color: inherit;
+}
+
+.centrale {
+    
+    width: 400px;
+    height: 400px;
+    
+    position: absolute;
+    bottom: 3.4%;
+    left: 50%;
+    
+    background-image: url(img/ERDF%20centrale%20nuc.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.gro-poteau {
+    width: 400px;
+    height: 400px;
+    
+    position: absolute;
+    bottom: 19.5%;
+    left: 50%;
+    
+    background-image: url(img/poteaux_mega_gros.svg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.gro-poteau-2 {
+    left: -5%;
+}
+
+.fil {
+    width: 1660px;
+    height: 50px;
+    
+    position: absolute;
+    bottom: 46%;
+    left: -32.5%;
+    
+    background-image: url(img/fils.svg);
+    background-position: center center;
+    background-size: cover;
 }

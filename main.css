@@ -70,10 +70,10 @@ header {
     width: 100%;
     background: -moz-linear-gradient(top , #90E2FB, #90E2FB, #00bdf5);
     position: relative;
-    z-index: -3;
+    z-index: -10;
     overflow: hidden;
 }
 
 .fp-slides {
-    z-index: -2;
+    z-index: -9;
 }
