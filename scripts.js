@@ -2,6 +2,17 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
+
+        //load explication modal just once on load of second section
+        afterLoad: function(anchorLink, index){
+            var loadedSection = $(this);
+
+            var firtTime = true;
+            if(anchorLink == 'mainPath' && firtTime == true) {
+                $('#modal-1, md-overlay').addClass("md-show")
+                firtTime = false;
+            }
+        }
     });
 
     var slide = 1;
