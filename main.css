@@ -51,7 +51,7 @@ a {
 	position: relative;
 	bottom: -20%;
 	color: #00A3E0;
-	font-size: 6rem;
+	font-size: 4vw;
 }
 
 #start #godown {
@@ -104,9 +104,36 @@ header {
     overflow: hidden;
 }
 
+
 .fp-slides {
     z-index: -2;
 }
+
+
+/*slider role erdf 5*/
+.content_blanc{
+    height: 100%;
+    width: 100%;
+    background: white;
+    position: relative;
+    z-index: -3;
+    overflow: hidden;
+}
+
+.article_erdf {
+	position: absolute;
+    z-index: 1;
+    margin: 15%;
+    height: 80%;
+    width: 100%;
+    border-color: blue;
+    border-width: 3rem;
+}
+
+
+/*fin 5*/
+
+
 
 /* Modal */
 .md-modal {
