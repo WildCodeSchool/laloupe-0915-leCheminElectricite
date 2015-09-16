@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,10 @@
 
         <title>Le Chemin de l'Electricité</title>
     </head>
+
     <body>
+       
+        <!--modal-->
 
         <div class="md-modal md-effect-16" id="modal-1">
             <div class="md-content">
@@ -34,14 +38,19 @@
 
         <div id="fullpage">
 
+            <!--section 1-->
+
             <div class="section" id="start">
                 <img id="logo" src="img/ERDF_Baseline_CMJN.png">
                 <h1>Le Chemin de l'Électricité</h1>
-                <a href="#mainPath" class="swing md-trigger" data-modal="modal-1" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
-                <button class="md-trigger" data-modal="modal-1" style="margin-top: 300px; position: fixed">Test Modal</button>
+                <a href="#mainPath" id="godown" class="md-trigger" data-modal="modal-1"><img class="img-godown" src="img/left-arrow23.svg"></a>
             </div>
 
-            <div class="section" id="ex-popup">
+            <!--section 2-->
+
+            <div class="section">
+
+                <!--menu-->
 
                 <header>
                     <div class="menu">
@@ -51,99 +60,123 @@
                             <li><a href="#mainPath/transport">Transport</a> ></li>
                             <li><a href="#mainPath/distribution">Distribution</a> ></li>
                             <li><a href="#mainPath/fourniture">Fourniture</a></li>
-                            <li><a class="role" href="#">Le rôle d'ERDF</a></li> 
+                            <li><a class="role" href="#mainPath/roleerdf">Le rôle d'ERDF</a></li> 
                         </ul>
-                    </div>
-
+                    </div>    
                 </header>
 
-                <div class="cloud cloud-one"><span class="shadow"></span></div>
+                <!--éléments-->
 
+                <!--clouds-->
+
+                <div class="cloud cloud-one"><span class="shadow"></span></div> 
                 <div class="cloud cloud-two"><span class="shadow"></span></div>
 
-                <div class="slide" id="un" data-anchor="production">
+                <!--slide 1-->
 
+                <div class="slide" id="un" data-anchor="production">
                     <div class="content">
+
+                        <!--élement éoliennes-->
 
                         <div class="éolienne éolienne-1">
                             <div class="mat mat-1"></div>
                             <div class="rotor rotor-1"></div>
                         </div>
-
                         <div class="éolienne éolienne-2">
                             <div class="mat mat-2"></div>
                             <div class="rotor rotor-2"></div>
                         </div>
 
+                        <!--élément arbre-->
+
                         <div class="arbre">
                             <div class="tronc"></div>
                             <div class="feuilles"></div>
                         </div>
+
+                        <!-- élément sol-->
 
                         <div class="sol-shape"></div>
                         <div class="sol"></div>
 
-                    </div> <!--content-->
+                    </div>
+                </div>
 
-                </div> <!--slide un-->
-
+                <!--slide 2-->
 
                 <div class="slide" id="deux" data-anchor="transport">
-
                     <div class="content">
+
+                        <!--éléments-->
 
                         <div class="sun"></div>
-
                         <div class="sol"></div>
-
                     </div>
+                </div>
 
-                </div> <!--slide deux-->
+                <!--slide 3-->
 
                 <div class="slide" id="trois" data-anchor="distribution">
-
                     <div class="content">
 
+                        <!--éléments-->
+
                         <div class="sol"></div>
-
-
                         <div class="arbre">
                             <div class="tronc"></div>
                             <div class="feuilles"></div>
                         </div>
+                    </div>
+                </div>
 
-                    </div> <!--content-->
-
-                </div> <!--slide trois-->
+                <!--slide 4-->
 
                 <div class="slide" id="quatre" data-anchor="fourniture">
-
                     <div class="content">
 
+                        <!--éléments-->
+
                         <div class="sol"></div>
-
-
                         <div class="arbre">
                             <div class="tronc"></div>
                             <div class="feuilles"></div>
                         </div>
+                    </div>
+                </div> 
 
-                    </div> <!--content-->
+                <!--slide 5-->
 
-                </div> <!--slide quatre-->
+                <div class="slide" id="cinq" data-anchor="roleerdf">
+                    <div class="content">
+
+                        <article>
+                            <p>ERDF a pour rôle de :
+                            <ul>
+                                <li>Raccorder les clients au réseau.</li>
+                                <li>Exploiter et moderniser le réseau.</li>
+                                <li>Accompagner les projets des collectivités locales.</li>
+                                <li>Conduire et piloter le réseau à distance.</li> 
+                                <li>Assurer le dépannage 24h/24 7j/7 par tous les temps.</li>         
+                                <li>Assurer le comptages des consommations pour les fournisseurs d'énergie.</li>
+                            </ul>
+                            </p>
+                        </article>  
+                    </div>
+                </div>
 
             </div> <!--section-->
 
         </div> <!--fullpage-->
 
-        <div class="md-overlay"></div> <!-- the overlay element -->
+    <div class="md-overlay"></div> <!-- the overlay element -->
 
-        <script src="jquery-1.11.3.min.js"></script>
-        <script src="jquery.transit.min.js"></script>
-        <script src="jquery.fullPage.js"></script>
-        <script src="scripts.js"></script>
-        <script src="classie.js"></script>
-        <script src="modalEffects.js"></script>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery.transit.min.js"></script>
+    <script src="jquery.fullPage.js"></script>
+    <script src="scripts.js"></script>
+    <script src="classie.js"></script>
+    <script src="modalEffects.js"></script>
 
     </body>
 </html>
