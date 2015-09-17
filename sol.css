@@ -38,14 +38,14 @@
     z-index: 3;
 } 
 
-/* ---- HEOLIENNE ---- */
+/* ---- EOLIENNE ---- */
 
 .heoliene {
     width: 50px;
-    height: 150px;
+    height: 100px;
     position: absolute;
-    bottom: 24%;
-    left: 15%;
+    bottom: 23%;
+    left: 9%;
 }
 
 .rotor-2 {
@@ -53,19 +53,19 @@
 }
 
 .mat {
-    height: 100px;
+    height: 330px;
     width: 8px;
     background-color: white;
-    bottom: -2px;
+    bottom: 0;
     position: absolute;
-    left: 21px;
+    left: 8%;
     border-radius: 16px / 50px;
 }
 
 .mat:before {
     width: 16px;
     height: 16px;
-    background-color: white;
+    background-color: lightgrey;
     border-radius: calc(16px / 2);
     content: '';
     position: absolute;
@@ -78,7 +78,7 @@
     height: 8px;
     border-radius: 40px / 4px;
     background-color: white;
-    left: 25px; bottom: 100px;
+    left: 8.3%; bottom: 330px;
     position: absolute;
     z-index: -1;
     transform-origin: center left;
@@ -113,10 +113,14 @@
     transform-origin: center left;
 }
 
-.heoliene-2, .mat-2, .rotor-2 {
-    left: 10%;
+.heoliene-2, {
+    left: 15%;
+    z-index: -2 ;
+}
+
+.mat-2, .rotor-2 {
+    left: 15.5%;
     z-index: -2;
-    bottom: -2px ;
 }
 
 
