@@ -3,13 +3,13 @@
 .sol {
     position: absolute;
     /* mettre en inline pour avoir les elements qui se posent deçu...*/
-    z-index: 1;
     bottom: 0;
     height: 25vh;
     width: 100%;
-    background: -webkit-linear-gradient(center top , lightgreen, #48A20F, green);
-    background: -moz-linear-gradient(center top , lightgreen, #48A20F, green);
-    background: linear-gradient(center top , lightgreen, #48A20F, green);
+    background: -webkit-linear-gradient(top, lightgreen, #48A20F, green);
+    background: -moz-linear-gradient(top, lightgreen, #48A20F, green);
+    background: linear-gradient(top, lightgreen, #48A20F, green);
+    z-index: 2;
 }                                  /*mettre vert +clair ici : test (center top , lightgreen, #48A20F, green);*/       /*mettre vert foncé*/
 
 .sol-shape { 
@@ -22,7 +22,6 @@
     color: white; 
     text-align: center; 
     text-indent: .1em;
-    z-index: 3;
     bottom: 0;
     overflow: hidden;
     display: none;
@@ -37,7 +36,6 @@
     left: -5%; 
     background: inherit; 
     border-radius: 5% / 50%;
-    z-index: 3;
 } 
 
 /* ---- EOLIENNE ---------------------------------------------------------------------------------------- */
@@ -50,12 +48,8 @@
     left: 9vh;
 }
 
-.rotor-2 {
-    z-index: -3 !important;
-}
-
 .mat {
-    height: 27vh;
+    height: 20vh;
     width: 8px;
     background-color: white;
     bottom: 24.5vh;
@@ -80,9 +74,8 @@
     height: 8px;
     border-radius: 40px / 4px;
     background-color: white;
-    left: 50.5vw; bottom: 52vh;
+    left: 50.3vw; bottom: 44.4vh;
     position: absolute;
-    z-index: -1;
     transform-origin: center left;
 }
 
@@ -117,12 +110,14 @@
 
 .heoliene-2, {
     left: 15vw;
-    z-index: -2 ;
 }
 
-.mat-2, .rotor-2 {
+.mat-2 {
     left: 55vw;
-    z-index: -2;
+}
+
+.rotor-2 {
+    left: 55.3vw;
 }
 
 
@@ -136,17 +131,18 @@
     bottom: 0;
     left: 47%;
     position: absolute;
+    z-index: 1;
 }
 
 .tronc {
 
-    width: 17%;
+    width: 13%;
     height: 35%;
     bottom: 24.5%;
     left: 24px;
     position: absolute;
 
-    background: linear-gradient(left, #993200, #914902);
+    background: linear-gradient(to left, #993200, #914902);
     background: -moz-linear-gradient(left, #993200, #914902);
 }
 
@@ -170,12 +166,13 @@
     height: 15px;
     border-radius: calc(15px / 2);
 
-    bottom: 28px;
+    bottom: 58%;
     left: 24px;
     position: absolute;
     content: '';
 
     background-color: #029112;
+    z-index: 4;
 }
 
 .feuilles:before {
@@ -215,13 +212,15 @@
     height: 19vh;
     bottom: 24.5vh;
     left: 10vw;
+    z-index: 3;
 }
 
 .centrale_a_charbon{
     position: absolute;
     height: 15vh;
-    bottom: 24.5vh;
-    left: 70vw; 
+    bottom: 24.6vh;
+    left: 70vw;
+    z-index: 3;
 }
 
 .gro-poteau {

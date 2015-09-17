@@ -1,3 +1,5 @@
+var firtTime = true;
+
 $(document).ready(function() {
    
    $('#fullpage').fullpage({

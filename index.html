@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--CSS-->
-    
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="jquery.fullPage.css">
     <link rel="stylesheet" href="main.css">
@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="ciel.css">
     <link rel="stylesheet" href="modal.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
-    
+
     <title>Le Chemin de l'Electricité</title>
-</head>
-<body>
+  </head>
+  <body>
 
 
     <!--modal-->  
@@ -25,267 +25,275 @@
 
 
     <div class="md-modal md-effect-16" id="modal-1">
-        <div class="md-content">
-            <h3>Test Modal</h3>
-            <div>
-                <p>This is a modal window. You can do the following things with it:</p>
-                <ul>
-                    <li><strong>Read:</strong> Modal windows will probably tell you something important so don't forget to read what it says.</li>
-                    <li><strong>Look:</strong> modal windows enjoy a certain kind of attention; just look at it and appreciate its presence.</li>
-                    <li><strong>Close:</strong> click on the button below to close the modal.</li>
-                </ul>
-                <button class="md-close">Close me!</button>
-            </div>
+      <div class="md-content">
+        <h3>Test Modal</h3>
+        <div>
+          <p>This is a modal window. You can do the following things with it:</p>
+          <ul>
+            <li><strong>Read:</strong> Modal windows will probably tell you something important so don't forget to read what it says.</li>
+            <li><strong>Look:</strong> modal windows enjoy a certain kind of attention; just look at it and appreciate its presence.</li>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+          <button class="md-close">Close me!</button>
         </div>
+      </div>
     </div>
 
-<div id="fullpage">
+    <div class="md-modal md-effect-16" id="modal-2">
+      <div class="md-content md-green">
+        <h3>SUN</h3>
+      </div>
+    </div>
+
+    <div id="fullpage">
 
 
 
 
       <!-- slide zero-->
-        
-
-
-    
-
-  <div class="section" id="start">
-      <button class="md-trigger firstTime" data-modal="modal-1"></button>
-      <img id="logo" src="img/ERDF_Baseline_CMJN.png">
-      <h1>Le Chemin de l'Électricité</h1>
-      <a href="#mainPath" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
-  </div>
-   
-    
-  <div class="section">  
 
 
 
-      <!--menu-->
 
 
-        
-    <header>
-      <div class="menu">
+      <div class="section" id="start">
+        <button class="md-trigger firstTime" data-modal="modal-1"></button>
+        <img id="logo" src="img/ERDF_Baseline_CMJN.png">
+        <h1>Le Chemin de l'Électricité</h1>
+        <a href="#mainPath" class="swing" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
+      </div>
+
+
+      <div class="section">  
+
+
+
+        <!--menu-->
+
+
+
+        <header>
+          <div class="menu">
             <img id="logo" src="img/ERDF_Baseline_CMJN.png">
             <ul>
-                <li><a href="#mainPath/production">Production</a> ></li>
-                <li><a href="#mainPath/transport">Transport</a> ></li>
-                <li><a href="#mainPath/distribution">Distribution</a> ></li>
-                <li><a href="#mainPath/fourniture">Fourniture</a></li>
-                <li><a class="role" href="#mainPath/roleerdf">Le rôle d'ERDF</a></li> 
+              <li><a href="#mainPath/production">Production</a> ></li>
+              <li><a href="#mainPath/transport">Transport</a> ></li>
+              <li><a href="#mainPath/distribution">Distribution</a> ></li>
+              <li><a href="#mainPath/fourniture">Fourniture</a></li>
+              <li><a class="role" href="#mainPath/roleerdf">Le rôle d'ERDF</a></li> 
             </ul>
-      </div>    
-    </header>
+          </div>    
+        </header>
 
 
 
 
-    <!--éléments-->
-
-
-     <!--clouds-->
-     <div class="cloud cloud-one"><span class="shadow"></span></div> 
-     <div class="cloud cloud-two"><span class="shadow"></span></div>
+        <!--éléments-->
 
 
 
 
-    <!--slide un-->
+
+
+
+        <!--slide un-->
 
 
 
 
-    <div class="slide" id="un" data-anchor="production">
+        <div class="slide" id="un" data-anchor="production">
 
-       <div class="content">
+          <div class="content">
+            <!--clouds-->
+            <div class="cloud cloud-one"><span class="shadow"></span></div> 
+            <div class="cloud cloud-two"><span class="shadow"></span></div>
+
             <!--élement éoliennes-->
-           <div class="éolienne éolienne-1">
-               <div class="mat mat-1"></div>
-               <div class="rotor rotor-1"></div>
-           </div>
-           <div class="éolienne éolienne-2">
-               <div class="mat mat-2"></div>
-               <div class="rotor rotor-2"></div>
-           </div>
-           
-           <!--élément arbre-->
-           <div class="arbre">
-               <div class="tronc"></div>
-               <div class="feuilles"></div>
-           </div>
-           
-           <!-- élément sol-->
-           <div class="sol-shape"></div>
-           <div class="sol"></div>
-          
+            <div class="éolienne éolienne-1">
+              <div class="mat mat-1"></div>
+              <div class="rotor rotor-1"></div>
+            </div>
+            <div class="éolienne éolienne-2">
+              <div class="mat mat-2"></div>
+              <div class="rotor rotor-2"></div>
+            </div>
+
+            <!--élément arbre-->
+            <div class="arbre">
+              <div class="tronc"></div>
+              <div class="feuilles"></div>
+            </div>
+
+            <!-- élément sol-->
+            <div class="sol-shape"></div>
+            <div class="sol"></div>
+
             <!--batiments-->
-           <img class="centrale" src="img/elements/centrale_nuc.svg">
-           <img class="centrale_a_charbon" src="img/elements/centrale_a_charbon.svg">
-           <div class="sun md-trigger" data-modal="modal-2"></div> <!--a checker-->
+            <img class="centrale" src="img/elements/centrale_nuc.svg">
+            <img class="centrale_a_charbon" src="img/elements/centrale_a_charbon.svg">
+            <div class="sun md-trigger" data-modal="modal-2"></div> <!--a checker-->
+          </div>
         </div>
-    </div>
 
 
 
-    <!--slide deux-->
+        <!--slide deux-->
 
 
 
-        
-        
+
+
         <div class="slide" id="deux" data-anchor="transport">
-            <div class="content">
-                    <!--éléments-->
-                <div class="sol"></div>
-                <div class="gro-poteau gro-poteau-1"></div>
-                <div class="fil fil-1"></div>
-                <div class="gro-poteau gro-poteau-2"></div>
-              </div>
+          <div class="content">
+            <!--éléments-->
+            <div class="sol"></div>
+            <div class="gro-poteau gro-poteau-1"></div>
+            <div class="fil fil-1"></div>
+            <div class="gro-poteau gro-poteau-2"></div>
+          </div>
         </div>
-      
 
 
 
 
-       
+
+
         <!--slide trois-->
 
 
 
 
 
-        
-        <div class="slide" id="trois" data-anchor="distribution">
-            <div class="content">
 
-                 <!--éléments-->
-                <div class="sol"></div>
-                <div class="arbre">
-                  <div class="tronc"></div>
-                  <div class="feuilles"></div>
-                </div>    
-            </div>
+        <div class="slide" id="trois" data-anchor="distribution">
+          <div class="content">
+
+            <!--éléments-->
+            <div class="sol"></div>
+            <div class="arbre">
+              <div class="tronc"></div>
+              <div class="feuilles"></div>
+            </div>    
+          </div>
         </div>
 
-        
 
 
-         <!--slide quatre-->
+
+        <!--slide quatre-->
 
 
-            
 
-        
-         <div class="slide" id="quatre" data-anchor="fourniture">
-            <div class="content">
- 
-             <!--éléments-->
-              <div class="sol"></div>
-              <div class="arbre">
-                 <div class="tronc"></div>
-                 <div class="feuilles"></div>
-              </div>
+
+
+        <div class="slide" id="quatre" data-anchor="fourniture">
+          <div class="content">
+
+            <!--éléments-->
+            <div class="sol"></div>
+            <div class="arbre">
+              <div class="tronc"></div>
+              <div class="feuilles"></div>
             </div>
-          </div> 
-
-
-
-          <!--slide cinq -->
-
-
-          <div class="slide" id="cinq" data-anchor="roleerdf">
-           <div class="content_blanc">
-  
-                <div class="article_erdf">
-                  <p>ERDF a pour rôle de :
-                    <ul>
-                      <li>Raccorder les clients au réseau.</li>
-                      <li>Exploiter et moderniser le réseau.</li>
-                      <li>Accompagner les projets des collectivités locales.</li>
-                      <li>Conduire et piloter le réseau à distance.</li> 
-                      <li>Assurer le dépannage 24h/24 7j/7 par tous les temps.</li>      
-                      <li>Assurer le comptage des consommations pour les fournisseurs d'énergie.</li>
-                    </ul>
-                  </p>
-                  <br>
-
-                  <p>ERDF est :
-                    <ul>
-                      <li>Au service de 35 millions de clients et fournisseurs et autorités concédantes.</li>
-                      <li>Proche de ses clients.</li>
-                      <li>Disponible 7j/7 24h/24 partout en France.</li>
-                    </ul>
-                  </p>
-                  <br>
-
-                  <p>ERDF pour :
-                    <ul>
-                      <li>Exploiter.</li>
-                      <li>Réparer.</li>
-                      <li>Entretenir 95 % du réseau de distribution d'électricité.</li>
-                    </ul>
-                  </p>
-                  <br>
-
-                  <p>ERDF afin de :
-                    <ul>
-                      <li>Renforcer les réseaux.</li>
-                      <li>Améliorer la distribution d'électricité.</li>
-                      <li>Anticiper les nouveaux besoins de demain.</li>
-                      <li>Préparer les territoires de demain. </li>
-                      <li>Favoriser le développement économique local.</li>
-                      <li>Améliorer la maîtrise de la demande d'énergie.</li>
-                      <li>Réduire l'impact des réseaux sur les paysages.</li>
-                      <li>Protéger la biodiversité.</li>
-                    </ul>
-                  </p>
-                  <br>
-
-                  <p>ERDF en chiffres:
-                    <ul>
-                      <li>11 millions d'interventions techniques.</li>
-                      <li>1 300 000 kms de lignes.</li>
-                      <li>16 500 MW raccordés énergies renouvelables.</li>
-                      <li>+ de 300 000 installations raccordées énergies renouvelables. </li>
-                      <li>+ de 1000 implantations en France.</li>
-                      <li>38 000 salariés aux compétences renouvelées.</li>
-                      <li>1702 nouvelles embauches.</li>
-                      <li>2325 apprentis.</li>
-                    </ul>
-                  </p>
-                  <br>
-
-                  <p>ERDF dans le but de devenir:
-                    <ul>
-                      <li>Le pionnier européen dans le développement des réseaux intelligents.</li>
-                      <li>Le distributeur de référence en Europe.</li>
-                    </ul>
-                  </p>
-
-
-                </div>  
-              </div>
           </div>
+        </div> 
 
-        
-    </div> <!--section-->
-        
+
+
+        <!--slide cinq -->
+
+
+        <div class="slide" id="cinq" data-anchor="roleerdf">
+          <div class="content_blanc">
+
+            <div class="article_erdf">
+              <p>ERDF a pour rôle de :
+              <ul>
+                <li>Raccorder les clients au réseau.</li>
+                <li>Exploiter et moderniser le réseau.</li>
+                <li>Accompagner les projets des collectivités locales.</li>
+                <li>Conduire et piloter le réseau à distance.</li> 
+                <li>Assurer le dépannage 24h/24 7j/7 par tous les temps.</li>      
+                <li>Assurer le comptage des consommations pour les fournisseurs d'énergie.</li>
+              </ul>
+              </p>
+            <br>
+
+            <p>ERDF est :
+            <ul>
+              <li>Au service de 35 millions de clients et fournisseurs et autorités concédantes.</li>
+              <li>Proche de ses clients.</li>
+              <li>Disponible 7j/7 24h/24 partout en France.</li>
+            </ul>
+            </p>
+          <br>
+
+          <p>ERDF pour :
+          <ul>
+            <li>Exploiter.</li>
+            <li>Réparer.</li>
+            <li>Entretenir 95 % du réseau de distribution d'électricité.</li>
+          </ul>
+          </p>
+        <br>
+
+        <p>ERDF afin de :
+        <ul>
+          <li>Renforcer les réseaux.</li>
+          <li>Améliorer la distribution d'électricité.</li>
+          <li>Anticiper les nouveaux besoins de demain.</li>
+          <li>Préparer les territoires de demain. </li>
+          <li>Favoriser le développement économique local.</li>
+          <li>Améliorer la maîtrise de la demande d'énergie.</li>
+          <li>Réduire l'impact des réseaux sur les paysages.</li>
+          <li>Protéger la biodiversité.</li>
+        </ul>
+        </p>
+      <br>
+
+      <p>ERDF en chiffres:
+      <ul>
+        <li>11 millions d'interventions techniques.</li>
+        <li>1 300 000 kms de lignes.</li>
+        <li>16 500 MW raccordés énergies renouvelables.</li>
+        <li>+ de 300 000 installations raccordées énergies renouvelables. </li>
+        <li>+ de 1000 implantations en France.</li>
+        <li>38 000 salariés aux compétences renouvelées.</li>
+        <li>1702 nouvelles embauches.</li>
+        <li>2325 apprentis.</li>
+      </ul>
+      </p>
+    <br>
+
+    <p>ERDF dans le but de devenir:
+    <ul>
+      <li>Le pionnier européen dans le développement des réseaux intelligents.</li>
+      <li>Le distributeur de référence en Europe.</li>
+    </ul>
+    </p>
+
+
+  </div>  
+</div>
+</div>
+
+
+</div> <!--section-->
+
 </div> <!--fullpage-->
 
 
 
 
-    
-    <div class="md-overlay"></div> <!-- the overlay element -->
-    
-    <script src="jquery-1.11.3.min.js"></script>
-    <script src="jquery.transit.min.js"></script>
-    <script src="jquery.fullPage.js"></script>
-    <script src="scripts.js"></script>
-    <script src="classie.js"></script>
-    <script src="modalEffects.js"></script>
-    
+
+<div class="md-overlay"></div> <!-- the overlay element -->
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jquery.transit.min.js"></script>
+<script src="jquery.fullPage.js"></script>
+<script src="scripts.js"></script>
+<script src="classie.js"></script>
+<script src="modalEffects.js"></script>
+
 </body>
 </html>
