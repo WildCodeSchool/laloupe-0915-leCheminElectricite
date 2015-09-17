@@ -8,13 +8,14 @@
     position: absolute;
     top: 30%;
     left: 30%;
-    z-index: -5;
 
     background: -moz-linear-gradient(top, #fff500, #e2c800);
+    background: -webkit-linear-gradient(top, #fff500, #e2c800);
+    background: linear-gradient(top, #fff500, #e2c800);
 }
 
 .sun:before {
-    z-index: -6;
+    z-index: 4;
     content: '';
     position: absolute;
     bottom: -5px;
@@ -71,7 +72,6 @@
     width: calc(350px / 2);
     position: absolute; bottom: -10px; 
     background: #000;
-    z-index: -1;
 
     box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
@@ -80,14 +80,6 @@
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-}
-
-.cloud-zero-1 {
-    top:40%; left: 5%;
-}
-
-.cloud-zero-2 {
-    top: 50%; left: 80%;
 }
 
 .cloud-one {

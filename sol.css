@@ -7,7 +7,9 @@
     bottom: 0;
     height: 25vh;
     width: 100%;
-    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
+    background: -webkit-linear-gradient(center top , lightgreen, #48A20F, green);
+    background: -moz-linear-gradient(center top , lightgreen, #48A20F, green);
+    background: linear-gradient(center top , lightgreen, #48A20F, green);
 }                                  /*mettre vert +clair ici : test (center top , lightgreen, #48A20F, green);*/       /*mettre vert foncé*/
 
 .sol-shape { 

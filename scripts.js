@@ -1,8 +1,21 @@
 $(document).ready(function() {
    
    $('#fullpage').fullpage({
-       anchors:['startPage', 'mainPath'],
-   });
+        anchors:['startPage', 'mainPath'],
+        loopHorizontal: false,
+
+        //load explication modal just once on load of second section
+        afterLoad: function(anchorLink, index){
+            var loadedSection = $(this);
+
+
+            if(anchorLink == 'mainPath' && firtTime == true) {
+                $('.firstTime').trigger('click')
+                firtTime = false;
+            }
+        },
+
+    });
    
    var slide = 1;
    

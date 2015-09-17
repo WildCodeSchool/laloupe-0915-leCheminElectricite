@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="sol.css">
     <link rel="stylesheet" href="ciel.css">
+    <link rel="stylesheet" href="modal.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
     
     <title>Le Chemin de l'Electricité</title>
@@ -50,10 +51,10 @@
     
 
   <div class="section" id="start">
+      <button class="md-trigger firstTime" data-modal="modal-1"></button>
       <img id="logo" src="img/ERDF_Baseline_CMJN.png">
       <h1>Le Chemin de l'Électricité</h1>
       <a href="#mainPath" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
-      <button class="md-trigger" data-modal="modal-1" style="margin-top: 300px; position: fixed">Test Modal</button>
   </div>
    
     
@@ -87,8 +88,6 @@
      <!--clouds-->
      <div class="cloud cloud-one"><span class="shadow"></span></div> 
      <div class="cloud cloud-two"><span class="shadow"></span></div>
-     <!--sun-->
-     <div class="sun"></div> 
 
 
 
@@ -124,6 +123,7 @@
             <!--batiments-->
            <img class="centrale" src="img/elements/centrale_nuc.svg">
            <img class="centrale_a_charbon" src="img/elements/centrale_a_charbon.svg">
+           <div class="sun md-trigger" data-modal="modal-2"></div> <!--a checker-->
         </div>
     </div>
 
@@ -289,5 +289,3 @@
     
 </body>
 </html>
-Status API Training Shop Blog About Pricing
-© 2015 GitHub, Inc. Terms Privacy Security Contact Help
