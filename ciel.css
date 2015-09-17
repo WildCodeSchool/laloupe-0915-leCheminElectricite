@@ -15,7 +15,7 @@
 }
 
 .sun:before {
-    z-index: -1;
+    z-index: 4;
     content: '';
     position: absolute;
     bottom: -5px;
@@ -41,13 +41,14 @@
 	
 	position: absolute;
     top: 30%;
+    z-index: 5;
 }
 
 .cloud:after, .cloud:before {
     content: '';
     position: absolute;
     background: #f2f9fe;
-    z-index: -1;
+    z-index: 4;
 }
 
 .cloud:after {
@@ -72,7 +73,6 @@
     width: calc(350px / 2);
     position: absolute; bottom: -10px; 
     background: #000;
-    z-index: -1;
 
     box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);

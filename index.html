@@ -36,6 +36,12 @@
                 </div>
             </div>
         </div>
+        
+        <div class="md-modal md-effect-16" id="modal-2">
+            <div class="md-content md-green">
+                <h3>SUN</h3>
+            </div>
+        </div>
 
         <div id="fullpage">
 
@@ -45,7 +51,7 @@
                 <button class="md-trigger firstTime" data-modal="modal-1"></button>
                 <img id="logo" src="img/ERDF_Baseline_CMJN.png">
                 <h1>Le Chemin de l'Électricité</h1>
-                <a href="#mainPath" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
+                <a href="#mainPath" class="swing" id="godown"><img class="img-godown" src="img/left-arrow23.svg"></a>
             </div>
 
             <!--section 2-->
@@ -58,11 +64,11 @@
                     <div class="menu">
                         <img id="logo" src="img/ERDF_Baseline_CMJN.png">
                         <ul>
-                            <li><a href="#mainPath/production">Production</a> ></li>
-                            <li><a href="#mainPath/transport">Transport</a> ></li>
-                            <li><a href="#mainPath/distribution">Distribution</a> ></li>
-                            <li><a href="#mainPath/fourniture">Fourniture</a></li>
-                            <li><a class="role" href="#mainPath/roleerdf">Le rôle d'ERDF</a></li> 
+                            <li><a id="prod" href="#mainPath/production">Production</a> ></li>
+                            <li><a id="tran" href="#mainPath/transport">Transport</a> ></li>
+                            <li><a id="dist" href="#mainPath/distribution">Distribution</a> ></li>
+                            <li><a id="four" href="#mainPath/fourniture">Fourniture</a></li>
+                            <li><a class="role" href="#mainPath/roleerdf">Le rôle d'ERDF</a></li>
                         </ul>
                     </div>    
                 </header>
@@ -112,7 +118,7 @@
 
                         <!--éléments-->
 
-                        <div class="sun"></div>
+                        <div class="sun md-trigger" data-modal="modal-2"></div>
                         <div class="sol"></div>
                     </div>
                 </div>

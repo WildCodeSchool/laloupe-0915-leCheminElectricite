@@ -4,26 +4,19 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
+        loopHorizontal: false,
 
         //load explication modal just once on load of second section
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
-            
+
             if(anchorLink == 'mainPath' && firtTime == true) {
                 $('.firstTime').trigger('click')
                 firtTime = false;
             }
         },
-        onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex) {
-            var leavingSlide = $(this);
-            
-            //leaving furniture for roleerdf
-            if(index == 2 && slideIndex == 3 && direction == 'right'){
-                $.fn.fullpage.setAutoScrolling(false);
-            }
-        }
-            
+
     });
 
     var slide = 1;
