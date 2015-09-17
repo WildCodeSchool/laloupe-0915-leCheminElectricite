@@ -6,13 +6,25 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'calibri', sans-serif;
-    font-weight: 700;
+    
 }
+
+/*taille li*/
+
+p, li {
+	font-size: 1.4em;
+	text-decoration: none;
+	color: grey; 
+}
+
+
+
 
 .menu {
     text-align: center;
     vertical-align: baseline;
     margin-top: 8px;
+    font-weight: 700;
 }
 
 .menu li {
@@ -110,9 +122,33 @@ header {
     overflow: hidden;
 }
 
+
 .fp-slides {
     z-index: -2;
 }
+
+/*slider role erdf 5*/
+.content_blanc{
+    height: 100%;
+    width: 100%;
+    background: white;
+    position: relative;
+    z-index: -3;
+    overflow: hidden;
+}
+
+.article_erdf {
+	position: absolute;
+    z-index: 1;
+    margin: 15%;
+    height: 80%;
+    max-height: 500px;
+    width: 80%;
+    overflow: scroll;
+}
+
+
+/*fin 5*/
 
 /* Arrow Effect */
 @-webkit-keyframes swing
