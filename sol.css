@@ -2,13 +2,13 @@
 
 .sol {
     position: absolute;
+    /* mettre en inline pour avoir les elements qui se posent deçu...*/
     z-index: 1;
     bottom: 0;
-    height: 25%;
-    max-height: 200px;
+    height: 25vh;
     width: 100%;
-    background: -moz-linear-gradient(center top , lightgreen, #48A20F, green);
-}                                
+    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
+}                                  /*mettre vert +clair ici : test (center top , lightgreen, #48A20F, green);*/       /*mettre vert foncé*/
 
 .sol-shape { 
     position: absolute; 
@@ -38,14 +38,14 @@
     z-index: 3;
 } 
 
-/* ---- EOLIENNE ---- */
+/* ---- EOLIENNE ---------------------------------------------------------------------------------------- */
 
 .heoliene {
     width: 50px;
-    height: 100px;
+    height: 10vh;
     position: absolute;
-    bottom: 23%;
-    left: 9%;
+    bottom: 23vh;
+    left: 9vh;
 }
 
 .rotor-2 {
@@ -53,13 +53,13 @@
 }
 
 .mat {
-    height: 330px;
+    height: 27vh;
     width: 8px;
     background-color: white;
-    bottom: 0;
+    bottom: 24.5vh;
     position: absolute;
-    left: 8%;
-    border-radius: 16px / 50px;
+    left: 50vw;
+
 }
 
 .mat:before {
@@ -78,7 +78,7 @@
     height: 8px;
     border-radius: 40px / 4px;
     background-color: white;
-    left: 8.3%; bottom: 330px;
+    left: 50.5vw; bottom: 52vh;
     position: absolute;
     z-index: -1;
     transform-origin: center left;
@@ -114,12 +114,12 @@
 }
 
 .heoliene-2, {
-    left: 15%;
+    left: 15vw;
     z-index: -2 ;
 }
 
 .mat-2, .rotor-2 {
-    left: 15.5%;
+    left: 55vw;
     z-index: -2;
 }
 
@@ -139,9 +139,8 @@
 .tronc {
 
     width: 17%;
-    height: 60%;
-
-    bottom: 0;
+    height: 35%;
+    bottom: 24.5%;
     left: 24px;
     position: absolute;
 
@@ -205,18 +204,22 @@
     background-color: inherit;
 }
 
+
+
+/*elements--------------------------------------------------------------*/
+
 .centrale {
-    
-    width: 400px;
-    height: 400px;
-    
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    
-    background-image: url(img/ERDF%20centrale%20nuc.svg);
-    background-position: center center;
-    background-size: cover;
+    height: 19vh;
+    bottom: 24.5vh;
+    left: 10vw;
+}
+
+.centrale_a_charbon{
+    position: absolute;
+    height: 15vh;
+    bottom: 24.5vh;
+    left: 70vw; 
 }
 
 .gro-poteau {
