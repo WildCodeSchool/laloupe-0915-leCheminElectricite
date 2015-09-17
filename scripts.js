@@ -14,7 +14,16 @@ $(document).ready(function() {
                 $('.firstTime').trigger('click')
                 firtTime = false;
             }
+        },
+        onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            var leavingSlide = $(this);
+            
+            //leaving furniture for roleerdf
+            if(index == 2 && slideIndex == 3 && direction == 'right'){
+                $.fn.fullpage.setAutoScrolling(false);
+            }
         }
+            
     });
 
     var slide = 1;
