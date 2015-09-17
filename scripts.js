@@ -1,3 +1,5 @@
+var firtTime = true;
+
 $(document).ready(function() {
 
     $('#fullpage').fullpage({
@@ -7,9 +9,9 @@ $(document).ready(function() {
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
-            var firtTime = true;
+            
             if(anchorLink == 'mainPath' && firtTime == true) {
-                $('#modal-1, md-overlay').addClass("md-show")
+                $('.firstTime').trigger('click')
                 firtTime = false;
             }
         }
