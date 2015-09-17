@@ -113,6 +113,27 @@ header {
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
 }
 
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    background: url(img/left-arrow23.svg) no-repeat;
+    background-size: 80px 80px;
+    opacity: 0.2;
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    background: url(img/left-arrow23.svg) no-repeat;
+    background-size: 80px 80px;
+    opacity: 0.2;
+    transform: rotate(180deg);
+}
+
 .content {
     height: 100%;
     width: 100%;
