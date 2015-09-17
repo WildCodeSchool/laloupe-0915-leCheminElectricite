@@ -7,8 +7,8 @@
     height: 25%;
     max-height: 200px;
     width: 100%;
-    background: -moz-linear-gradient(center top , #48A23F, #48A23F, #008000);
-}
+    background: -moz-linear-gradient(center top , lightgreen, #48A20F, green);
+}                                
 
 .sol-shape { 
     position: absolute; 
@@ -129,9 +129,9 @@
 .arbre {
 
     width: 4%;
-    height: 8%;
+    height: 50%;
 
-    bottom: 25%;
+    bottom: 0;
     left: 47%;
     position: absolute;
 }
@@ -211,7 +211,7 @@
     height: 400px;
     
     position: absolute;
-    bottom: 3.4%;
+    bottom: 0;
     left: 50%;
     
     background-image: url(img/ERDF%20centrale%20nuc.svg);
