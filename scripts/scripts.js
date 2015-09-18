@@ -31,7 +31,6 @@ $(document).ready(function() {
         $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
     
-    var slide = 1;
     var animLock = false;
     var speed = 800
     
@@ -39,14 +38,25 @@ $(document).ready(function() {
         switch(slide) {
             case 1:
                 $('.cloud-one').animate({
-                    left: '40%'
+                    top: '-10%'
                 }, speed);
                 $('.cloud-two').animate({
-                    left: '100%'
+                    top: '-10%'
+                }, speed);
+            break;
+                
+            case 2:
+                $('.cloud-one').animate({
+                    left: '40%',
+                    top: '22%'
+                }, speed);
+                $('.cloud-two').animate({
+                    left: '100%',
+                    top: '19%'
                 }, speed);
             break;
         
-            case 2:
+            case 3:
                 $('.cloud-one').animate({
                     left: '30%'
                 }, speed);
@@ -55,7 +65,7 @@ $(document).ready(function() {
                 }, speed);
             break;
                 
-            case 3:
+            case 4:
                 $('.cloud-one').animate({
                     left: '20%'
                 }, speed);
@@ -64,7 +74,7 @@ $(document).ready(function() {
                 }, speed);
             break;
                 
-            case 4:
+            case 5:
                 $('.cloud-one').animate({
                     left: '10%',
                     top: '22%'
@@ -75,7 +85,7 @@ $(document).ready(function() {
                 }, speed);
             break;
                 
-            case 5:
+            case 6:
                 $('.cloud-one').animate({
                     top: '-10%'
                 }, speed);
@@ -107,7 +117,7 @@ $(document).ready(function() {
             break;
 
             case 39:          //droite
-                if (slide != 5) {
+                if (slide != 6) {
                     slide++;
                     goGoGo(1, slide);
                 }
