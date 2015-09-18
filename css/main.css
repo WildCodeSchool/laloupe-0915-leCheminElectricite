@@ -50,21 +50,16 @@ a {
     width: 50%;
 }
 
-#start {
-	position: relative;
-	text-align: center;
-}
-
 #start .firstTime {
 	display: none;
 }
 
-#start h1 {
-	display: inline;
+h1 {
 	position: relative;
 	bottom: -20%;
 	color: #00A3E0;
 	font-size: 4vw;
+	text-align: center;
 }
 
 #start #godown {
@@ -110,7 +105,7 @@ header {
     background-color: #fff;
     padding-top: 30px;
     color: #000;
-    z-index: 3;
+    z-index: 6;
     position: absolute;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
 }
