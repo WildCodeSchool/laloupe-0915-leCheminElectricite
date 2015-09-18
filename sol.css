@@ -55,6 +55,7 @@
     bottom: 24.5vh;
     position: absolute;
     left: 50vw;
+    z-index: 2;
 
 }
 
@@ -77,6 +78,7 @@
     left: 50.3vw; bottom: 44.4vh;
     position: absolute;
     transform-origin: center left;
+    z-index: 1;
 }
 
 .rotor:before {
@@ -210,17 +212,17 @@
 .centrale {
     position: absolute;
     height: 19vh;
-    bottom: 24.5vh;
+    bottom: 24.6vh;
     left: 10vw;
-    z-index: 3;
+    z-index: 1;
 }
 
 .centrale_a_charbon{
     position: absolute;
     height: 15vh;
-    bottom: 24.6vh;
+    bottom: 24.9vh;
     left: 70vw;
-    z-index: 3;
+    z-index: 1;
 }
 
 .gro-poteau {
