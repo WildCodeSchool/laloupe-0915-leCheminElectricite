@@ -15,8 +15,7 @@ $(document).ready(function() {
                 $('.firstTime').trigger('click')
                 firstTime = false;
             }
-        },
-
+        }
     });
    
    var slide = 1;
@@ -39,10 +38,13 @@ $(document).ready(function() {
             case 1:
                 $('.cloud-one').animate({
                     top: '-10%'
-                }, speed);
+                }, 700);
                 $('.cloud-two').animate({
                     top: '-10%'
-                }, speed);
+                }, 700);
+                $('.sun').animate({
+                    top: '-10%'
+                }, 700);
             break;
                 
             case 2:
@@ -54,6 +56,10 @@ $(document).ready(function() {
                     left: '100%',
                     top: '19%'
                 }, speed);
+                $('.sun').animate({
+                    top: '15%',
+                    left: '6%'
+                }, 700);
             break;
         
             case 3:
@@ -63,6 +69,9 @@ $(document).ready(function() {
                 $('.cloud-two').animate({
                     left: '90%'
                 }, speed);
+                $('.sun').animate({
+                    left: '5%'
+                }, 700);
             break;
                 
             case 4:
@@ -88,10 +97,10 @@ $(document).ready(function() {
             case 6:
                 $('.cloud-one').animate({
                     top: '-10%'
-                }, speed);
+                }, 700);
                 $('.cloud-two').animate({
                     top: '-10%'
-                }, speed);
+                }, 700);
             break;
         }
     }
