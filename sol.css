@@ -1,8 +1,21 @@
-/* ---- SOL ----*/
+
+/*SOMMAIRE
+
+1/sol
+
+2/element DECO
+
+3/element production
+
+4/element transport
+
+*/
+
+
+/* sol ========================================================================================================*/
 
 .sol {
     position: absolute;
-    /* mettre en inline pour avoir les elements qui se posent deçu...*/
     bottom: 0;
     height: 25vh;
     width: 100%;
@@ -10,7 +23,7 @@
     background: -moz-linear-gradient(top, lightgreen, #48A20F, green);
     background: linear-gradient(top, lightgreen, #48A20F, green);
     z-index: 2;
-}                                  /*mettre vert +clair ici : test (center top , lightgreen, #48A20F, green);*/       /*mettre vert foncé*/
+} 
 
 .sol-shape { 
     position: absolute; 
@@ -38,7 +51,135 @@
     border-radius: 5% / 50%;
 } 
 
-/* ---- EOLIENNE ---------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* elements DECO======================================================================================*/
+
+.arbre {
+
+    width: 4%;
+    height: 50%;
+
+    bottom: 0;
+    left: 47%;
+    position: absolute;
+    z-index: 1;
+}
+
+.tronc {
+
+    width: 13%;
+    height: 35%;
+    bottom: 24.5%;
+    left: 24px;
+    position: absolute;
+
+    background: linear-gradient(to left, #993200, #914902);
+    background: -moz-linear-gradient(left, #993200, #914902);
+}
+
+.tronc:before {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    top: -8px;
+    left: -5px;
+    position: absolute;
+    content: '';
+
+    background-color: #029112;
+}
+
+.feuilles {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    bottom: 58%;
+    left: 24px;
+    position: absolute;
+    content: '';
+
+    background-color: #029112;
+    z-index: 4;
+}
+
+.feuilles:before {
+
+    width: 14px;
+    height: 14px;
+    border-radius: calc(14px / 2);
+
+    left: -8px;
+    bottom: 2px;
+    position: absolute;
+    content: '';
+
+    background-color: inherit;
+}
+
+.feuilles:after {
+
+    width: 15px;
+    height: 15px;
+    border-radius: calc(15px / 2);
+
+    bottom: 4px;
+    left: -1px;
+    position: absolute;
+    content: '';
+
+    background-color: inherit;
+}
+/*elements production===========================================================================================*/
+.centrale {
+    position: absolute;
+    height: 30vh;
+    bottom: 24.9vh;
+    left: 1vw;
+    z-index: 1;
+}
+
+.centrale_a_gaz {
+    position: absolute;
+    height: 15vh;
+    bottom: 24.9vh;
+    left: 78vw;
+    z-index: 1;
+}
+
+.centrale_eau {
+    position: absolute;
+    height: 15vh;
+    bottom: 24.9vh;
+    left: 25vw;
+    z-index: 3;
+}
+
+.centrale_geo {
+    position: absolute;
+    height: 15vh;
+    bottom: 24.9vh;
+    left: 65vw;
+    z-index: 3;
+}
+
+.transfo {
+    position: absolute;
+    height: 5vh;
+    bottom: 24.9vh;
+    left: 90vw;
+    z-index: 3;
+
+}
+
+/* eolienne-css------------------ */
 
 .heoliene {
     width: 50px;
@@ -123,123 +264,16 @@
 }
 
 
-/* ---- ARBRE ----*/
-
-.arbre {
-
-    width: 4%;
-    height: 50%;
-
-    bottom: 0;
-    left: 47%;
-    position: absolute;
-    z-index: 1;
-}
-
-.tronc {
-
-    width: 13%;
-    height: 35%;
-    bottom: 24.5%;
-    left: 24px;
-    position: absolute;
-
-    background: linear-gradient(to left, #993200, #914902);
-    background: -moz-linear-gradient(left, #993200, #914902);
-}
-
-.tronc:before {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    top: -8px;
-    left: -5px;
-    position: absolute;
-    content: '';
-
-    background-color: #029112;
-}
-
-.feuilles {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    bottom: 58%;
-    left: 24px;
-    position: absolute;
-    content: '';
-
-    background-color: #029112;
-    z-index: 4;
-}
-
-.feuilles:before {
-
-    width: 14px;
-    height: 14px;
-    border-radius: calc(14px / 2);
-
-    left: -8px;
-    bottom: 2px;
-    position: absolute;
-    content: '';
-
-    background-color: inherit;
-}
-
-.feuilles:after {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    bottom: 4px;
-    left: -1px;
-    position: absolute;
-    content: '';
-
-    background-color: inherit;
-}
-
-
-
-/*elements--------------------------------------------------------------*/
-
-.centrale {
-    position: absolute;
-    height: 19vh;
-    bottom: 24.6vh;
-    left: 10vw;
-    z-index: 1;
-}
-
-.centrale_a_charbon{
-    position: absolute;
-    height: 15vh;
-    bottom: 24.9vh;
-    left: 70vw;
-    z-index: 1;
-}
-
+/*elements transport=======================================================================================-*/
 .gro-poteau {
-    width: 400px;
-    height: 400px;
-    
+    height: 45vh;
     position: absolute;
-    bottom: 19.5%;
-    left: 50%;
-    
-    background-image: url(img/poteaux_mega_gros.svg);
-    background-position: center center;
-    background-size: cover;
+    bottom: 24.9vh;
+    left: 20vw;
 }
 
 .gro-poteau-2 {
-    left: -5%;
+    left: 65vw;
 }
 
 .fil {
@@ -254,3 +288,22 @@
     background-position: center center;
     background-size: cover;
 }
+
+/*elements transport=======================================================================================-*/
+
+.poste_source {
+    position: absolute;
+    height: 20vh;
+    bottom: 24.2vh;
+    left: 1vw;
+    z-index: 3;
+}
+
+.poteau_MT {
+    position: absolute;
+    height: 30vh;
+    bottom: 24.2vh;
+    left: 2vw;
+    z-index: 3;
+}
+

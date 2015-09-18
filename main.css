@@ -1,3 +1,16 @@
+/*  SOMMAIRE
+
+font
+
+menu
+
+
+
+
+
+*/
+
+
 html {
     font-size: 62.5%;
 }
@@ -9,7 +22,11 @@ body {
     
 }
 
-/*taille li*/
+
+/*general----------------------------------------------------------------------------------------------------------*/
+
+
+/*font----------------------------------------------------------------------------------------------------------*/
 
 p, li {
 	font-size: 1.4em;
@@ -17,6 +34,11 @@ p, li {
 	color: grey; 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* font menu erdf->*/
 .menu {
     text-align: center;
     vertical-align: baseline;
@@ -34,11 +56,10 @@ p, li {
     color: #00A3E0;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
+
+
+/*parti section start (index.html)----------------------------------------------------------------------------------------------------------*/
 #start #logo {
     display: block;
     position: absolute;

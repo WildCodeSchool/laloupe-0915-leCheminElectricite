@@ -1,8 +1,8 @@
 /* ---- SUN ---- */
 
 .sun {
-    width: 80px;
-    height: 80px;
+    width: 15vh;
+    height: 15vh;
     border-radius: 40px;
 
     position: absolute;
