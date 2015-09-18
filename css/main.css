@@ -91,6 +91,13 @@ a {
     margin-bottom: auto;
 }
 
+#zero #ensemble {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+}
+
 .role {
     float: right;
     margin-right: 3%;
