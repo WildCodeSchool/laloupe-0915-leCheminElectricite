@@ -113,7 +113,7 @@ header {
     border: none;
     width: 80px;
     height: 80px;
-    background: url(img/left-arrow23.svg) no-repeat;
+    background: url(../img/left-arrow23.svg) no-repeat;
     background-size: 80px 80px;
     opacity: 0.2;
 }
@@ -123,7 +123,7 @@ header {
     border: none;
     width: 80px;
     height: 80px;
-    background: url(img/left-arrow23.svg) no-repeat;
+    background: url(../img/left-arrow23.svg) no-repeat;
     background-size: 80px 80px;
     opacity: 0.2;
     transform: rotate(180deg);
