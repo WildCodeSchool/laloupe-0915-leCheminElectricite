@@ -10,7 +10,7 @@ $(document).ready(function() {
             var loadedSection = $(this);
 
 
-            if(anchorLink == 'mainPath' && firstTime == true) {
+            if(anchorLink == 'mainPath' && firtTime == true) {
                 $('.firstTime').trigger('click')
                 firstTime = false;
             }
