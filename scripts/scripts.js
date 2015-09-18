@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var firtTime = true;
+    var firstTime = true;
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
         loopHorizontal: false,
