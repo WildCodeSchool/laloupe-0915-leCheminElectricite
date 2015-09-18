@@ -36,7 +36,24 @@
     left: -5%; 
     background: inherit; 
     border-radius: 5% / 50%;
-} 
+}
+
+.upanim {
+    animation: all 2s ease;
+    opacity: 0;
+}
+
+@keyframes upanim
+{
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+    }
+}
 
 /* ---- EOLIENNE ---------------------------------------------------------------------------------------- */
 
