@@ -1,8 +1,7 @@
-var firstTime = true;
-
 $(document).ready(function() {
-   
-   $('#fullpage').fullpage({
+
+    var firtTime = true;
+    $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
         loopHorizontal: false,
 
@@ -11,17 +10,26 @@ $(document).ready(function() {
             var loadedSection = $(this);
 
 
-            if(anchorLink == 'mainPath' && firstTime == true) {
+            if(anchorLink == 'mainPath' && firtTime == true) {
                 $('.firstTime').trigger('click')
                 firstTime = false;
             }
-        }
+        },
+        afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+            var loadedSlide = $(this);
+
+            //first slide of the second section
+            if(anchorLink == 'mainPath' && slideIndex == 1){
+                $(".upanim").css('animation', 'upanim 2s ease');
+                $(".upanim").css('opacity', '1');
+            }
+        },
     });
    
    var slide = 1;
     
     goGoGo(1, slide);
-   
+
     function rotor() {
         $('.rotor-1').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
     };
