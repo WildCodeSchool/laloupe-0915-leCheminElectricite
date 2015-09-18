@@ -151,3 +151,52 @@
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
+/* Boutton X pour fermer les modals */
+.x {
+	width:20px;
+	height:20px;
+	-webkit-transition-duration:0.5s;
+	transition-duration:0.5s;
+	position:absolute;
+	right: 0;
+	top: 0;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background:#5d5d5d;
+	border-radius:2px;
+	border:solid 2px #FFF;
+	transition: all .3s ease-out;
+	cursor:pointer;
+}
+.x:hover{
+	background:#d10303;
+}
+.x b{
+	display:block;
+	position:absolute;
+	height:0;
+	width:0;
+	padding:0;
+	margin:0;
+}
+.x b {
+	border:solid 10px rgba(255,255,255,0);
+}
+.x b:nth-child(1){
+	border-top-color:#FFF;
+	top:-2px;
+}
+.x b:nth-child(2){
+	border-left-color:#FFF;
+	left:-2px;
+}
+.x b:nth-child(3){
+	border-bottom-color:#FFF;
+	bottom:-2px;
+}
+.x b:nth-child(4){
+	border-right-color:#FFF;
+	right:-2px;
+}
