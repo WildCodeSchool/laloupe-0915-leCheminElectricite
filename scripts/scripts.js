@@ -66,7 +66,7 @@ $(document).ready(function() {
                 }, speed);
                 $('.sun').animate({
                     top: '15%',
-                    left: '6%'
+                    left: '2%'
                 }, 700);
             break;
         
@@ -78,7 +78,7 @@ $(document).ready(function() {
                     left: '90%'
                 }, speed);
                 $('.sun').animate({
-                    left: '5%'
+                    left: '-10%'
                 }, 700);
             break;
                 
