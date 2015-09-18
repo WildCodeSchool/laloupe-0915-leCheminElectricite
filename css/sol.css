@@ -140,9 +140,9 @@
 /*elements production===========================================================================================*/
 .centrale {
     position: absolute;
-    height: 30vh;
+    height: 17vh;
     bottom: 24.9vh;
-    left: 1vw;
+    left: 28vw;
     z-index: 1;
 }
 
@@ -156,18 +156,18 @@
 
 .centrale_eau {
     position: absolute;
-    height: 15vh;
-    bottom: 24.9vh;
-    left: 25vw;
-    z-index: 3;
+    height: 45vh;
+    bottom: 10.8vh;
+    z-index: 0;
+    left: -5vw;
 }
 
 .centrale_geo {
     position: absolute;
-    height: 15vh;
     bottom: 24.9vh;
-    left: 65vw;
-    z-index: 3;
+    z-index: 0;
+    height: 50vh;
+    left: 45vw;
 }
 
 .transfo {
@@ -284,18 +284,15 @@
     bottom: 46%;
     left: -32.5%;
     
-    background-image: url(img/fils.svg);
-    background-position: center center;
-    background-size: cover;
 }
 
-/*elements transport=======================================================================================-*/
+/*elements distribution=======================================================================================-*/
 
 .poste_source {
     position: absolute;
     height: 20vh;
     bottom: 24.2vh;
-    left: 1vw;
+    left: -40vw;
     z-index: 3;
 }
 
@@ -303,7 +300,58 @@
     position: absolute;
     height: 30vh;
     bottom: 24.2vh;
-    left: 2vw;
+    left: -10vw;
     z-index: 3;
 }
+
+.poteau_MT2 {
+    position: absolute;
+    height: 30vh;
+    bottom: 24.2vh;
+    left: 20vw;
+    z-index: 3;
+}
+
+
+/*elements fourniture=======================================================================================-*/
+
+.poteau_BT_transfo {
+    position: absolute;
+    height:20vh;
+    bottom: 24.2vh;
+    left: -2vw;
+    z-index: 3;
+}
+.poteau_BT {
+    position: absolute;
+    height: 15vh;
+    bottom: 24.2vh;
+    left: 15vw;
+    z-index: 3;
+}
+
+.coffret {
+    position: absolute;
+    height: 8vh;
+    bottom: 24.2vh;
+    left: 25vw;
+    z-index: 3;
+}
+
+.maison {
+    position: absolute;
+    height: 20vh;
+    bottom: 24.2vh;
+    left: 32vw;
+    z-index: 3;
+}
+
+.immeuble_erdf {
+    position: absolute;
+    height: 40vh;
+    bottom: 24.2vh;
+    left: 40vw;
+    z-index: 2;
+}
+
 

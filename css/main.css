@@ -1,8 +1,8 @@
 /*  SOMMAIRE
 
-font
+1/font
 
-menu
+2/menu
 
 
 
@@ -118,6 +118,7 @@ a {
     margin-left: -12%;
 }
 
+/*slides---------------------------------------------------*/
 header {
     height: 10%;
     width: 100%;
@@ -160,7 +161,7 @@ header {
     overflow: hidden;
 }
 
-/*slider role erdf 5*/
+/*slider role erdf 5----------------------------------------------------------*/
 .content_blanc{
     height: 100%;
     width: 100%;
@@ -184,7 +185,7 @@ header {
 /*fin 5*/
 
 
-/* Arrow Effect */
+/* Arrow Effect --------------------------------------------------------------*/
 @-webkit-keyframes swing
 {
     50%
