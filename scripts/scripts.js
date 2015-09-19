@@ -48,7 +48,8 @@ $(document).ready(function() {
                     top: '-10%'
                 }, 700);
                 $('.cloud-two').animate({
-                    top: '-10%'
+                    top: '-10%',
+                    left: '100%'
                 }, 700);
                 $('.sun').animate({
                     top: '-10%'
@@ -61,8 +62,8 @@ $(document).ready(function() {
                     top: '22%'
                 }, speed);
                 $('.cloud-two').animate({
-                    left: '100%',
-                    top: '19%'
+                    top: '19%',
+                    left: '100%'
                 }, speed);
                 $('.sun').animate({
                     top: '15%',
