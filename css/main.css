@@ -166,7 +166,13 @@ header {
     height: 79px;
     width: 73px;
     background-repeat: no-repeat;
+}
 
+h2{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    padding-top: 15px;
 }
 
 
