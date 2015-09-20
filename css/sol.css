@@ -140,7 +140,7 @@
 /*elements production===========================================================================================*/
 .centrale {
     position: absolute;
-    height: 17vh;
+    height: 20vh;
     bottom: 24.9vh;
     left: 28vw;
     z-index: 1;
@@ -148,16 +148,16 @@
 
 .centrale_a_gaz {
     position: absolute;
-    height: 15vh;
+    height: 19vh;
     bottom: 24.9vh;
-    left: 78vw;
+    left: 61vw;
     z-index: 1;
 }
 
 .centrale_eau {
     position: absolute;
-    height: 45vh;
-    bottom: 10.8vh;
+    height: 49vh;
+    bottom: 9.6vh;
     z-index: 0;
     left: -5vw;
 }
@@ -170,13 +170,12 @@
     left: 45vw;
 }
 
-.transfo {
+.background_1 {
     position: absolute;
-    height: 5vh;
+    width: 23.3vw;
     bottom: 24.9vh;
-    left: 90vw;
+    right: 0vw;
     z-index: 3;
-
 }
 
 /* eolienne-css------------------ */
@@ -265,35 +264,21 @@
 
 
 /*elements transport=======================================================================================-*/
-.gro-poteau {
-    height: 45vh;
+.background_2 {
+    width: 100vw;
     position: absolute;
     bottom: 24.9vh;
-    left: 20vw;
-}
-
-.gro-poteau-2 {
-    left: 65vw;
-}
-
-.fil {
-    width: 1660px;
-    height: 50px;
-    
-    position: absolute;
-    bottom: 46%;
-    left: -32.5%;
-    
+    left: 0vw;
 }
 
 /*elements distribution=======================================================================================-*/
 
-.poste_source {
+.background_3 {
     position: absolute;
-    height: 20vh;
     bottom: 24.2vh;
-    left: -40vw;
+    left: -47vw;
     z-index: 3;
+    width: 26.5vw;
 }
 
 .poteau_MT {
