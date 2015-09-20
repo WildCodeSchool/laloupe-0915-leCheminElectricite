@@ -9,7 +9,7 @@
     background: -webkit-linear-gradient(top, lightgreen, #48A20F, green);
     background: -moz-linear-gradient(top, lightgreen, #48A20F, green);
     background: linear-gradient(top, lightgreen, #48A20F, green);
-    z-index: 2;
+    z-index: 15;
 }                                  /*mettre vert +clair ici : test (center top , lightgreen, #48A20F, green);*/       /*mettre vert foncé*/
 
 .sol-shape { 
@@ -68,10 +68,11 @@
 .mat {
     height: 20vh;
     width: 8px;
-    background-color: white;
+    background: -moz-linear-gradient(left, #fff, #CFCECE);
     bottom: 24.5vh;
     position: absolute;
     left: 50vw;
+    border: 1px solid black;
     z-index: 2;
 
 }
@@ -79,23 +80,24 @@
 .mat:before {
     width: 16px;
     height: 16px;
-    background-color: lightgrey;
+    background-color: #D2D2D2;
     border-radius: calc(16px / 2);
     content: '';
     position: absolute;
     top: -10px;
     left: -4px;
+    border: 1px solid black;
 }
 
 .rotor {
     width: 80px;
     height: 8px;
     border-radius: 40px / 4px;
-    background-color: white;
+    background-color: #e2e2e2;
     left: 50.3vw; bottom: 44.4vh;
     position: absolute;
     transform-origin: center left;
-    z-index: 1;
+    border: 1px solid black;
 }
 
 .rotor:before {
@@ -111,6 +113,7 @@
 
     transform: rotate(240deg);
     transform-origin: center left;
+    border: 1px solid black;
 }
 
 .rotor:after {
@@ -125,18 +128,22 @@
     position: absolute;
     transform: rotate(120deg);
     transform-origin: center left;
+    border: 1px solid black;
 }
 
 .heoliene-2, {
     left: 15vw;
+    z-index: 10;
 }
 
 .mat-2 {
     left: 55vw;
+    z-index: 10;
 }
 
 .rotor-2 {
     left: 55.3vw;
+    z-index: 8;
 }
 
 
