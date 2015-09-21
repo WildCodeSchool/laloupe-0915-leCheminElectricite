@@ -82,8 +82,7 @@ $(document).ready(function() {
                     top: '19%'
                 }, speed);
                 $('.sun').animate({
-                    left: '-10%',
-                    left: '2%'
+                    left: '-10%'
                 }, speed);
             break;
                 
@@ -97,8 +96,7 @@ $(document).ready(function() {
                     top: '19%'
                 }, speed);
                 $('.sun').animate({
-                    left: '-10%',
-                    left: '2%'
+                    left: '-10%'
                 }, speed);
             break;
                 
@@ -112,8 +110,7 @@ $(document).ready(function() {
                     top: '19%'
                 }, speed);
                 $('.sun').animate({
-                    left: '-10%',
-                    left: '2%'
+                    left: '-10%'
                 }, speed);
             break;
                 
@@ -125,8 +122,7 @@ $(document).ready(function() {
                     top: '-10%'
                 }, 700);
                 $('.sun').animate({
-                    top: '-10%',
-                    left: '2%'
+                    top: '-10%'
                 }, 700);
             break;
         }
@@ -199,6 +195,12 @@ $(document).ready(function() {
     $('#roleerdf').click(function() {
         slide = 6;
         goGoGo(1, slide);
+    });
+    
+    $('.animPulse').hover(function() {
+        $(this).addClass('animated pulse');
+    }, function() {
+        $(this).removeClass('animated pulse');
     });
     
 });

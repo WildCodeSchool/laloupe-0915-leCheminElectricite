@@ -22,7 +22,7 @@
     background: -webkit-linear-gradient(top, lightgreen, #48A20F, green);
     background: -moz-linear-gradient(top, lightgreen, #48A20F, green);
     background: linear-gradient(top, lightgreen, #48A20F, green);
-    z-index: 2;
+    z-index: 10;
 } 
 
 .sol-shape { 
@@ -124,7 +124,7 @@
     content: '';
 
     background-color: #029112;
-    z-index: 4;
+    z-index: 6;
 }
 
 .feuilles:before {
@@ -187,22 +187,23 @@
     left: 45vw;
 }
 
-.background_1 {
+.montagne {
     position: absolute;
     width: 23.3vw;
     bottom: 24.9vh;
     right: 0vw;
-    z-index: 3;
+    z-index: 0;
 }
 
 /* eolienne-css------------------ */
 
-.heoliene {
+.eolienne {
     width: 50px;
     height: 10vh;
     position: absolute;
-    bottom: 23vh;
-    left: 9vh;
+    bottom: 0;
+    left: 8vh;
+    z-index: 10;
 }
 
 .mat {
@@ -213,8 +214,12 @@
     position: absolute;
     left: 50vw;
     border: 1px solid grey;
-    z-index: 2;
+    z-index: 5;
 
+}
+
+.animated {
+    cursor: pointer;
 }
 
 .mat:before {
@@ -363,4 +368,8 @@
     z-index: 2;
 }
 
-
+.animPulse {
+    cursor: pointer;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+}
