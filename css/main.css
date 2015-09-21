@@ -180,7 +180,7 @@ header {
 }
 
 .article_erdf {
-	position: absolute;
+	display: inline-block;
     z-index: 1;
     margin: 15%;
     height: 80%;
@@ -188,6 +188,52 @@ header {
     border-color: blue;
     border-width: 3rem;
 }
+
+.square {
+    float:left;
+    position: relative;
+    width: 10vw;
+    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+    margin:0;
+    overflow:hidden;
+}
+
+.mn_clip_bf{
+    position:absolute;
+    background-image: url("../img/clips/carremoyen_darkblue.svg");
+    background-repeat: no-repeat;
+    height:80vh; /* = 100% - 2*10% padding */
+    width:90vw; /* = 100% - 2*5% padding */
+    padding: auto;
+}
+
+.bloc_un {
+    display: inline-block;
+    position: relative;
+
+
+}
+.mn_clip_vf {
+    background-image: url("../img/clips/carremoyen_vertfonce.svg");
+    background-repeat: no-repeat;
+    height: 79px;
+    width: 73px;
+}
+
+.mn_clip_bc {
+    background-image: url("../img/clips/carremoyen_bleuclair.svg");
+    background-repeat: no-repeat;
+    height: 79px;
+    width: 73px;
+}
+
+h2{
+    text-align: left;
+    color: black;
+    font-size: 1.4em;
+    padding-top: 10px;
+}
+
 
 
 /*fin 5*/
