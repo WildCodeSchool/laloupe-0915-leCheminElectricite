@@ -157,26 +157,26 @@
 /*elements production===========================================================================================*/
 .centrale {
     position: absolute;
-    height: 20vh;
+    height: 19vh;
     bottom: 24.9vh;
-    left: 28vw;
+    left: 31vw;
     z-index: 1;
-}
+    }
 
 .centrale_a_gaz {
     position: absolute;
-    height: 19vh;
+    height: 15vh;
     bottom: 24.9vh;
-    left: 61vw;
+    left: 77vw;
     z-index: 1;
 }
 
 .centrale_eau {
     position: absolute;
-    height: 49vh;
-    bottom: 9.6vh;
+    height: 18vh;
+    bottom: 24.9vh;
     z-index: 0;
-    left: -5vw;
+    left: 0vw;
 }
 
 .centrale_geo {
@@ -184,12 +184,12 @@
     bottom: 24.9vh;
     z-index: 0;
     height: 50vh;
-    left: 45vw;
+    left: 49vw;
 }
 
-.montagne {
+.transfo {
     position: absolute;
-    width: 23.3vw;
+    width: 11.3vw;
     bottom: 24.9vh;
     right: 0vw;
     z-index: 0;
