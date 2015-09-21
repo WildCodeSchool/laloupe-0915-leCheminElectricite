@@ -38,6 +38,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 /* font menu erdf->*/
 .menu {
     text-align: center;
@@ -174,64 +175,68 @@ header {
     height: 100%;
     width: 100%;
     background: white;
-    position: relative;
-    z-index: -3;
-    overflow: hidden;
 }
 
 .article_erdf {
-	display: inline-block;
-    z-index: 1;
-    margin: 15%;
+	margin: 12% 15% 10% 15%;
     height: 80%;
     width: 100%;
-    border-color: blue;
-    border-width: 3rem;
 }
 
-.square {
-    float:left;
+.bloc{
+    width: 80vw;
+    height: 12vh;
+    margin-bottom: 5px;
+    
+
+}
+
+.clip {
+    display: inline-block;
     position: relative;
-    width: 10vw;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
-    margin:0;
-    overflow:hidden;
+    height:85px; 
+    width:85px; 
+    padding: auto;
+    margin-left: -7px;
+    background-size: 85px 85px;
 }
 
 .mn_clip_bf{
-    position:absolute;
-    background-image: url("../img/clips/carremoyen_darkblue.svg");
+    background-image: url("../img/clips/carregrand_darkblue.svg");
     background-repeat: no-repeat;
-    height:80vh; /* = 100% - 2*10% padding */
-    width:90vw; /* = 100% - 2*5% padding */
-    padding: auto;
+    z-index: 3;
 }
 
-.bloc_un {
-    display: inline-block;
-    position: relative;
-
-
-}
 .mn_clip_vf {
-    background-image: url("../img/clips/carremoyen_vertfonce.svg");
+    background-image: url("../img/clips/carregrand_vertfonce.svg");
     background-repeat: no-repeat;
-    height: 79px;
-    width: 73px;
+    z-index: 2;
 }
 
 .mn_clip_bc {
-    background-image: url("../img/clips/carremoyen_bleuclair.svg");
+    background-image: url("../img/clips/carregrand_bleuclair.svg");
     background-repeat: no-repeat;
-    height: 79px;
-    width: 73px;
+    z-index: 1;
+  
 }
 
+
 h2{
+    position: absolute;
     text-align: left;
-    color: black;
-    font-size: 1.4em;
-    padding-top: 10px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-top: 35px;
+    margin-left: 11px;
+}
+
+p{
+    display: inline;
+    position: relative;
+    top:-48%;
+    font-size: 1.6em;
+    margin-left: 10px;
 }
 
 
