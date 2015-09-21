@@ -98,6 +98,8 @@
 .md-content > div p {
 	margin: 0;
 	padding: 10px 0;
+	font-size: 1.4rem;
+	color: #00A3E0;
 }
 
 .md-content > div ul {
@@ -107,6 +109,7 @@
 
 .md-content > div ul li {
 	padding: 5px 0;
+	font-size: 1.4rem;
 }
 
 .md-content button {
