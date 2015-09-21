@@ -39,6 +39,7 @@ a {
     color: inherit;
 }
 
+
 /* font menu erdf->*/
 .menu {
     text-align: center;
@@ -192,7 +193,6 @@ header {
     width:300px;
     background-size: 300px 300px;
     padding-top: 30px;
-    padding-left: 15px;
     float: left;
 }
 
@@ -218,14 +218,15 @@ header {
 
 .clip h2{
     color: white;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 2.5em;
+    padding: 0.5em;
 }
 
 .clip p {
     display: block;
     color: white;
     font-size: 1.6em;
+    padding: 0.5em;
 }
 
 
