@@ -175,30 +175,25 @@ header {
     height: 100%;
     width: 100%;
     background: white;
+    text-align: center;
 }
 
 .article_erdf {
-	margin: 12% 15% 10% 15%;
-    height: 80%;
-    width: 100%;
-}
-
-.bloc{
-    width: 80vw;
-    height: 12vh;
-    margin-bottom: 5px;
-    
-
+	margin-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 80%;
 }
 
 .clip {
-    display: inline-block;
-    position: relative;
-    height:85px; 
-    width:85px; 
-    padding: auto;
-    margin-left: -7px;
-    background-size: 85px 85px;
+    text-align: left;
+    height:300px; 
+    width:300px;
+    background-size: 300px 300px;
+    padding-top: 30px;
+    padding-left: 15px;
+    float: left;
 }
 
 .mn_clip_bf{
@@ -221,22 +216,16 @@ header {
 }
 
 
-h2{
-    position: absolute;
-    text-align: left;
+.clip h2{
     color: white;
-    font-size: 1.6em;
+    font-size: 2em;
     font-weight: bold;
-    padding-top: 35px;
-    margin-left: 11px;
 }
 
-p{
-    display: inline;
-    position: relative;
-    top:-48%;
+.clip p {
+    display: block;
+    color: white;
     font-size: 1.6em;
-    margin-left: 10px;
 }
 
 
