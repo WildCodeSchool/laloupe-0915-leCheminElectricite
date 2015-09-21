@@ -74,22 +74,31 @@ $(document).ready(function() {
         
             case 3:
                 $('.cloud-one').animate({
-                    left: '30%'
+                    left: '30%',
+                    top: '22%'
                 }, speed);
                 $('.cloud-two').animate({
-                    left: '90%'
+                    left: '90%',
+                    top: '19%'
                 }, speed);
                 $('.sun').animate({
-                    left: '-10%'
-                }, 700);
+                    left: '-10%',
+                    left: '2%'
+                }, speed);
             break;
                 
             case 4:
                 $('.cloud-one').animate({
-                    left: '20%'
+                    left: '20%',
+                    top: '22%'
                 }, speed);
                 $('.cloud-two').animate({
-                    left: '80%'
+                    left: '80%',
+                    top: '19%'
+                }, speed);
+                $('.sun').animate({
+                    left: '-10%',
+                    left: '2%'
                 }, speed);
             break;
                 
@@ -102,6 +111,10 @@ $(document).ready(function() {
                     left: '70%',
                     top: '19%'
                 }, speed);
+                $('.sun').animate({
+                    left: '-10%',
+                    left: '2%'
+                }, speed);
             break;
                 
             case 6:
@@ -110,6 +123,10 @@ $(document).ready(function() {
                 }, 700);
                 $('.cloud-two').animate({
                     top: '-10%'
+                }, 700);
+                $('.sun').animate({
+                    top: '-10%',
+                    left: '2%'
                 }, 700);
             break;
         }
@@ -122,7 +139,6 @@ $(document).ready(function() {
             rotor2();
         }
     };
-    
     $(document).keydown(function(e) {
         if (animLock) { return; }
         animLock = true;
@@ -145,4 +161,44 @@ $(document).ready(function() {
             default: return;
         }
     });
+    
+    $('.fp-prev').click(function() {
+        if (slide != 1) {
+            slide--;
+            goGoGo(0, slide);
+        }
+    });
+    
+    $('.fp-next').click(function() {
+        if (slide != 6) {
+            slide++;
+            goGoGo(1, slide);
+        }
+    });
+    
+    $('#production').click(function() {
+        slide = 2;
+        goGoGo(1, slide);
+    });
+    
+    $('#transport').click(function() {
+        slide = 3;
+        goGoGo(1, slide);
+    });
+    
+    $('#distribution').click(function() {
+        slide = 4;
+        goGoGo(1, slide);
+    });
+    
+    $('#fourniture').click(function() {
+        slide = 5;
+        goGoGo(1, slide);
+    });
+    
+    $('#roleerdf').click(function() {
+        slide = 6;
+        goGoGo(1, slide);
+    });
+    
 });
