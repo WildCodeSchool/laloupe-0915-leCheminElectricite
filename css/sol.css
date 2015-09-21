@@ -157,23 +157,23 @@
 /*elements production===========================================================================================*/
 .centrale {
     position: absolute;
-    height: 19vh;
+    width: 17vw;
     bottom: 24.9vh;
-    left: 31vw;
+    left: 28vw;
     z-index: 1;
     }
 
 .centrale_a_gaz {
     position: absolute;
-    height: 15vh;
+    width: 11vw;
     bottom: 24.9vh;
-    left: 77vw;
+    left: 78vw;
     z-index: 1;
 }
 
 .centrale_eau {
     position: absolute;
-    height: 18vh;
+    width: 29vw;
     bottom: 24.9vh;
     z-index: 0;
     left: 0vw;
@@ -183,7 +183,7 @@
     position: absolute;
     bottom: 24.9vh;
     z-index: 0;
-    height: 50vh;
+    width: 31vw;
     left: 49vw;
 }
 
