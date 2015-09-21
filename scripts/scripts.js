@@ -52,7 +52,8 @@ $(document).ready(function() {
                     left: '100%'
                 }, 700);
                 $('.sun').animate({
-                    top: '-10%'
+                    top: '-10%',
+                    left: '2%'
                 }, 700);
             break;
                 
