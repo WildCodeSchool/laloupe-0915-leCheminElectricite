@@ -72,7 +72,7 @@
     bottom: 24.5vh;
     position: absolute;
     left: 50vw;
-    border: 1px solid black;
+    border: 1px solid grey;
     z-index: 2;
 
 }
@@ -86,7 +86,7 @@
     position: absolute;
     top: -10px;
     left: -4px;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .rotor {
@@ -97,7 +97,7 @@
     left: 50.3vw; bottom: 44.4vh;
     position: absolute;
     transform-origin: center left;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .rotor:before {
@@ -113,7 +113,7 @@
 
     transform: rotate(240deg);
     transform-origin: center left;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .rotor:after {
@@ -128,7 +128,7 @@
     position: absolute;
     transform: rotate(120deg);
     transform-origin: center left;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 
 .heoliene-2, {

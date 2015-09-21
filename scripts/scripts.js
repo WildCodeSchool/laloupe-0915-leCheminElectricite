@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var firtTime = true;
+    var firstTime = true;
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
         loopHorizontal: false,
@@ -10,7 +10,7 @@ $(document).ready(function() {
             var loadedSection = $(this);
 
 
-            if(anchorLink == 'mainPath' && firtTime == true) {
+            if(anchorLink == 'mainPath' && firstTime == true) {
                 $('.firstTime').trigger('click')
                 firstTime = false;
             }
