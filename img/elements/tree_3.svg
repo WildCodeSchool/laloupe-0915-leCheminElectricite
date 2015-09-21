@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="228.243px" height="365.833px" viewBox="0 0 228.243 365.833" enable-background="new 0 0 228.243 365.833"
+	 xml:space="preserve">
+<g id="Layer_5">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="88.1006" y1="292.5825" x2="139.6387" y2="292.5825">
+		<stop  offset="0.0918" style="stop-color:#996633"/>
+		<stop  offset="0.551" style="stop-color:#7F5C00"/>
+		<stop  offset="0.9847" style="stop-color:#544A00"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" points="102.4,219.333 128.741,219.333 139.639,365.375 88.101,365.833 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="114.1216" y1="68.0522" x2="114.1216" y2="293.3281">
+		<stop  offset="0.0714" style="stop-color:#008400"/>
+		<stop  offset="0.9847" style="stop-color:#006837"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_2_)" points="117.505,68.052 228.243,249.319 190.801,236.866 185.783,269.814 158.358,242.99 
+		140.041,293.328 118.992,254.314 91.072,292.207 76.27,245.114 46.518,269.773 46.518,237.444 0,247.093 	"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="114.0718" y1="19.1416" x2="114.0718" y2="215.2573">
+		<stop  offset="0.0714" style="stop-color:#008400"/>
+		<stop  offset="0.9847" style="stop-color:#006837"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_3_)" points="116.917,19.142 213.32,176.946 180.726,166.104 176.358,194.788 152.483,171.435 
+		136.537,215.257 118.213,181.294 93.905,214.282 81.219,173.285 55.518,194.752 55.518,166.607 14.823,175.007 	"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="114.0649" y1="0" x2="114.0649" y2="122.4814">
+		<stop  offset="0.0714" style="stop-color:#008400"/>
+		<stop  offset="0.9847" style="stop-color:#006837"/>
+	</linearGradient>
+	<polyline fill="url(#SVGID_4_)" points="115.835,0 176.043,98.555 155.685,91.784 152.958,109.697 138.046,95.113 128.088,122.481 
+		116.643,101.27 101.462,121.872 93.554,96.268 77.518,109.675 77.518,92.098 52.087,97.344 115.835,0 	"/>
+</g>
+<g id="Layer_6" display="none">
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-134.8994" y1="366.5825" x2="-83.3613" y2="366.5825">
+		<stop  offset="0.0918" style="stop-color:#996633"/>
+		<stop  offset="1" style="stop-color:#544A00"/>
+	</linearGradient>
+	<polygon display="inline" fill="url(#SVGID_5_)" points="-120.6,293.333 -94.259,293.333 -83.361,439.375 -134.899,439.833 	"/>
+	<polygon display="inline" fill="#006633" points="-100.495,141.052 10.243,322.319 -27.199,309.866 -32.217,342.814 
+		-59.642,315.99 -77.959,366.328 -99.008,327.314 -126.928,365.207 -141.73,318.114 -171.482,342.773 -171.482,310.444 
+		-218,320.093 	"/>
+	<polygon display="inline" fill="#336633" points="-101.083,92.142 -4.68,249.946 -37.274,239.104 -41.642,267.788 -65.517,244.435 
+		-81.463,288.257 -99.787,254.294 -124.095,287.282 -136.781,246.285 -162.482,267.752 -162.482,239.607 -203.177,248.007 	"/>
+	<polyline display="inline" fill="#006633" points="-102.165,73 -41.957,171.555 -62.315,164.784 -65.042,182.698 -79.954,168.113 
+		-89.912,195.481 -101.357,174.27 -116.538,194.872 -124.446,169.268 -140.482,182.675 -140.482,165.098 -165.913,170.344 
+		-102.165,73 	"/>
+</g>
+<g id="Layer_8" display="none">
+	<polygon display="inline" fill="#996600" points="420.287,291.333 453.442,291.333 467.159,455.487 402.287,456.086 	"/>
+	<polygon display="inline" fill="#006633" points="445.593,119.653 584.98,323.61 537.851,309.597 531.535,346.669 497.016,316.488 
+		473.959,373.126 447.464,329.23 412.322,371.866 393.826,318.878 356.518,346.624 356.518,310.248 297.826,321.105 	"/>
+	<polygon display="inline" fill="#006633" points="444.853,64.621 566.196,242.177 525.169,229.979 519.672,262.252 489.62,235.977 
+		469.549,285.285 446.483,247.07 415.888,284.187 399.895,238.058 367.518,262.212 367.518,230.544 316.32,239.996 	"/>
+	<polyline display="inline" fill="#006633" points="443.491,43.083 519.275,153.975 493.649,146.355 490.218,166.512 
+		471.448,150.101 458.913,180.895 444.507,157.029 425.398,180.209 415.074,151.401 394.518,166.486 394.518,146.709 
+		362.879,152.612 443.491,43.083 	"/>
+</g>
+<g id="Layer_7" display="none">
+	<polygon display="inline" fill="#996600" points="546.4,348.333 572.741,348.333 583.639,494.375 532.101,494.833 	"/>
+	<polygon display="inline" fill="#006633" points="566.505,196.052 677.243,377.319 639.801,364.866 634.783,397.814 
+		607.358,370.99 589.041,421.328 567.992,382.314 540.072,420.207 525.27,373.114 495.518,397.773 495.518,365.444 449,375.093 	"/>
+	<polygon display="inline" fill="#009900" points="565.917,147.142 662.32,304.946 629.726,294.104 625.358,322.788 
+		601.483,299.435 585.537,343.257 567.213,309.294 542.905,342.282 530.219,301.285 504.518,322.752 504.518,294.607 
+		463.823,303.007 	"/>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="563.0645" y1="128" x2="563.0645" y2="250.481">
+		<stop  offset="0.0714" style="stop-color:#008400"/>
+		<stop  offset="0.9847" style="stop-color:#006837"/>
+	</linearGradient>
+	<polyline display="inline" fill="url(#SVGID_6_)" points="564.835,128 625.043,226.555 604.685,219.784 601.958,237.698 
+		587.046,223.113 577.088,250.481 565.643,229.27 550.462,249.872 542.554,224.268 526.518,237.675 526.518,220.098 
+		501.087,225.344 564.835,128 	"/>
+</g>
+<g id="Layer_4" display="none">
+	<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="320.5586" y1="389.5825" x2="389.3086" y2="389.5825">
+		<stop  offset="0.0918" style="stop-color:#996633"/>
+		<stop  offset="0.551" style="stop-color:#7F5C00"/>
+		<stop  offset="0.9847" style="stop-color:#544A00"/>
+	</linearGradient>
+	<polygon display="inline" fill="url(#SVGID_7_)" points="328.518,316.333 371.518,316.333 389.309,462.375 320.559,462.833 	"/>
+</g>
+<g id="Layer_2" display="none">
+	<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="344.4785" y1="170.9878" x2="344.4785" y2="380.3281">
+		<stop  offset="0.1224" style="stop-color:#339933"/>
+		<stop  offset="1" style="stop-color:#006837"/>
+	</linearGradient>
+	<polygon display="inline" fill="url(#SVGID_8_)" points="348.388,170.988 479.897,339.432 435.432,327.86 429.473,358.477 
+		396.904,333.55 375.15,380.328 350.153,344.074 316.996,379.286 299.633,335.524 264.518,358.439 264.518,328.397 209.059,337.364 
+			"/>
+</g>
+<g id="Layer_3" display="none">
+	<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="345.3867" y1="125.5371" x2="345.3867" y2="307.7803">
+		<stop  offset="0.1224" style="stop-color:#339933"/>
+		<stop  offset="1" style="stop-color:#006837"/>
+	</linearGradient>
+	<polygon display="inline" fill="url(#SVGID_9_)" points="348.877,125.537 463.363,272.178 424.654,262.104 419.468,288.758 
+		391.114,267.057 372.177,307.78 350.415,276.219 321.549,306.874 306.261,268.776 275.518,288.725 275.518,262.571 227.41,270.377 
+			"/>
+</g>
+<g id="Layer_1" display="none">
+	<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="345.3477" y1="107.7495" x2="345.3477" y2="221.5669">
+		<stop  offset="0.1224" style="stop-color:#339933"/>
+		<stop  offset="1" style="stop-color:#006837"/>
+	</linearGradient>
+	<polygon display="inline" fill="url(#SVGID_10_)" points="347.591,107.75 419.093,199.333 394.916,193.041 391.678,209.687 
+		373.969,196.134 362.143,221.567 348.551,201.856 330.522,221 320.847,197.208 301.518,209.666 301.518,193.333 271.602,198.208 	
+		"/>
+</g>
+</svg>
