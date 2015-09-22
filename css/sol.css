@@ -84,6 +84,7 @@
     left: 47%;
     position: absolute;
     z-index: 1;
+    display: none;
 }
 
 .tronc {
