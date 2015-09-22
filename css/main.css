@@ -271,3 +271,8 @@ header {
         animation-iteration-count: infinite;
 }
 
+.shake {
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: 1;
+}
+
