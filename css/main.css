@@ -19,7 +19,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'calibri', sans-serif;
-    
+
 }
 
 
@@ -29,9 +29,9 @@ body {
 /*font----------------------------------------------------------------------------------------------------------*/
 
 p, li {
-	font-size: 1.4em;
-	text-decoration: none;
-	color: grey; 
+    font-size: 1.4em;
+    text-decoration: none;
+    color: grey; 
 }
 
 a {
@@ -80,29 +80,29 @@ a {
 }
 
 #start .firstTime {
-	display: none;
+    display: none;
 }
 
 h1 {
-	position: relative;
-	bottom: -20%;
-	color: #00A3E0;
-	font-size: 4vw;
-	text-align: center;
+    position: relative;
+    bottom: -20%;
+    color: #00A3E0;
+    font-size: 4vw;
+    text-align: center;
 }
 
 #start #godown {
-	position: absolute;
-	left: 50%;
-	margin-left: -50px;
-	bottom: 3%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 3%;
 }
 
 #start .img-godown {
-	position: relative;
-	width: 20%;
-	transform: rotate(-90deg);
-	opacity: 0.5;
+    position: relative;
+    width: 20%;
+    transform: rotate(-90deg);
+    opacity: 0.5;
 }
 
 .menu #logo {
@@ -164,70 +164,73 @@ header {
 .content {
     height: 100%;
     width: 100%;
-	background: -webkit-linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
-	background: -moz-linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
-	background: linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
+    background: -webkit-linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
+    background: -moz-linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
+    background: linear-gradient(top ,#87CEEB, #E0FFFF , #FFFACD);
     position: relative;
     overflow: hidden;
 }
 
 /*slider role erdf 5----------------------------------------------------------*/
-.content_blanc{
-    height: 100%;
-    width: 100%;
-    background: white;
-    text-align: center;
-}
 
 .article_erdf {
-	margin-top: 18%;
+    left: 0;
+    right: 0;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
+    height: 70%;
     width: 80%;
+    padding-left: 20%;
+    padding-right: auto;
 }
 
 .clip {
-    text-align: left;
-    height:300px; 
-    width:300px;
-    background-size: 300px 300px;
-    padding-top: 30px;
+    position: relative;
+    width:23vw;
+    height:22vw; 
+    background-size: 23vw 22vw;
     float: left;
+    margin-left: -1.5vw
+}
+
+article {
+    padding: 30px;
 }
 
 .mn_clip_bf{
     background-image: url("../img/clips/carregrand_darkblue.svg");
     background-repeat: no-repeat;
-    z-index: 3;
 }
 
 .mn_clip_vf {
     background-image: url("../img/clips/carregrand_vertfonce.svg");
     background-repeat: no-repeat;
-    z-index: 2;
 }
 
 .mn_clip_bc {
     background-image: url("../img/clips/carregrand_bleuclair.svg");
     background-repeat: no-repeat;
-    z-index: 1;
-  
 }
 
+#clipUn { z-index: 6; }
+#clipDeux { z-index: 5; }
+#clipTrois { z-index: 4; }
+#clipQuatre { z-index: 3; }
+#clipCinq { z-index: 2; }
 
-.clip h2{
+.clip h2 {
     color: white;
     font-size: 2.5em;
-    padding: 0.5em;
 }
 
 .clip p {
-    display: block;
+    margin-top: 30px;
     color: white;
     font-size: 1.6em;
-    padding: 0.5em;
 }
+
+
 
 
 
@@ -265,9 +268,9 @@ header {
 
 .swing
 {
-        -webkit-animation: swing 1s ease;
-        animation: swing 1s ease;
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
