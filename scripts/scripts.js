@@ -17,10 +17,9 @@ $(document).ready(function() {
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
-            if(anchorLink == 'mainPath' && firstTime == true) {
+            if(anchorLink == 'mainPath') {
                 $.fn.fullpage.reBuild();
                 $('.firstTime').trigger('click');
-                firstTime = false;
             }
         },
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
@@ -221,11 +220,5 @@ $(document).ready(function() {
     }, function() {
         $(this).removeClass('animated bounce');
     });
-    
- //   $('fp-controlArrow').
-    
-    $('.centrale').on('click', function(){
-  $.fn.fullpage.silentMoveTo(1);
-});
     
 });
