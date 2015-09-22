@@ -215,7 +215,6 @@
     left: 50vw;
     border: 1px solid grey;
     z-index: 5;
-
 }
 
 .animated {
@@ -239,7 +238,7 @@
     height: 8px;
     border-radius: 40px / 4px;
     background-color: #e2e2e2;
-    left: 50.3vw; bottom: 44.4vh;
+    left: 50.5vw; bottom: 44.4vh;
     position: absolute;
     transform-origin: center left;
     border: 1px solid grey;
@@ -287,7 +286,7 @@
 }
 
 .rotor-2 {
-    left: 55.3vw;
+    left: 55.5vw;
     z-index: 8;
 }
 

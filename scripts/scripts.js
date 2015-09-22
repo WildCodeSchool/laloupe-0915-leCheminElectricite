@@ -1,24 +1,31 @@
+window.onload =  function() {
+    var str = self.location.href;
+    if ((str[str.length - 1]) != '?') {
+        window.location.href = 'index.html?';
+    }
+};
+
 $(document).ready(function() {
 
     var firstTime = true;
+    
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath'],
         loopHorizontal: false,
-
-        //load explication modal just once on load of second section
+        animateAnchor: false,
+        
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
-
             if(anchorLink == 'mainPath' && firstTime == true) {
-                $('.firstTime').trigger('click')
+                $.fn.fullpage.reBuild();
+                $('.firstTime').trigger('click');
                 firstTime = false;
             }
         },
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
             var loadedSlide = $(this);
 
-            //first slide of the second section
             if(anchorLink == 'mainPath' && slideIndex == 1){
                 $(".upanim").css('animation', 'upanim 2s ease');
                 $(".upanim").css('opacity', '1');
@@ -202,5 +209,11 @@ $(document).ready(function() {
     }, function() {
         $(this).removeClass('animated pulse');
     });
+    
+ //   $('fp-controlArrow').
+    
+    $('.centrale').on('click', function(){
+  $.fn.fullpage.silentMoveTo(1);
+});
     
 });
