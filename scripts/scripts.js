@@ -10,16 +10,17 @@ $(document).ready(function() {
     var firstTime = true;
     
     $('#fullpage').fullpage({
-        anchors:['startPage', 'mainPath'],
+        anchors:['startPage', 'mainPath', 'video'],
         loopHorizontal: false,
         animateAnchor: false,
         
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
 
-            if(anchorLink == 'mainPath') {
+            if(anchorLink == 'mainPath' && firstTime == true) {
                 $.fn.fullpage.reBuild();
                 $('.firstTime').trigger('click');
+                firstTime = false;
             }
         },
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
