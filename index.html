@@ -32,8 +32,7 @@
           <h2>Le chemin de l'énergie</h2>
           <h3>Venez découvrir le chemin parcouru par l'électricité.</h3>
           <ul>
-            <li>Pour vous déplacez dans cette présentation , cliquez sur les flèches « gauche » ou « droite ». </li>
-            <li class="center"><img class="presentation_l"src="img/left-arrow23.svg"><img class="presentation_r"src="img/right-arrow23.svg"></li>
+            <li>Pour vous déplacez dans cette présentation , cliquez sur les flèches <img class="presentation_l"src="img/left-arrow23.svg"> ou <img class="presentation_r"src="img/right-arrow23.svg"> ou sur celles du clavier.  </li>
             <li>Lorsque vous identifiez un élément intervenant dans ce chemin, cliquez dessus pour faire apparaître  les informations le concernant.</li>
             <li>Pour revenir sur une étape en particulier, cliquez sur celle-ci dans le menu en haut de l'écran.</li>
           </ul>
@@ -43,8 +42,8 @@
 
     <!--modal soleil-->
     <div class="md-modal md-effect-16" id="modal-2">
-      <div class="md-content md-green">
-        <div class="x md-close"><b></b><b></b><b></b><b></b></div>
+      <div class="md-content">
+       <div class="x md-close"><b></b><b></b><b></b><b></b></div>
         <h3>L'énergie solaire</h3>
         <div>
           <ul>
@@ -61,8 +60,8 @@
 
     <!--modal éolienne -->
     <div class="md-modal md-effect-16" id="modal-3">
-      <div class="md-content md-green">
-        <h3>L'énergie éolienne</h3>
+      <div class="md-content">
+      <h3>L'énergie éolienne</h3>
         <div>
           <ul>
             <li>
@@ -81,8 +80,8 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-4">
-      <div class="md-content md-green">
-        <h3>L'énergie géothermique</h3>
+      <div class="md-content">
+      <h3>L'énergie géothermique</h3>
         <div>
           <ul>
             <li>
@@ -95,8 +94,8 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-5">
-      <div class="md-content md-green">
-        <h3>L'énergie nucléaire</h3>
+      <div class="md-content">
+      <h3>L'énergie nucléaire</h3>
         <div>
           <ul>
             <li>
@@ -109,8 +108,8 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-6">
-      <div class="md-content md-green">
-        <h3>L'énergie thermique à flamme</h3>
+      <div class="md-content">
+      <h3>L'énergie thermique à flamme</h3>
         <div>
           <ul>
             <li>
@@ -123,8 +122,8 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-7">
-      <div class="md-content md-green">
-        <h3>L'énergie hydroélectrique</h3>
+      <div class="md-content">
+      <h3>L'énergie hydroélectrique</h3>
         <div>
           <ul>
             <li>
@@ -139,9 +138,9 @@
     </div>
 
     <!--modal -->
-    <div class="md-modal md-effect-16" id="modal-8">
-      <div class="md-content md-green">
-        <h3>Les pylônes électriques</h3>
+    <div class="md-modal md-effect-16" id="modal-8"
+      <div class="md-content">
+      <h3>Les pylônes électriques</h3>
         <div>
           <ul>
             <li>
@@ -163,8 +162,8 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-9">
-      <div class="md-content md-green">
-        <h3>Le poste source</h3>
+      <div class="md-content">
+      <h3>Le poste source</h3>
         <div>
           <ul>
             <li>
@@ -186,7 +185,7 @@
 
     <!--modal -->
     <div class="md-modal md-effect-16" id="modal-10">
-      <div class="md-content md-green">
+      <div class="md-content">
       </div>
       <h3>Le réseau de distribution</h3>
       <div>
@@ -208,9 +207,9 @@
     </div>
     </div>
 
-  <!--modal -->
-  <div class="md-modal md-effect-16" id="modal-11">
-    <div class="md-content md-green">
+<!--modal -->
+    <div class="md-modal md-effect-16" id="modal-11">
+      <div class="md-content">
       <h3>Le Smart Grid</h3>
       <div>
         <ul>
@@ -305,11 +304,11 @@
           <div class="upanim decoy">
 
             <!--élement éoliennes-->
-            <div class="eolienne eolienne-1 md-trigger" data-modal="modal-3">
+            <div class="eolienne eolienne-1 md-trigger animBounce" data-modal="modal-3">
               <div class="mat mat-1"></div>
               <div class="rotor rotor-1"></div>
             </div>
-            <div class="eolienne eolienne-2">
+            <div class="eolienne eolienne-2 md-trigger animBounce" data-modal="modal-3">
               <div class="mat mat-2"></div>
               <div class="rotor rotor-2"></div>
             </div>
@@ -325,11 +324,11 @@
             <div class="sol"></div>
 
             <!--batiments-->
-            <img class="centrale" src="img/elements/centrale_nuc.svg">
-            <img class="centrale_a_gaz" src="img/elements/centrale_a_gaz.svg">
-            <img class="centrale_eau" src="img/elements/centrale_eau.svg">
-            <img class="animPulse centrale_geo" src="img/elements/centrale_geo.svg">
-            <img class="transfo" src="img/elements/background_1.svg">
+            <span class="md-trigger animShake" data-modal="modal-5" ><img class="centrale md-trigger animShake"   data-modal="modal-5" src="img/elements/centrale_nuc.svg"></span>
+            <img class="centrale_a_gaz md-trigger animShake" data-modal="modal-6" src="img/elements/centrale_a_gaz.svg">
+            <img class="centrale_eau md-trigger animShake" data-modal="modal-4" src="img/elements/centrale_eau.svg">
+            <img class="centrale_geo animShake md-trigger" data-modal="modal-7" src="img/elements/centrale_geo.svg">
+            <img class="transfo md-trigger animBounce" data-modal="modal-"src="img/elements/background_1.svg">
 
           </div>
         </div>
@@ -349,9 +348,9 @@
           <!-- élément sol-->
           <div class="sol"></div>
 
-          <!--éléments-->
-          <img class="background_2" src="img/elements/background_2.svg">
-
+          
+            <!--éléments-->
+            <img class="background_2" data-modal="modal-8" src="img/elements/background_2.svg">
 
         </div>
       </div>
@@ -371,6 +370,7 @@
       <div class="slide" id="trois" data-anchor="distribution">
         <div class="content">
 
+<<<<<<< HEAD
           <!-- élément sol-->
           <div class="sol"></div>
           <!-- élément DECO-->
@@ -381,6 +381,18 @@
             <!-- éléments-->
             <img class="background_3" src="img/elements/background_3.svg">
             <img class="poteau_MT" src="img/elements/poteau_MT.svg">
+             <!-- élément sol-->
+            <div class="sol"></div>
+             <!-- élément DECO-->
+            <div class="arbre">
+              <div class="tronc"></div>
+              <div class="feuilles"></div>
+            </div>
+
+               <!-- éléments-->
+            <img class="background_3" data-modal="modal-9" src="img/elements/background_3.svg">
+            <img class="poteau_MT" data-modal="modal-10" src="img/elements/poteau_MT.svg">
+>>>>>>> cel
             <img class="poteau_MT2" src="img/elements/poteau_MT.svg">    
           </div>
         </div>

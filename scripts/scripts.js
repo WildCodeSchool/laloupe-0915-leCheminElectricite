@@ -204,10 +204,22 @@ $(document).ready(function() {
         goGoGo(1, slide);
     });
     
+    $('.animShake').hover(function() {
+        $(this).addClass('animated shake');
+    }, function() {
+        $(this).removeClass('animated shake');
+    });
+
     $('.animPulse').hover(function() {
         $(this).addClass('animated pulse');
     }, function() {
         $(this).removeClass('animated pulse');
+    });
+
+    $('.animBounce').hover(function() {
+        $(this).addClass('animated bounce');
+    }, function() {
+        $(this).removeClass('animated bounce');
     });
     
  //   $('fp-controlArrow').
