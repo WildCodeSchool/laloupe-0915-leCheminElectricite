@@ -75,85 +75,7 @@
 
 /* elements DECO======================================================================================*/
 
-.arbre {
 
-    width: 4%;
-    height: 50%;
-
-    bottom: 0;
-    left: 47%;
-    position: absolute;
-    z-index: 1;
-}
-
-.tronc {
-
-    width: 13%;
-    height: 35%;
-    bottom: 24.5%;
-    left: 24px;
-    position: absolute;
-
-    background: linear-gradient(to left, #993200, #914902);
-    background: -moz-linear-gradient(left, #993200, #914902);
-}
-
-.tronc:before {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    top: -8px;
-    left: -5px;
-    position: absolute;
-    content: '';
-
-    background-color: #029112;
-}
-
-.feuilles {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    bottom: 58%;
-    left: 24px;
-    position: absolute;
-    content: '';
-
-    background-color: #029112;
-    z-index: 6;
-}
-
-.feuilles:before {
-
-    width: 14px;
-    height: 14px;
-    border-radius: calc(14px / 2);
-
-    left: -8px;
-    bottom: 2px;
-    position: absolute;
-    content: '';
-
-    background-color: inherit;
-}
-
-.feuilles:after {
-
-    width: 15px;
-    height: 15px;
-    border-radius: calc(15px / 2);
-
-    bottom: 4px;
-    left: -1px;
-    position: absolute;
-    content: '';
-
-    background-color: inherit;
-}
 /*elements production===========================================================================================*/
 .centrale {
     position: absolute;
@@ -304,7 +226,7 @@
 .background_3 {
     position: absolute;
     bottom: 24.2vh;
-    left: -47vw;
+    left: 0vw;
     z-index: 3;
     width: 26.5vw;
 }
@@ -313,7 +235,7 @@
     position: absolute;
     height: 30vh;
     bottom: 24.2vh;
-    left: -10vw;
+    left: 30vw;
     z-index: 3;
 }
 
@@ -321,7 +243,7 @@
     position: absolute;
     height: 30vh;
     bottom: 24.2vh;
-    left: 20vw;
+    left: 70vw;
     z-index: 3;
 }
 
@@ -332,14 +254,14 @@
     position: absolute;
     height:20vh;
     bottom: 24.2vh;
-    left: -2vw;
+    left: 18vw;
     z-index: 3;
 }
 .poteau_BT {
     position: absolute;
     height: 15vh;
     bottom: 24.2vh;
-    left: 15vw;
+    left: 35vw;
     z-index: 3;
 }
 
@@ -347,7 +269,7 @@
     position: absolute;
     height: 8vh;
     bottom: 24.2vh;
-    left: 25vw;
+    left: 62vw;
     z-index: 3;
 }
 
@@ -355,7 +277,7 @@
     position: absolute;
     height: 20vh;
     bottom: 24.2vh;
-    left: 32vw;
+    left: 70vw;
     z-index: 3;
 }
 
@@ -363,7 +285,7 @@
     position: absolute;
     height: 40vh;
     bottom: 24.2vh;
-    left: 40vw;
+    left: 80vw;
     z-index: 2;
 }
 
