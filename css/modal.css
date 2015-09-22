@@ -38,7 +38,7 @@
 .md-content {
 	height: 100%;
 	color: rgba(0, 0, 0, 0.7);
-	background: rgba(255, 255, 255, 0.95);
+	background: #005EB8;
 	position: relative;
 	border: 10px solid #005EB8;
 	margin: 0 auto;
@@ -62,6 +62,7 @@
 /* Vert */
 .md-green {
 	border: 10px solid #CCE821;
+	background: #CCE821;
 }
 
 .md-green:after {
@@ -79,12 +80,20 @@
 	margin-left: -40px;
 }
 
+.md-content h2{
+    color: white;
+    font-size: 2.5em;
+    padding: 10px 0 5px 20px;
+    font-weight: lighter;
+    text-align: left;
+}
+
 .md-content h3 {
-	margin: 0;
-	margin-top: 2.5rem;
-	color: #005EB8;
-	text-align: center;
-	font-size: 3rem;
+	padding: 10px 0 5px 20px;
+	margin-top: 2rem;
+	color: white;
+	text-align: left;
+	font-size: 2rem;
 	opacity: 0.8;
 	border-radius: 3px 3px 0 0;
 }
@@ -99,7 +108,7 @@
 	margin: 0;
 	padding: 10px 0;
 	font-size: 1.4rem;
-	color: #00A3E0;
+	color: white;
 }
 
 .md-content > div ul {
@@ -110,6 +119,7 @@
 .md-content > div ul li {
 	padding: 5px 0;
 	font-size: 1.4rem;
+	color: white;
 }
 
 .md-content button {
@@ -202,4 +212,22 @@
 .x b:nth-child(4){
 	border-right-color:#FFF;
 	right:-2px;
+}
+
+
+/*modal objects====================================================*/
+
+/*arrow presentation*/
+.center {
+	margin-left: 45%;
+}
+
+.presentation_l {
+	height: 5vh;
+	opacity: 0.3;
+}
+
+.presentation_r {
+	height: 5vh;
+	opacity: 0.3;
 }
