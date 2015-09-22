@@ -176,18 +176,22 @@ header {
 .article_erdf {
     left: 0;
     right: 0;
-    margin-top: 18%;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
     height: 70%;
     width: 80%;
+    padding-left: 20%;
+    padding-right: auto;
 }
 
 .clip {
-    height:300px; 
-    width:310px;
-    background-size: 310px 300px;
+    position: relative;
+    width:23vw;
+    height:22vw; 
+    background-size: 23vw 22vw;
     float: left;
+    margin-left: -1.5vw
 }
 
 article {
@@ -197,20 +201,23 @@ article {
 .mn_clip_bf{
     background-image: url("../img/clips/carregrand_darkblue.svg");
     background-repeat: no-repeat;
-    z-index: 3;
 }
 
 .mn_clip_vf {
     background-image: url("../img/clips/carregrand_vertfonce.svg");
     background-repeat: no-repeat;
-    z-index: 2;
 }
 
 .mn_clip_bc {
     background-image: url("../img/clips/carregrand_bleuclair.svg");
     background-repeat: no-repeat;
-    z-index: 1;
 }
+
+#clipUn { z-index: 6; }
+#clipDeux { z-index: 5; }
+#clipTrois { z-index: 4; }
+#clipQuatre { z-index: 3; }
+#clipCinq { z-index: 2; }
 
 .clip h2 {
     color: white;
@@ -222,6 +229,8 @@ article {
     color: white;
     font-size: 1.6em;
 }
+
+
 
 
 
