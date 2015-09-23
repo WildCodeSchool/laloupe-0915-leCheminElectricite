@@ -147,6 +147,12 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
+                function planeMove() {
+                    $('.avion').animate({
+                        left: "100%"
+                    }, 600)
+                };
+                setTimeout(planeMove, 2000);
                 break;
 
             case 5:

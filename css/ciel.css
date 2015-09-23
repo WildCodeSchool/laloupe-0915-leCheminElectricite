@@ -95,7 +95,7 @@
     width: 15vw;
     height: 15vh;
     position: absolute;
-    left: -10%;
-    bottom: -10%;
+    left: -20%;
+    bottom: 70%;
     z-index: 2;
 }
