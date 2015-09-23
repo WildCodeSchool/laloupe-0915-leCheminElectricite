@@ -156,6 +156,18 @@ $(document).ready(function() {
                     top: '-10%'
                 }, 700);
             break;
+                
+            case 7:
+                $('.cloud-one').animate({
+                    top: '-10%'
+                }, 700);
+                $('.cloud-two').animate({
+                    top: '-10%'
+                }, 700);
+                $('.sun').animate({
+                    top: '-10%'
+                }, 700);
+            break;
         }
     }
     
@@ -182,7 +194,7 @@ $(document).ready(function() {
             break;
 
             case 39:          //droite
-                if (slide != 6) {
+                if (slide != 7) {
                     slide++;
                     moveThings(slide);
                 }
@@ -202,7 +214,7 @@ $(document).ready(function() {
     });
     
     $('.fp-next').click(function() {
-        if (slide != 6) {
+        if (slide != 7) {
             slide++;
             goGoGo(1, slide);
         }
