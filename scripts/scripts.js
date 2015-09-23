@@ -11,7 +11,7 @@ $(document).ready(function() {
     
     // /!\/!\/!\/!\/!\/!\
     //ne pas oublier de mettre a true avant de livre
-    var firstTime = false;
+    var firstTime = true;
     
     //parametrage de fullpage et methodes associees
     $('#fullpage').fullpage({
@@ -168,7 +168,7 @@ $(document).ready(function() {
                             left: '80%'
                         }, 20000)
                     };
-                    setTimeout(carThreeMove, 10000);
+                    setTimeout(carThreeMove, 1000);
                 }
             break;
                 

@@ -114,13 +114,6 @@
 
 /*elements production===========================================================================================*/
 
-.fond {
-    width: 100vw;
-    position: absolute;
-    bottom: 24.9vh;
-    z-index: 0;
-}
-
 .centrale {
     position: absolute;
     width: 17vw;
@@ -267,6 +260,7 @@
     position: absolute;
     bottom: 24.9vh;
     left: 0vw;
+    z-index: 1;
 }
 
 /*elements distribution=======================================================================================-*/
@@ -341,4 +335,15 @@
     cursor: pointer;
     -moz-animation-duration: 3s;
     -moz-animation-iteration-count: infinite;
+}
+
+
+/*-------FONDS--------*/
+
+
+.fond {
+    width: 101vw;
+    position: absolute;
+    bottom: 24.9vh;
+    z-index: 0;
 }
