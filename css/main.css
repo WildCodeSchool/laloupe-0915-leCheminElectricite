@@ -241,7 +241,7 @@ article {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
-    
+
 
 #clipUn { z-index: 6; }
 #clipUn:before { border-left: 10px solid #005EB8; }
@@ -278,6 +278,12 @@ article {
     margin: auto;
     width: 70%;
     margin-top: 20vh;
+}
+
+@media (min-width: 1700px) {
+  html {
+    font-size: 100%;
+  }
 }
 
 
@@ -323,7 +329,7 @@ article {
 }
 
 .shake {
-  -moz-animation-duration: 1s;
-  -moz-animation-iteration-count: 1;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
 }
 
