@@ -75,6 +75,42 @@
 
 /* elements DECO======================================================================================*/
 
+.car {
+    position: absolute;
+    width: 5vw;
+    height: 5vh;
+    bottom: 25.4vh;
+    z-index: 9;
+    left: -10%;
+}
+
+.car2 {
+    left: 10%;
+}
+
+.voiture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.roue {
+    position: absolute;
+    bottom: -7%;
+    z-index: 1;
+    width: 40%;
+    height: 40%;
+}
+
+.roue1 {
+    left: 2%;
+}
+
+.roue2 {
+    left: 60%;
+}
+
 
 /*elements production===========================================================================================*/
 .centrale {
@@ -82,7 +118,7 @@
     width: 17vw;
     bottom: 24.9vh;
     left: 28vw;
-    z-index: 1;
+    z-index: 10;
     }
 
 .centrale_a_gaz {
@@ -199,7 +235,7 @@
 
 .heoliene-2, {
     left: 15vw;
-    z-index: 10;
+    z-index: 11;
 }
 
 .mat-2 {

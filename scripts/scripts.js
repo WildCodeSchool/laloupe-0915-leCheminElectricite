@@ -70,6 +70,9 @@ $(document).ready(function() {
     //variable definissant la vitesse d'animation
     var speed = 800
     
+    //variable controlant la voiture
+    var car = 1;
+    
     //mega fonction pour toutes les animations
     //hors fullscreen
     function moveThings(slide) {
@@ -101,6 +104,12 @@ $(document).ready(function() {
                     top: '15%',
                     left: '2%'
                 }, 700);
+                if (car == 1) {
+                    car = 2;
+                    $('.car1').animate({
+                        left: '110%'
+                    }, 20000);
+                }
             break;
         
             case 3:
@@ -115,6 +124,15 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
+                if (car) {
+                    car = 2;
+                    function carTwoMove() {
+                        $('.car2').animate({
+                            left: '110%'
+                        }, 20000)
+                    };
+                    setTimeout(carTwoMove, 10000);
+                }
             break;
                 
             case 4:
