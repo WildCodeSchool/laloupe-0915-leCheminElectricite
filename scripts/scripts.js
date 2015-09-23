@@ -124,8 +124,8 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
-                if (car) {
-                    car = 2;
+                if (car == 2) {
+                    car = 3;
                     function carTwoMove() {
                         $('.car2').animate({
                             left: '110%'
@@ -161,6 +161,15 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
+                if (car == 3) {
+                    car = 4;
+                    function carThreeMove() {
+                        $('.car3').animate({
+                            left: '80%'
+                        }, 20000)
+                    };
+                    setTimeout(carThreeMove, 10000);
+                }
             break;
                 
             case 6:
