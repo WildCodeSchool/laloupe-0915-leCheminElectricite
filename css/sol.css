@@ -131,7 +131,11 @@
 .mat {
     height: 20vh;
     width: 8px;
+    background: -webkit-linear-gradient(left, #fff, #CFCECE);
     background: -moz-linear-gradient(left, #fff, #CFCECE);
+    background: -ms-linear-gradient(left, #fff, #CFCECE);
+    background: -o-linear-gradient(left, #fff, #CFCECE);
+    background: linear-gradient(left, #fff, #CFCECE);
     bottom: 24.5vh;
     position: absolute;
     left: 50vw;
