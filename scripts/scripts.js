@@ -209,14 +209,14 @@ $(document).ready(function() {
     $('.fp-prev').click(function() {
         if (slide != 1) {
             slide--;
-            goGoGo(0, slide);
+            moveThings(slide);
         }
     });
     
     $('.fp-next').click(function() {
         if (slide != 7) {
             slide++;
-            goGoGo(1, slide);
+            moveThings(slide);
         }
     });
     
@@ -224,27 +224,27 @@ $(document).ready(function() {
     //au slide cliqué
     $('#production').click(function() {
         slide = 2;
-        goGoGo(1, slide);
+        moveThings(slide);
     });
     
     $('#transport').click(function() {
         slide = 3;
-        goGoGo(1, slide);
+        moveThings(slide);
     });
     
     $('#distribution').click(function() {
         slide = 4;
-        goGoGo(1, slide);
+        moveThings(slide);
     });
     
     $('#fourniture').click(function() {
         slide = 5;
-        goGoGo(1, slide);
+        moveThings(slide);
     });
     
     $('#roleerdf').click(function() {
         slide = 6;
-        goGoGo(1, slide);
+        moveThings(slide);
     });
     
     //animations hover
