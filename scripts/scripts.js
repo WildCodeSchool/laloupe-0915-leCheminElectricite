@@ -10,10 +10,10 @@ window.onload =  function() {
 $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
-    //ne pas oublier de mettre a true avant de livre
-    var firstTime = true;
+    //ne pas oublier de mettre a true avant de livrer
+    var firstTime = false;
 
-    //parametrage de fullpage et methodes associees
+    //paramétrage de fullpage et methodes associées
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath', 'video'],
         loopHorizontal: false,
@@ -36,12 +36,12 @@ $(document).ready(function() {
             }
         },
         //lancement de fonctions apres le load de
-        //certains slide
+        //certains slides
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
             //stock le slide actuel
             var loadedSlide = $(this);
 
-            //quand on est dans la deuxieme section et 
+            //quand on est dans la deuxième section et 
             //sur le deuxieme slide
             if(anchorLink == 'mainPath' && slideIndex == 1){
                 //apparition du sol progressive
@@ -63,7 +63,7 @@ $(document).ready(function() {
         $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
 
-    //lance l'animation des eoliennes
+    //lance l'animation des éoliennes
     rotor();
     rotor2();
 
@@ -216,7 +216,7 @@ $(document).ready(function() {
         //permet d'attendre un certain temps avant de
         //relancer une animation
         setTimeout(function() { animLock = false }, 800);
-        //detecte quelle touche (fleche droite ou gauche)
+        //détecte quelle touche (flèche droite ou gauche)
         //a été pressée
         switch(e.which) {
             case 37:          //gauche
@@ -238,7 +238,7 @@ $(document).ready(function() {
     });
 
     //lance les animations avec les clicks
-    //sur les fleches
+    //sur les flèches
     $('.fp-prev').click(function() {
         if (slide != 1) {
             slide--;
