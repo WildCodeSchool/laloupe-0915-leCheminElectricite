@@ -13,10 +13,6 @@ $(document).ready(function() {
     //ne pas oublier de mettre a true avant de livre
     var firstTime = false;
     
-    //lance l'animation des eoliennes
-    rotor();
-    rotor2();
-    
     //parametrage de fullpage et methodes associees
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath', 'video'],
@@ -66,6 +62,10 @@ $(document).ready(function() {
     function rotor2() {
         $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
+    
+    //lance l'animation des eoliennes
+    rotor();
+    rotor2();
     
     //variable definissant la vitesse d'animation
     var speed = 800
@@ -159,6 +159,7 @@ $(document).ready(function() {
         }
     }
     
+    //variable pour ne pas stacker les keypress
     animLock = false;
     
     moveThings(1);
@@ -167,7 +168,11 @@ $(document).ready(function() {
     $(document).keydown(function(e) {
         if (animLock) { return; }
         animLock = true;
+        //permet d'attendre un certain temps avant de
+        //relancer une animation
         setTimeout(function() { animLock = false }, 800);
+        //detecte quelle touche (fleche droite ou gauche)
+        //a été pressée
         switch(e.which) {
             case 37:          //gauche
                 if (slide != 1) {
