@@ -272,38 +272,12 @@ article {
     font-size: 1.6rem;
 }
 
-#btn-video {
-    position: absolute;
-    width: 8vw;
-    height: 8vw;
-    bottom: 5vh;
-    right: 5vh;
-    background-color: #CCE821;
-}
-#btn-video:before {
-    width: 0; 
-    height: 0;
-    content: '';
-    position: absolute;
-    left: 45%;
-    top: 100%;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #CCE821;
-}
-
-#btn-video img {
-    display: block;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-}
-
-video {
+#six video {
+    position: relative;
     display: block;
     margin: auto;
-    width: 90%;
+    width: 70%;
+    margin-top: 20vh;
 }
 
 
