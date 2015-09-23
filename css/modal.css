@@ -253,3 +253,22 @@
 	height: 5vh;
 	opacity: 0.3;
 }
+
+/*img modals*/
+#modal-3 img {
+	width: 80%;
+}
+#modal-8 img {
+	width: 70%;
+}
+#modal-9 img {
+	width: 80%;
+}
+#modal-10 img {
+	width: 80%;
+}
+#modal-12 img {
+	position: relative;
+	top: -15%;
+	width: 80%;
+}

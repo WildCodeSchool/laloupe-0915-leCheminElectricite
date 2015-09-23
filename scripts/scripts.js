@@ -8,27 +8,27 @@ window.onload =  function() {
 };
 
 $(document).ready(function() {
-    
+
     // /!\/!\/!\/!\/!\/!\
     //ne pas oublier de mettre a true avant de livre
     var firstTime = true;
-    
+
     //parametrage de fullpage et methodes associees
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath', 'video'],
         loopHorizontal: false,
         animateAnchor: false,
-        
+
         //lancement de fonctions apres le load de
         //certaines sections
         afterLoad: function(anchorLink, index){
             //stock la section actuelle
             var loadedSection = $(this);
-            
+
             //quand on arrive dans la premiere section
             //pour la premiere fois
             if(anchorLink == 'mainPath' && firstTime == true) {
-                //rebuild pout enlever la barre blanche
+                //rebuild pour enlever la barre blanche
                 $.fn.fullpage.reBuild();
                 //lance le modal de bienvenue
                 $('.firstTime').trigger('click');
@@ -50,7 +50,7 @@ $(document).ready(function() {
             }
         },
     });
-   
+
     //stockage du slide actuel
     var slide = 1;
 
@@ -62,17 +62,17 @@ $(document).ready(function() {
     function rotor2() {
         $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
-    
+
     //lance l'animation des eoliennes
     rotor();
     rotor2();
-    
+
     //variable definissant la vitesse d'animation
     var speed = 800
-    
+
     //variable controlant la voiture
     var car = 1;
-    
+
     //mega fonction pour toutes les animations
     //hors fullscreen
     function moveThings(slide) {
@@ -89,8 +89,8 @@ $(document).ready(function() {
                     top: '-10%',
                     left: '2%'
                 }, 700);
-            break;
-                
+                break;
+
             case 2:
                 $('.cloud-one').animate({
                     left: '40%',
@@ -110,8 +110,8 @@ $(document).ready(function() {
                         left: '110%'
                     }, 20000);
                 }
-            break;
-        
+                break;
+
             case 3:
                 $('.cloud-one').animate({
                     left: '30%',
@@ -133,8 +133,8 @@ $(document).ready(function() {
                     };
                     setTimeout(carTwoMove, 10000);
                 }
-            break;
-                
+                break;
+
             case 4:
                 $('.cloud-one').animate({
                     left: '20%',
@@ -147,8 +147,8 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
-            break;
-                
+                break;
+
             case 5:
                 $('.cloud-one').animate({
                     left: '10%',
@@ -171,7 +171,7 @@ $(document).ready(function() {
                     setTimeout(carThreeMove, 1000);
                 }
             break;
-                
+
             case 6:
                 $('.cloud-one').animate({
                     top: '-10%'
@@ -182,8 +182,8 @@ $(document).ready(function() {
                 $('.sun').animate({
                     top: '-10%'
                 }, 700);
-            break;
-                
+                break;
+
             case 7:
                 $('.cloud-one').animate({
                     top: '-10%'
@@ -194,15 +194,15 @@ $(document).ready(function() {
                 $('.sun').animate({
                     top: '-10%'
                 }, 700);
-            break;
+                break;
         }
     }
-    
+
     //variable pour ne pas stacker les keypress
     animLock = false;
-    
+
     moveThings(1);
-    
+
     //lance les animations avec les touches du clavier
     $(document).keydown(function(e) {
         if (animLock) { return; }
@@ -218,19 +218,19 @@ $(document).ready(function() {
                     slide--;
                     moveThings(slide);
                 }
-            break;
+                break;
 
             case 39:          //droite
                 if (slide != 7) {
                     slide++;
                     moveThings(slide);
                 }
-            break;
+                break;
 
             default: return;
         }
     });
-    
+
     //lance les animations avec les clicks
     //sur les fleches
     $('.fp-prev').click(function() {
@@ -239,41 +239,41 @@ $(document).ready(function() {
             moveThings(slide);
         }
     });
-    
+
     $('.fp-next').click(function() {
         if (slide != 7) {
             slide++;
             moveThings(slide);
         }
     });
-    
+
     //lance les animations correspondant
     //au slide cliqué
     $('#production').click(function() {
         slide = 2;
         moveThings(slide);
     });
-    
+
     $('#transport').click(function() {
         slide = 3;
         moveThings(slide);
     });
-    
+
     $('#distribution').click(function() {
         slide = 4;
         moveThings(slide);
     });
-    
+
     $('#fourniture').click(function() {
         slide = 5;
         moveThings(slide);
     });
-    
+
     $('#roleerdf').click(function() {
         slide = 6;
         moveThings(slide);
     });
-    
+
     //animations hover
     $('.animShake').hover(function() {
         $(this).addClass('animated shake');
@@ -292,5 +292,4 @@ $(document).ready(function() {
     }, function() {
         $(this).removeClass('animated bounce');
     });
-    
 });
