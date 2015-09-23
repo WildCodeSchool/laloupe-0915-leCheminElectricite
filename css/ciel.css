@@ -90,3 +90,12 @@
 .cloud-two {
     top: 19%; left: 80%;
 }
+
+.avion {
+    width: 15vw;
+    height: 15vh;
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+    z-index: 2;
+}
