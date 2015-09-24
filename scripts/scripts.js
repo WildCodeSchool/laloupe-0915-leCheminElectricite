@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
     //ne pas oublier de mettre a true avant de livrer
-    var firstTime = true;
+    var firstTime = false;
 
     //paramétrage de fullpage et methodes associées
     $('#fullpage').fullpage({
@@ -67,7 +67,7 @@ $(document).ready(function() {
     rotor2();
 
     //variable definissant la vitesse d'animation
-    var speed = 800
+    var speed = 800;
 
     //variable controlant la voiture
     var car = 1;
@@ -130,7 +130,7 @@ $(document).ready(function() {
                     setTimeout(function() {
                         $('.car2').animate({
                             left: '80%'
-                        }, 20000)}, 10000);
+                        }, 20000)}, 7500);
                 }
                 break;
 
