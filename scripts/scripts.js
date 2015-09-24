@@ -31,7 +31,6 @@ $(document).ready(function() {
                 //rebuild pour enlever la barre blanche
                 $.fn.fullpage.reBuild();
                 //lance le modal de bienvenue
-                $('.firstTime').trigger('click');
                 firstTime = false;
             }
         },
