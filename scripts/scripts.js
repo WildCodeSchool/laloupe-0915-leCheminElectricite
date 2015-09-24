@@ -10,10 +10,10 @@ window.onload =  function() {
 $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
-    //ne pas oublier de mettre a true avant de livre
+    //ne pas oublier de mettre a true avant de livrer
     var firstTime = true;
 
-    //parametrage de fullpage et methodes associees
+    //paramétrage de fullpage et methodes associées
     $('#fullpage').fullpage({
         anchors:['startPage', 'mainPath', 'video'],
         loopHorizontal: false,
@@ -31,17 +31,16 @@ $(document).ready(function() {
                 //rebuild pour enlever la barre blanche
                 $.fn.fullpage.reBuild();
                 //lance le modal de bienvenue
-                $('.firstTime').trigger('click');
                 firstTime = false;
             }
         },
         //lancement de fonctions apres le load de
-        //certains slide
+        //certains slides
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
             //stock le slide actuel
             var loadedSlide = $(this);
 
-            //quand on est dans la deuxieme section et 
+            //quand on est dans la deuxième section et 
             //sur le deuxieme slide
             if(anchorLink == 'mainPath' && slideIndex == 1){
                 //apparition du sol progressive
@@ -56,14 +55,14 @@ $(document).ready(function() {
 
     //fonctions animant les eoliennes
     function rotor() {
-        $('.rotor-1').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
+        $('.rotor-1').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
 
     function rotor2() {
-        $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
+        $('.rotor-2').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
     };
 
-    //lance l'animation des eoliennes
+    //lance l'animation des éoliennes
     rotor();
     rotor2();
 
@@ -126,12 +125,12 @@ $(document).ready(function() {
                 }, speed);
                 if (car == 2) {
                     car = 3;
-                    function carTwoMove() {
+                    //fonction anonyme animant la voiture
+                    //après un certain delai
+                    setTimeout(function() {
                         $('.car2').animate({
-                            left: '110%'
-                        }, 20000)
-                    };
-                    setTimeout(carTwoMove, 10000);
+                            left: '80%'
+                        }, 20000)}, 10000);
                 }
                 break;
 
@@ -147,12 +146,20 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
-                function planeMove() {
-                    $('.avion').animate({
-                        left: "100%"
-                    }, 600)
-                };
-                setTimeout(planeMove, 2000);
+                $('.car3').animate({
+                    left: '-10%'
+                }, 0);
+                for (var i = 0; i < 5; i++) {
+                    console.log(i);
+                    (function() {
+                        $('.avion').animate({
+                            left: "100%"
+                        }, 600);
+                        $('.avion').animate({
+                            left: "-100%"
+                        }, 600);
+                    });
+                }
                 break;
 
             case 5:
@@ -169,12 +176,10 @@ $(document).ready(function() {
                 }, speed);
                 if (car == 3) {
                     car = 4;
-                    function carThreeMove() {
+                    setTimeout(function() {
                         $('.car3').animate({
                             left: '80%'
-                        }, 20000)
-                    };
-                    setTimeout(carThreeMove, 1000);
+                        }, 20000)}, 1000);
                 }
             break;
 
@@ -216,7 +221,7 @@ $(document).ready(function() {
         //permet d'attendre un certain temps avant de
         //relancer une animation
         setTimeout(function() { animLock = false }, 800);
-        //detecte quelle touche (fleche droite ou gauche)
+        //détecte quelle touche (flèche droite ou gauche)
         //a été pressée
         switch(e.which) {
             case 37:          //gauche
@@ -238,7 +243,7 @@ $(document).ready(function() {
     });
 
     //lance les animations avec les clicks
-    //sur les fleches
+    //sur les flèches
     $('.fp-prev').click(function() {
         if (slide != 1) {
             slide--;
@@ -298,4 +303,13 @@ $(document).ready(function() {
     }, function() {
         $(this).removeClass('animated bounce');
     });
+    
+    $('.square').hover(function() {
+        $(this).stop();
+        $(this).transition({ rotate: '360deg' }, 300, 'ease');
+    }, function() {
+        $(this).stop();
+        $(this).transition({ rotate: '0deg' }, 300, 'ease');
+    });
+
 });
