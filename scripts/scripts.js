@@ -76,6 +76,7 @@ $(document).ready(function() {
     //mega fonction pour toutes les animations
     //hors fullscreen
     function moveThings(slide) {
+        console.log(car);
         switch(slide) {
             case 1:
                 $('.cloud-one').animate({
@@ -126,12 +127,12 @@ $(document).ready(function() {
                 }, speed);
                 if (car == 2) {
                     car = 3;
-                    function carTwoMove() {
+                    //fonction anonyme animant la voiture
+                    //après un certain delai
+                    setTimeout(function() {
                         $('.car2').animate({
-                            left: '110%'
-                        }, 20000)
-                    };
-                    setTimeout(carTwoMove, 10000);
+                            left: '80%'
+                        }, 20000)}, 10000);
                 }
                 break;
 
@@ -147,12 +148,13 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
-                function planeMove() {
+                $('.car3').animate({
+                    left: '-10%'
+                }, 0);
+                setTimeout(function() {
                     $('.avion').animate({
                         left: "100%"
-                    }, 600)
-                };
-                setTimeout(planeMove, 2000);
+                    }, 600)}, 2000);
                 break;
 
             case 5:
@@ -169,12 +171,10 @@ $(document).ready(function() {
                 }, speed);
                 if (car == 3) {
                     car = 4;
-                    function carThreeMove() {
+                    setTimeout(function() {
                         $('.car3').animate({
                             left: '80%'
-                        }, 20000)
-                    };
-                    setTimeout(carThreeMove, 1000);
+                        }, 20000)}, 1000);
                 }
             break;
 
