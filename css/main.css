@@ -28,6 +28,15 @@ body {
 
 /*font----------------------------------------------------------------------------------------------------------*/
 
+
+h1 {
+    position: relative;
+    top: 17%;
+    color: #00A3E0;
+    font-size: 4vw;
+    text-align: center;
+}
+
 p, li {
     font-size: 1.4em;
     text-decoration: none;
@@ -58,7 +67,10 @@ a {
     color: #00A3E0;
 }
 
-
+.md-content > div ul li {
+    line-height: 2rem;
+    font-size: 1.7rem;
+}
 
 
 /*parti section start (index.html)----------------------------------------------------------------------------------------------------------*/
@@ -81,14 +93,6 @@ a {
 
 #start .firstTime {
     display: none;
-}
-
-h1 {
-    position: relative;
-    bottom: -20%;
-    color: #00A3E0;
-    font-size: 4vw;
-    text-align: center;
 }
 
 #start #godown {
