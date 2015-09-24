@@ -220,34 +220,6 @@
   transform: rotate(-90deg);
 }
 
-.x b{
-	display:block;
-	position:absolute;
-	height:0;
-	width:0;
-	padding:0;
-	margin:0;
-}
-.x b {
-	border:solid 10px rgba(255,255,255,0);
-}
-.x b:nth-child(1){
-	border-top-color:#FFF;
-	top:-2px;
-}
-.x b:nth-child(2){
-	border-left-color:#FFF;
-	left:-2px;
-}
-.x b:nth-child(3){
-	border-bottom-color:#FFF;
-	bottom:-2px;
-}
-.x b:nth-child(4){
-	border-right-color:#FFF;
-	right:-2px;
-}
-
 
 /*modal objects====================================================*/
 

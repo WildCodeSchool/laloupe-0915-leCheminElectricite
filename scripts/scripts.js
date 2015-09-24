@@ -305,11 +305,12 @@ $(document).ready(function() {
         $(this).removeClass('animated bounce');
     });
     
-    $('.square').mouseenter(function() {
+    $('.square').hover(function() {
+        $(this).stop();
         $(this).transition({ rotate: '360deg' }, 300, 'ease');
-    });
-    $('.square').mouseleave(function() {
+    }, function() {
+        $(this).stop();
         $(this).transition({ rotate: '0deg' }, 300, 'ease');
     });
-    
+
 });
