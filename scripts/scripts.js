@@ -56,11 +56,11 @@ $(document).ready(function() {
 
     //fonctions animant les eoliennes
     function rotor() {
-        $('.rotor-1').transition({ rotate: '60000000deg' }, 7500000000, 'linear');
+        $('.rotor-1').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
     };
 
     function rotor2() {
-        $('.rotor-2').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
+        $('.rotor-2').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
     };
 
     //lance l'animation des éoliennes
@@ -76,7 +76,6 @@ $(document).ready(function() {
     //mega fonction pour toutes les animations
     //hors fullscreen
     function moveThings(slide) {
-        console.log(car);
         switch(slide) {
             case 1:
                 $('.cloud-one').animate({
@@ -151,10 +150,17 @@ $(document).ready(function() {
                 $('.car3').animate({
                     left: '-10%'
                 }, 0);
-                setTimeout(function() {
-                    $('.avion').animate({
-                        left: "100%"
-                    }, 600)}, 2000);
+                for (var i = 0; i < 5; i++) {
+                    console.log(i);
+                    (function() {
+                        $('.avion').animate({
+                            left: "100%"
+                        }, 600);
+                        $('.avion').animate({
+                            left: "-100%"
+                        }, 600);
+                    });
+                }
                 break;
 
             case 5:
