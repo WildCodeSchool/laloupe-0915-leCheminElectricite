@@ -189,25 +189,37 @@
 
 /* Boutton X pour fermer les modals */
 .x {
-	width:20px;
-	height:20px;
-	-webkit-transition-duration:0.5s;
-	transition-duration:0.5s;
-	position:absolute;
-	right: 0;
-	top: 0;
-	margin:0;
-	padding:0;
-	overflow:hidden;
-	background:#5d5d5d;
-	border-radius:2px;
-	border:solid 2px #FFF;
-	transition: all .3s ease-out;
+	position: absolute;
 	cursor:pointer;
+    right: 5%;
+    top: -2%;
 }
-.x:hover{
-	background:#d10303;
+
+.square {
+  width: 40px;
+  height: 40px;
+  position: absolute;
 }
+
+.cross {
+  height: 50px;
+  width: 2px;
+  background-color: black;
+  position: relative;
+  left: 50%;
+  top: -12%;
+  transform: rotate(45deg);
+}
+
+.cross:after {
+  height: 50px;
+  width: 2px;
+  content: '';
+  background-color: inherit;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
 .x b{
 	display:block;
 	position:absolute;

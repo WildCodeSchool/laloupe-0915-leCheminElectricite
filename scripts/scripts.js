@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
     //ne pas oublier de mettre a true avant de livrer
-    var firstTime = false;
+    var firstTime = true;
 
     //paramétrage de fullpage et methodes associées
     $('#fullpage').fullpage({
@@ -304,4 +304,12 @@ $(document).ready(function() {
     }, function() {
         $(this).removeClass('animated bounce');
     });
+    
+    $('.square').mouseenter(function() {
+        $(this).transition({ rotate: '360deg' }, 300, 'ease');
+    });
+    $('.square').mouseleave(function() {
+        $(this).transition({ rotate: '0deg' }, 300, 'ease');
+    });
+    
 });
