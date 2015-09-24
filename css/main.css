@@ -176,7 +176,7 @@ header {
 .article_erdf {
     left: 0;
     right: 0;
-    margin-top: 15vh;
+    margin-top: 16vh;
     margin-left: auto;
     margin-right: auto;
     height: 70%;
@@ -186,8 +186,8 @@ header {
 
 .clip {
     position: relative;
-    width:22vw;
-    height:22vw; 
+    width:21vw;
+    height:21vw; 
     float: left;
 }
 
@@ -276,7 +276,7 @@ article {
     position: relative;
     display: block;
     margin: auto;
-    width: 70%;
+    width: 120vh;
     margin-top: 20vh;
 }
 
