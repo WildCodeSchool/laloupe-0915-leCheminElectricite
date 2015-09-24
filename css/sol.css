@@ -302,7 +302,7 @@
     height: 15vh;
     bottom: 25vh;
     left: 71vw;
-    z-index: 3;
+    z-index: 11;
     transform: scaleX(-1);
 }
 
