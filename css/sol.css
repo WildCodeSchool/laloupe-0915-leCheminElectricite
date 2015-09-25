@@ -414,7 +414,7 @@
     position: absolute;
     height: 40vh;
     bottom: 24.2vh;
-    left: 80vw;
+    right: 5vw;
     z-index: 2;
 }
 

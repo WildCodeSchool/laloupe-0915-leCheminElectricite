@@ -337,3 +337,14 @@ article {
     -moz-animation-iteration-count: 1;
 }
 
+.bgcblack {
+    background-color: #000 !important;
+}
+
+.bgcwhite {
+    background-color: #fff;
+}
+
+.dn {
+    display: none;
+}

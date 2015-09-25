@@ -49,12 +49,20 @@ $(document).ready(function() {
             }
         },
     });
+    
+    setInterval(function() {
+        $('#start').addClass('bgcblack');
+        $('.thunder').removeClass('dn');
+        setTimeout(function() {
+            $('#start').removeClass('bgcblack');
+            $('.thunder').addClass('dn');
+        }, 100);
+    }, 10000);
 
     //stockage du slide actuel
     var slide = 1;
 
     //fonctions animant les eoliennes
-
     function rotor() {
         $('.rotor').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
     };
