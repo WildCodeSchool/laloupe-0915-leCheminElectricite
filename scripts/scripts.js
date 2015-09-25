@@ -119,6 +119,11 @@ $(document).ready(function() {
                 $('.sun').animate({
                     left: '-10%'
                 }, speed);
+                setTimeout(function() {
+                    $('.avion').animate({
+                        left: '110%'
+                    }, 20000);
+                }, 2000);
                 if (car == 2) {
                     car = 3;
                     //fonction anonyme animant la voiture
@@ -145,11 +150,20 @@ $(document).ready(function() {
                 $('.car3').animate({
                     left: '-10%'
                 }, 0);
-                setTimeout(function() {
-                    $('.avion').animate({
-                        left: '110%'
-                    }, 20000);
-                }, 2000);
+                setInterval(function() {
+                    $('.fish').animate({
+                        left: '65vw'
+                    }, 2500);
+                    $('.fish').transition({
+                        rotateY: '180deg'
+                    }, 1000);
+                    $('.fish').animate({
+                        left: '52vw'
+                    }, 2500);
+                    $('.fish').transition({
+                        rotateY: '0'
+                    }, 1000);
+                }, 100);
                 break;
 
             case 5:
