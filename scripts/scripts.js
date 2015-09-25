@@ -125,7 +125,7 @@ $(document).ready(function() {
                     //après un certain delai
                     setTimeout(function() {
                         $('.car2').animate({
-                            left: '80%'
+                            left: '110%'
                         }, 20000)}, 7500);
                 }
                 break;
