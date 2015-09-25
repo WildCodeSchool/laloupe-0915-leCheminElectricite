@@ -344,3 +344,7 @@ article {
 .bgcwhite {
     background-color: #fff;
 }
+
+.dn {
+    display: none;
+}
