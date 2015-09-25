@@ -442,3 +442,46 @@
     bottom: 24.9vh;
     z-index: 0;
 }
+
+
+/*----------------ARBRES-----------------*/
+
+.tree {
+    position: absolute;
+    bottom: 20vh;
+    left: 10vw;
+    z-index: 9;
+    height: 15vh;
+}
+
+.tree2 {
+    left: 40vw;
+}
+
+.tree3 {
+    left: 50vw;
+}
+
+.othertree {
+    position: absolute;
+    bottom: 20vh;
+    left: 10vw;
+    z-index: 9;
+    height: 15vh;
+}
+
+.othertree1 {
+    left: 45vw;
+}
+
+.othertree2 {
+    left: 90vw;
+}
+
+.bonzai {
+    position: absolute;
+    bottom: 25vh;
+    left: 45vw;
+    z-index: 9;
+    height: 15vh;
+}
