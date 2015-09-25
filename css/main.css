@@ -67,6 +67,10 @@ a {
     color: #00A3E0;
 }
 
+.bgcblue {
+    color: #00A3E0 !important;
+}
+
 .md-content > div ul li {
     line-height: 2rem;
     font-size: 1.7rem;
@@ -335,6 +339,8 @@ article {
 .shake {
     -moz-animation-duration: 1s;
     -moz-animation-iteration-count: 1;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
 }
 
 .bgcblack {

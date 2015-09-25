@@ -48,6 +48,14 @@ $(document).ready(function() {
                 $(".upanim").css('opacity', '1');
             }
         },
+        
+        //fonction permettant de voir quelle section nous
+        //sommes dans le menu
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            var menuID = ["#ensemble", "#production", "#transport", "#distribution", "#fourniture", "#roleerdf", "#slide-video"];
+            $(menuID[nextSlideIndex]).toggleClass('bgcblue');
+            $(menuID[slideIndex]).toggleClass('bgcblue');
+        }
     });
     
     /*setInterval(function() {
@@ -131,7 +139,7 @@ $(document).ready(function() {
                     $('.avion').animate({
                         left: '110%'
                     }, 20000);
-                }, 2000);
+                }, 1000);
                 if (car == 2) {
                     car = 3;
                     //fonction anonyme animant la voiture
