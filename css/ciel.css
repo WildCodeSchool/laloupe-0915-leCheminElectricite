@@ -100,3 +100,11 @@
     z-index: 2;
     transform: rotate(15deg);
 }
+
+/*----THUNDER----*/
+
+.thunder {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
