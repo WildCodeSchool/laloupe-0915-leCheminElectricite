@@ -98,4 +98,5 @@
     left: -20%;
     bottom: 70%;
     z-index: 2;
+    transform: rotate(15deg);
 }

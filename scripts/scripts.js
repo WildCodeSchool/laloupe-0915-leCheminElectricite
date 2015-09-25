@@ -54,17 +54,13 @@ $(document).ready(function() {
     var slide = 1;
 
     //fonctions animant les eoliennes
-    function rotor() {
-        $('.rotor-1').transition({ rotate: '60000000deg' }, 5600000000, 'linear');
-    };
 
-    function rotor2() {
-        $('.rotor-2').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
+    function rotor() {
+        $('.rotor').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
     };
 
     //lance l'animation des éoliennes
     rotor();
-    rotor2();
 
     //variable definissant la vitesse d'animation
     var speed = 800;
@@ -149,17 +145,11 @@ $(document).ready(function() {
                 $('.car3').animate({
                     left: '-10%'
                 }, 0);
-                for (var i = 0; i < 5; i++) {
-                    console.log(i);
-                    (function() {
-                        $('.avion').animate({
-                            left: "100%"
-                        }, 600);
-                        $('.avion').animate({
-                            left: "-100%"
-                        }, 600);
-                    });
-                }
+                setTimeout(function() {
+                    $('.avion').animate({
+                        left: '110%'
+                    }, 20000);
+                }, 2000);
                 break;
 
             case 5:

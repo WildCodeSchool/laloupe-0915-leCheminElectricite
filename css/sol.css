@@ -154,6 +154,10 @@
     z-index: 1;
 }
 
+.animated {
+    cursor: pointer;
+}
+
 /* eolienne-css------------------ */
 
 .eolienne {
@@ -177,11 +181,7 @@
     position: absolute;
     left: 50vw;
     border: 1px solid grey;
-    z-index: 5;
-}
-
-.animated {
-    cursor: pointer;
+    z-index: 8;
 }
 
 .mat:before {
@@ -238,11 +238,6 @@
     border: 1px solid grey;
 }
 
-.heoliene-2, {
-    left: 15vw;
-    z-index: 11;
-}
-
 .mat-2 {
     left: 55vw;
     z-index: 10;
@@ -252,6 +247,64 @@
     left: 55.5vw;
     z-index: 8;
 }
+
+.eolienne-3 {
+    left: 5%;
+    bottom: 9.4%;
+    width: 10px;
+    height: 3vh;
+}
+
+.mat-3 {
+    height: 5vh;
+    width: 2px;
+}
+
+.mat-3:before {
+    width: 4px;
+    height: 4px;
+    top: -4px;
+    left: -2px;
+}
+
+.rotor-3 {
+    width: 20px;
+    height: 2px;
+    left: 50.1vw;
+    bottom: 29.6vh;
+}
+
+.rotor-3:before {
+    width: 20px;
+    height: 2px;
+}
+
+.rotor-3:after {
+    width: 20px;
+    height: 2px;
+}
+
+.eolienne-4 {
+    left: 2.5%;
+    bottom: 8.5%;
+}
+
+.eolienne-5 {
+    left: 0;
+    bottom: 7.8%;
+}
+
+.eolienne-6 {
+    left: -3%;
+    bottom: 6.3%;
+}
+
+.eolienne-7 {
+    left: -6%;
+    bottom: 8%;
+}
+
+
 
 
 /*elements transport=======================================================================================-*/
