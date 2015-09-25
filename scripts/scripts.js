@@ -50,14 +50,14 @@ $(document).ready(function() {
         },
     });
     
-    setInterval(function() {
+    /*setInterval(function() {
         $('#start').addClass('bgcblack');
         $('.thunder').removeClass('dn');
         setTimeout(function() {
             $('#start').removeClass('bgcblack');
             $('.thunder').addClass('dn');
         }, 100);
-    }, 10000);
+    }, 10000);*/
 
     //stockage du slide actuel
     var slide = 1;
