@@ -342,6 +342,31 @@
     z-index: 3;
 }
 
+.lac {
+    position: absolute;
+    height: 12vh;
+    bottom: 17vh;
+    left: 47vw;
+    z-index: 11;
+}
+
+.fisherman {
+    position: absolute;
+    height: 15vh;
+    bottom: 25vh;
+    left: 71vw;
+    z-index: 11;
+    transform: scaleX(-1);
+}
+
+.fish {
+    position: absolute;
+    height: 1.4vh;
+    bottom: 21vh;
+    left: 60vw;
+    z-index: 12;
+}
+
 
 /*elements fourniture=======================================================================================-*/
 

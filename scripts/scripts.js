@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
     //ne pas oublier de mettre a true avant de livrer
-    var firstTime = false;
+    var firstTime = true;
 
     //paramétrage de fullpage et methodes associées
     $('#fullpage').fullpage({
