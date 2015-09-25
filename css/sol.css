@@ -376,6 +376,14 @@
     z-index: 12;
 }
 
+#trois .under-cable {
+    position: absolute;
+    height: 15vh;
+    bottom: 10vh;
+    left: 20vw;
+    z-index: 11;
+}
+
 
 /*elements fourniture=======================================================================================-*/
 
