@@ -316,6 +316,15 @@
     z-index: 1;
 }
 
+.spirales {
+    position: absolute;
+    width: 24vw;
+    height: 15vw;
+    bottom: 23vw;
+    left: 35vw;
+    z-index: 2;
+}
+
 /*elements distribution=======================================================================================-*/
 
 .background_3 {
