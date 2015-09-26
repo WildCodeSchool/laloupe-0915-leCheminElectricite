@@ -461,7 +461,7 @@
 
 .maison {
     position: absolute;
-    height: 20vh;
+    height: 18vh;
     bottom: 24.2vh;
     left: 70vw;
     z-index: 3;
@@ -469,7 +469,7 @@
 
 .immeuble_erdf {
     position: absolute;
-    height: 40vh;
+    height: 55vh;
     bottom: 24.2vh;
     right: 5vw;
     z-index: 2;
