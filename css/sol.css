@@ -354,9 +354,9 @@
 
 .background_3 {
     position: absolute;
-    bottom: 24.2vh;
+    bottom: 24.6vh;
     left: 0vw;
-    z-index: 3;
+    z-index: 12;
     width: 26.5vw;
 }
 
@@ -375,6 +375,8 @@
     left: 70vw;
     z-index: 3;
 }
+
+
 
 .lac {
     position: absolute;
@@ -413,11 +415,11 @@
     z-index: 12;
 }
 
-#trois .under-cable {
+.distrib1 {
     position: absolute;
-    height: 15vh;
-    bottom: 10vh;
-    left: 20vw;
+    height: 44vh;
+    bottom: 9vh;
+    right: 0;
     z-index: 11;
 }
 
@@ -463,6 +465,14 @@
     z-index: 2;
 }
 
+.distrib2 {
+    position: absolute;
+    height: 44vh;
+    left: 0;
+    bottom: 9vh;
+    z-index: 11;
+}
+
 .animPulse {
     cursor: pointer;
     -moz-animation-duration: 3s;
@@ -478,20 +488,6 @@
     position: absolute;
     bottom: 24.9vh;
     z-index: 0;
-}
-
-.distrib {
-    z-index: 10;
-    position: absolute;
-    bottom: 14.8vh;
-}
-
-.distrib1 {
-    right: -67.6vw;
-}
-
-.distrib2 {
-    right: 30vw;
 }
 
 /*----------------ARBRES-----------------*/
