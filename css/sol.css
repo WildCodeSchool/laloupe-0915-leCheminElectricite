@@ -405,6 +405,7 @@
     position: relative;
     left: -60%;
     top: -90%;
+    transform-origin: 97% 87%;
 }
 
 .fish {
