@@ -305,7 +305,7 @@ $(document).ready(function() {
         moveThings(slide);
     });
 
-    //animations hover
+    //animations hover boing boing
     $('.animShake').hover(function() {
         $(this).addClass('animated shake');
     }, function() {
@@ -324,6 +324,7 @@ $(document).ready(function() {
         $(this).removeClass('animated bounce');
     });
     
+    //animation fleche close modal
     $('.square').hover(function() {
         $(this).stop();
         $(this).transition({ rotate: '360deg' }, 300, 'ease');
@@ -333,15 +334,16 @@ $(document).ready(function() {
     });
     
     //effet hover pour faire aparaitre les clips question
-    $('.spirales').hover(function() {
-        $('.question-spirale').css('display', 'block')
+    $('.ask').hover(function() {
+        $(this.children).stop();
+        $(this.children).animate({
+            opacity: '1'
+        }, 300)
     }, function() {
-        $('.question-spirale').css('display', 'none')
+        $(this.children).stop();
+        $(this.children).animate({
+            opacity: '0'
+        }, 300)
     });
     
-    $('.htTransport').hover(function() {
-        $('.question-htTransport').css('display', 'block')
-    }, function() {
-        $('.question-htTransport').css('display', 'none')
-    });
 });

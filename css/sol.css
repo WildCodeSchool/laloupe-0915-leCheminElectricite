@@ -338,7 +338,7 @@
     height: 3vw;
     top: 32%;
     left: 55%;
-    display: none;
+    opacity: 0;
 }
 
 .htTransport {
@@ -355,7 +355,7 @@
     height: 3vw;
     top: 28%;
     left: 75%;
-    display: none;
+    opacity: 0;
 }
 
 /*elements distribution=======================================================================================-*/
