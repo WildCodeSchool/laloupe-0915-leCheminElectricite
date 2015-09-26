@@ -325,6 +325,31 @@
     z-index: 2;
 }
 
+.question-spirale {
+    position: absolute;
+    height: 3vw;
+    top: 32%;
+    left: 55%;
+    display: none;
+}
+
+.htTransport {
+    position: absolute;
+    width: 15vw;
+    height: 24vw;
+    bottom: 13vw;
+    left: 60vw;
+    z-index: 2;
+}
+
+.question-htTransport {
+    position: absolute;
+    height: 3vw;
+    top: 28%;
+    left: 75%;
+    display: none;
+}
+
 /*elements distribution=======================================================================================-*/
 
 .background_3 {
@@ -386,6 +411,14 @@
     bottom: 21vh;
     left: 52vw;
     z-index: 12;
+}
+
+#trois .under-cable {
+    position: absolute;
+    height: 15vh;
+    bottom: 10vh;
+    left: 20vw;
+    z-index: 11;
 }
 
 
