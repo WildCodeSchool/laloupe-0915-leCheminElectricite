@@ -146,6 +146,14 @@
     left: 49vw;
 }
 
+.biomasse {
+    position: absolute;
+    width: 13vw;
+    bottom: 24.9vh;
+    right: 23vw;
+    z-index: 1;
+}
+
 .transfo {
     position: absolute;
     width: 20vw;
@@ -360,6 +368,14 @@
     width: 26.5vw;
 }
 
+.pelleteuse {
+    position: absolute;
+    width: 13vw;
+    bottom: 24.8vh;
+    left: 31vw;
+    z-index: 13;
+}
+
 .poteau_MT {
     position: absolute;
     height: 30vh;
@@ -427,27 +443,20 @@
 
 /*elements fourniture=======================================================================================-*/
 
-.poteau_BT_transfo {
+.nacelle {
     position: absolute;
-    height:20vh;
-    bottom: 24.2vh;
-    left: 18vw;
-    z-index: 3;
-}
-.poteau_BT {
-    position: absolute;
-    height: 15vh;
-    bottom: 24.2vh;
-    left: 35vw;
-    z-index: 3;
+    width: 3.3vw;
+    bottom: 25vh;
+    left: 11.6vw;
+    z-index: 12;
 }
 
-.coffret {
+.pelleteuse2 {
     position: absolute;
-    height: 8vh;
-    bottom: 24.2vh;
-    left: 62vw;
-    z-index: 3;
+    width: 10vw;
+    bottom: 25vh;
+    left: 25vw;
+    z-index: 12;
 }
 
 .maison {
