@@ -418,8 +418,8 @@
 
 .distrib1 {
     position: absolute;
-    height: 44vh;
-    bottom: 9vh;
+    height: 45vh;
+    bottom: 8.6vh;
     right: 0;
     z-index: 11;
 }
@@ -468,9 +468,9 @@
 
 .distrib2 {
     position: absolute;
-    height: 44vh;
+    height: 45vh;
     left: 0;
-    bottom: 9vh;
+    bottom: 8.6vh;
     z-index: 11;
 }
 
