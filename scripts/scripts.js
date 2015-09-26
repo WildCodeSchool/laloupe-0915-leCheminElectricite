@@ -159,6 +159,14 @@ $(document).ready(function() {
                     left: '-10%'
                 }, 0);
                 setInterval(function() {
+                    $('.canne').transition({
+                        rotate: '-40deg'
+                    }, 2000);
+                    $('.canne').transition({
+                        rotate: '0'
+                    }, 2000);
+                }, 200);
+                setInterval(function() {
                     $('.fish').animate({
                         left: '65vw'
                     }, 2500);
