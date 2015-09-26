@@ -101,6 +101,13 @@
     transform: rotate(15deg);
 }
 
+.parapente {
+    position: absolute;
+    width: 6vw;
+    left: 50vw;
+    top: 17vh;
+}
+
 /*----THUNDER----*/
 
 .thunder {
