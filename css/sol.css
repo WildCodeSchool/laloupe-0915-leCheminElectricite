@@ -361,11 +361,23 @@
 
 .fisherman {
     position: absolute;
-    height: 15vh;
-    bottom: 25vh;
-    left: 71vw;
+    height: 68px;
+    width: 39px;
+    bottom: 23.9vh;
+    left: 72vw;
     z-index: 11;
-    transform: scaleX(-1);
+}
+
+.pecheu {
+    height: 60px;
+    position: absolute;
+}
+
+.canne {
+    height: 100px;
+    position: relative;
+    left: -60%;
+    top: -90%;
 }
 
 .fish {
@@ -435,6 +447,19 @@
     z-index: 0;
 }
 
+.distrib {
+    z-index: 10;
+    position: absolute;
+    bottom: 14.8vh;
+}
+
+.distrib1 {
+    right: -67.6vw;
+}
+
+.distrib2 {
+    right: 30vw;
+}
 
 /*----------------ARBRES-----------------*/
 

@@ -10,6 +10,7 @@ window.onload =  function() {
 $(document).ready(function() {
 
     // /!\/!\/!\/!\/!\/!\
+    //variable déclenchant la première modale auto
     //ne pas oublier de mettre a true avant de livrer
     var firstTime = true;
 
