@@ -197,6 +197,7 @@ header {
     width:21vw;
     height:21vw; 
     float: left;
+    cursor: pointer;
 }
 
 article {
