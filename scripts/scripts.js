@@ -323,12 +323,13 @@ $(document).ready(function() {
         $(this).transition({ rotate: '0deg' }, 300, 'ease');
     });
     
-    //effet hover sur spirales pour faire aparaitre le clip question
+    //effet hover pour faire aparaitre les clips question
     $('.spirales').hover(function() {
         $('.question-spirale').css('display', 'block')
     }, function() {
         $('.question-spirale').css('display', 'none')
     });
+    
     $('.htTransport').hover(function() {
         $('.question-htTransport').css('display', 'block')
     }, function() {
