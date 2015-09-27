@@ -8,76 +8,10 @@ window.onload =  function() {
 };
 
 $(document).ready(function() {
-
-    // /!\/!\/!\/!\/!\/!\
-    //variable déclenchant la première modale auto
-    //ne pas oublier de mettre a true avant de livrer
-    var firstTime = true;
-
-    //paramétrage de fullpage et methodes associées
-    $('#fullpage').fullpage({
-        anchors:['startPage', 'mainPath', 'video'],
-        loopHorizontal: false,
-        animateAnchor: false,
-
-        //lancement de fonctions apres le load de
-        //certaines sections
-        afterLoad: function(anchorLink, index){
-            //stock la section actuelle
-            var loadedSection = $(this);
-
-            //quand on arrive dans la premiere section
-            //pour la premiere fois
-            if(anchorLink == 'mainPath' && firstTime == true) {
-                //rebuild pour enlever la barre blanche
-                $.fn.fullpage.reBuild();
-                //lance le modal de bienvenue
-                firstTime = false;
-            }
-        },
-        //lancement de fonctions apres le load de
-        //certains slides
-        afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
-            //stock le slide actuel
-            var loadedSlide = $(this);
-
-            //quand on est dans la deuxième section et 
-            //sur le deuxieme slide
-            if(anchorLink == 'mainPath' && slideIndex == 1){
-                //apparition du sol progressive
-                $(".upanim").css('animation', 'upanim 2s ease');
-                $(".upanim").css('opacity', '1');
-            }
-        },
-        
-        //fonction permettant de voir quelle section nous
-        //sommes dans le menu
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
-            var menuID = ["#ensemble", "#production", "#transport", "#distribution", "#fourniture", "#roleerdf", "#slide-video"];
-            $(menuID[nextSlideIndex]).toggleClass('bgcblue');
-            $(menuID[slideIndex]).toggleClass('bgcblue');
-        }
-    });
-
-    //stockage du slide actuel
-    var slide = 1;
-
-    //fonctions animant les eoliennes
-    function rotor() {
-        $('.rotor').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
-    };
-
-    //lance l'animation des éoliennes
-    rotor();
-
-    //variable definissant la vitesse d'animation
-    var speed = 800;
-
-    //variable controlant la voiture
-    var car = 1;
-
+    
+    
     //mega fonction pour toutes les animations
-    //hors fullscreen
+    //hors fullpage
     function moveThings(slide) {
         switch(slide) {
             case 1:
@@ -229,81 +163,78 @@ $(document).ready(function() {
         }
     }
 
+
+    //variable permettant de rebuild fullpage au premier tour
+    var firstTime = true;
+
+    //paramétrage de fullpage et methodes associées
+    $('#fullpage').fullpage({
+        anchors:['startPage', 'mainPath', 'video'],
+        loopHorizontal: false,
+        animateAnchor: false,
+
+        //lancement de fonctions apres le load de
+        //certaines sections
+        afterLoad: function(anchorLink, index){
+            //stock la section actuelle
+            var loadedSection = $(this);
+
+            //quand on arrive dans la premiere section
+            //pour la premiere fois
+            if(anchorLink == 'mainPath' && firstTime == true) {
+                //rebuild pour enlever la barre blanche
+                $.fn.fullpage.reBuild();
+                //lance le modal de bienvenue
+                firstTime = false;
+            }
+        },
+        //lancement de fonctions apres le load de
+        //certains slides
+        afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+            //stock le slide actuel
+            var loadedSlide = $(this);
+
+            //quand on est dans la deuxième section et 
+            //sur le deuxieme slide
+            if(anchorLink == 'mainPath' && slideIndex == 1){
+                //apparition du sol progressive
+                $(".upanim").css('animation', 'upanim 2s ease');
+                $(".upanim").css('opacity', '1');
+            }
+        },
+        
+        //fonction permettant de voir quel slide nous
+        //sommes dans le menu
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            var menuID = ["#ensemble", "#production", "#transport", "#distribution", "#fourniture", "#roleerdf", "#slide-video"];
+            $(menuID[nextSlideIndex]).toggleClass('bgcblue');
+            $(menuID[slideIndex]).toggleClass('bgcblue');
+            console.log(nextSlideIndex);
+            moveThings(nextSlideIndex + 1);
+        }
+    });
+
+    //stockage du slide actuel
+    var slide = 1;
+
+    //fonctions animant les eoliennes
+    function rotor() {
+        $('.rotor').transition({ rotate: '60000000deg' }, 6000000000, 'linear');
+    };
+
+    //lance l'animation des éoliennes
+    rotor();
+
+    //variable definissant la vitesse d'animation
+    var speed = 800;
+
+    //variable controlant la voiture
+    var car = 1;
+
     //variable pour ne pas stacker les keypress
     animLock = false;
 
     moveThings(1);
-
-    //lance les animations avec les touches du clavier
-    $(document).keydown(function(e) {
-        if (animLock) { return; }
-        animLock = true;
-        //permet d'attendre un certain temps avant de
-        //relancer une animation
-        setTimeout(function() { animLock = false }, 800);
-        //détecte quelle touche (flèche droite ou gauche)
-        //a été pressée
-        switch(e.which) {
-            case 37:          //gauche
-                if (slide != 1) {
-                    slide--;
-                    moveThings(slide);
-                }
-                break;
-
-            case 39:          //droite
-                if (slide != 7) {
-                    slide++;
-                    moveThings(slide);
-                }
-                break;
-
-            default: return;
-        }
-    });
-
-    //lance les animations avec les clicks
-    //sur les flèches
-    $('.fp-prev').click(function() {
-        if (slide != 1) {
-            slide--;
-            moveThings(slide);
-        }
-    });
-
-    $('.fp-next').click(function() {
-        if (slide != 7) {
-            slide++;
-            moveThings(slide);
-        }
-    });
-
-    //lance les animations correspondant
-    //au slide cliqué
-    $('#production').click(function() {
-        slide = 2;
-        moveThings(slide);
-    });
-
-    $('#transport').click(function() {
-        slide = 3;
-        moveThings(slide);
-    });
-
-    $('#distribution').click(function() {
-        slide = 4;
-        moveThings(slide);
-    });
-
-    $('#fourniture').click(function() {
-        slide = 5;
-        moveThings(slide);
-    });
-
-    $('#roleerdf').click(function() {
-        slide = 6;
-        moveThings(slide);
-    });
 
     //animations hover boing boing
     $('.animShake').hover(function() {

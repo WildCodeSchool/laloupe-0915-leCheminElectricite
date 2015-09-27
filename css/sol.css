@@ -443,6 +443,14 @@
 
 /*elements fourniture=======================================================================================-*/
 
+.bonhomme {
+    position: absolute;
+    bottom: 25vh;
+    left: 65vw;
+    z-index: 12;
+    height: 6vh;
+}
+
 .nacelle {
     position: absolute;
     width: 3.3vw;
@@ -537,7 +545,7 @@
 .bonzai {
     position: absolute;
     bottom: 25vh;
-    left: 65vw;
+    left: 82vw;
     z-index: 9;
     height: 15vh;
 }
