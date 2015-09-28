@@ -93,6 +93,9 @@ $(document).ready(function() {
                     left: '-10%'
                 }, 0);
                 setInterval(function() {
+                    $('.parapente')
+                }, 100);
+                setInterval(function() {
                     $('.canne').transition({
                         rotate: '-40deg'
                     }, 2000);
