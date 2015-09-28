@@ -440,6 +440,23 @@
     z-index: 11;
 }
 
+.distrib1md {
+    position: absolute;
+    width: 50vw;
+    height: 10vw;
+    bottom: 40vh;
+    left: 30vw;
+    z-index: 12;
+}
+
+.question-distrib1md {
+    position: absolute;
+    height: 3vw;
+    top: 28%;
+    right: 0;
+    opacity: 0;
+}
+
 
 /*elements fourniture=======================================================================================-*/
 
