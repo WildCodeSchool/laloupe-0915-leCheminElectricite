@@ -388,7 +388,7 @@
     position: absolute;
     width: 13vw;
     bottom: 24.8vh;
-    left: 31vw;
+    left: 80vw;
     z-index: 13;
 }
 
@@ -496,7 +496,7 @@
     position: absolute;
     width: 3.3vw;
     bottom: 25vh;
-    left: 12vw;
+    left: 12.5vw;
     z-index: 12;
 }
 
@@ -573,7 +573,7 @@
 }
 
 .othertree2 {
-    left: 90vw;
+    left: 37vw;
 }
 
 .bonzai {
