@@ -363,9 +363,25 @@
 .background_3 {
     position: absolute;
     bottom: 24.6vh;
-    left: 0vw;
+    left: 0;
+    z-index: 11;
+    width: 26.2vw;
+}
+
+.distrib1 {
+    width: 100vw;
+    position: absolute;
+    bottom: 24.9vh;
+    right: 0vw;
+    z-index: 11;
+}
+
+.distrib1_1 {
+    width: 100vw;
+    position: absolute;
+    top: 75vh;
+    right: 0vw;
     z-index: 12;
-    width: 26.5vw;
 }
 
 .pelleteuse {
@@ -391,8 +407,6 @@
     left: 70vw;
     z-index: 3;
 }
-
-
 
 .lac {
     position: absolute;
@@ -432,16 +446,25 @@
     z-index: 12;
 }
 
-.distrib1 {
-    position: absolute;
-    height: 45vh;
-    bottom: 8.6vh;
-    right: 0;
-    z-index: 11;
-}
 
 
 /*elements fourniture=======================================================================================-*/
+
+.distrib2 {
+    position: absolute;
+    width: 105.5vw;x
+    left: 0;
+    bottom: 24.9vh;
+    z-index: 11;
+}
+
+.distrib2_2 {
+    position: absolute;
+    width: 105.5vw;
+    left: 0;
+    top: 75vh;
+    z-index: 11;
+}
 
 .bonhomme {
     position: absolute;
@@ -483,13 +506,6 @@
     z-index: 2;
 }
 
-.distrib2 {
-    position: absolute;
-    height: 45vh;
-    left: 0;
-    bottom: 8.6vh;
-    z-index: 11;
-}
 
 .animPulse {
     cursor: pointer;
