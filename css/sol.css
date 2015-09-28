@@ -469,12 +469,11 @@
 
 .distrib2 {
     position: absolute;
-    width: 105.5vw;x
+    width: 105.5vw;
     left: 0;
     bottom: 24.9vh;
     z-index: 11;
 }
-
 
 .distrib2_2 {
     position: absolute;
@@ -482,6 +481,23 @@
     left: 0;
     top: 75vh;
     z-index: 11;
+}
+
+.adefinir {
+    position: absolute;
+    width: 46vw;
+    height: 12vw;
+    bottom: 25vh;
+    left: 0;
+    z-index: 11;
+}
+
+.question-adefinir {
+    position: absolute;
+    height: 3vw;
+    top: 0;
+    left: 16.5vw;
+    opacity: 0;
 }
 
 .bonhomme {
@@ -523,7 +539,6 @@
     right: 5vw;
     z-index: 12;
 }
-
 
 .animPulse {
     cursor: pointer;
