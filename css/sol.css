@@ -487,17 +487,17 @@
 .maison {
     position: absolute;
     height: 18vh;
-    bottom: 24.2vh;
+    bottom: 24.9vh;
     left: 70vw;
-    z-index: 3;
+    z-index: 13;
 }
 
 .immeuble_erdf {
     position: absolute;
     height: 55vh;
-    bottom: 24.2vh;
+    bottom: 24.9vh;
     right: 5vw;
-    z-index: 2;
+    z-index: 12;
 }
 
 .distrib2 {
@@ -563,6 +563,6 @@
     position: absolute;
     bottom: 25vh;
     left: 82vw;
-    z-index: 9;
+    z-index: 14;
     height: 15vh;
 }
