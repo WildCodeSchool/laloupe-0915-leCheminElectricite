@@ -114,6 +114,14 @@ $(document).ready(function() {
                         rotateY: '0'
                     }, 1000);
                 }, 100);
+                setInterval(function() {
+                    $('.parapente').animate({  
+                        top: '19vh'
+                    }, 3000);
+                    $('.parapente').animate({  
+                        top: '17vh'
+                    }, 3000);
+                }, 100);
                 break;
 
             case 5:
