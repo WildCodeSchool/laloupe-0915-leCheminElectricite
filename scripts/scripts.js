@@ -105,13 +105,13 @@ $(document).ready(function() {
                 }, 200);
                 setInterval(function() {
                     $('.fish').animate({
-                        left: '65vw'
+                        left: '62vw'
                     }, 2500);
                     $('.fish').transition({
                         rotateY: '180deg'
                     }, 1000);
                     $('.fish').animate({
-                        left: '52vw'
+                        left: '55vw'
                     }, 2500);
                     $('.fish').transition({
                         rotateY: '0'
