@@ -242,9 +242,6 @@ $(document).ready(function() {
     //variable controlant la voiture
     var car = 1;
 
-    //variable pour ne pas stacker les keypress
-    animLock = false;
-
     moveThings(1);
 
     //animations hover boing boing
