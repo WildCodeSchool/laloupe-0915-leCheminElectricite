@@ -59,6 +59,15 @@
 	margin-left: -40px;
 }
 
+.risk .md-content {
+    background-color: #e03e52;
+	border: 10px solid #e03e52;
+}
+
+.risk .md-content:after {
+	border-top: 40px solid #e03e52;
+}
+
 /* Vert */
 .md-green {
 	border: 10px solid #CCE821;
