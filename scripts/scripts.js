@@ -93,6 +93,9 @@ $(document).ready(function() {
                     left: '-10%'
                 }, 0);
                 setInterval(function() {
+                    $('.parapente')
+                }, 100);
+                setInterval(function() {
                     $('.canne').transition({
                         rotate: '-40deg'
                     }, 2000);
@@ -113,6 +116,14 @@ $(document).ready(function() {
                     $('.fish').transition({
                         rotateY: '0'
                     }, 1000);
+                }, 100);
+                setInterval(function() {
+                    $('.parapente').animate({  
+                        top: '19vh'
+                    }, 3000);
+                    $('.parapente').animate({  
+                        top: '17vh'
+                    }, 3000);
                 }, 100);
                 break;
 
@@ -230,9 +241,6 @@ $(document).ready(function() {
 
     //variable controlant la voiture
     var car = 1;
-
-    //variable pour ne pas stacker les keypress
-    animLock = false;
 
     moveThings(1);
 

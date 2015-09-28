@@ -327,8 +327,8 @@
 .spirales {
     position: absolute;
     width: 24vw;
-    height: 15vw;
-    bottom: 23vw;
+    height: 13vw;
+    bottom: 45vh;
     left: 35vw;
     z-index: 2;
 }
@@ -345,7 +345,7 @@
     position: absolute;
     width: 15vw;
     height: 24vw;
-    bottom: 13vw;
+    bottom: 25vh;
     left: 60vw;
     z-index: 2;
 }
@@ -353,8 +353,8 @@
 .question-htTransport {
     position: absolute;
     height: 3vw;
-    top: 28%;
-    left: 75%;
+    top: 23%;
+    left: 40%;
     opacity: 0;
 }
 
@@ -422,7 +422,7 @@
     width: 39px;
     bottom: 23.9vh;
     left: 72vw;
-    z-index: 11;
+    z-index: 13;
 }
 
 .pecheu {
@@ -457,6 +457,7 @@
     bottom: 24.9vh;
     z-index: 11;
 }
+
 
 .distrib2_2 {
     position: absolute;
@@ -493,17 +494,17 @@
 .maison {
     position: absolute;
     height: 18vh;
-    bottom: 24.2vh;
+    bottom: 24.9vh;
     left: 70vw;
-    z-index: 3;
+    z-index: 13;
 }
 
 .immeuble_erdf {
     position: absolute;
     height: 55vh;
-    bottom: 24.2vh;
+    bottom: 24.9vh;
     right: 5vw;
-    z-index: 2;
+    z-index: 12;
 }
 
 
@@ -562,6 +563,6 @@
     position: absolute;
     bottom: 25vh;
     left: 82vw;
-    z-index: 9;
+    z-index: 14;
     height: 15vh;
 }
