@@ -254,7 +254,7 @@
 	width: 80%;
 }
 #modal-8 img {
-	width: 70%;
+height: 100%;
 }
 #modal-9 img {
 	width: 80%;
@@ -267,6 +267,7 @@
 	top: -15%;
 	width: 80%;
 }
+
 
 .col img {
     border: 1px solid black;
