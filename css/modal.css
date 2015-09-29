@@ -93,10 +93,10 @@
     color: white;
     font-size: 2.5em;
     font-weight: lighter;
+    padding-bottom: 1.8rem;
 }
 
 .md-content h3 {
-	margin-top: 2rem;
 	color: white;
 	text-align: left;
 	font-size: 2rem;
@@ -105,8 +105,6 @@
 }
 
 .md-content > div {
-	margin: 5rem;
-	margin-top: 2rem;
 	font-weight: 300;
 	font-size: 2rem;
 }
@@ -118,15 +116,16 @@
 
 .col {
 	display: inline-block;
-	width: 50%;
-	height: 60%;
+	width: 60%;
+	height: 50%;
 	float: left;
-	margin-top: 5%;
+	padding-left: 1%;
 }
 
 .col-right {
 	float: right;
-	width: 40%;
+	width: 35%;
+	padding-right: 1%;
 }
 
 .md-content > div p {
@@ -138,16 +137,13 @@
 
 .md-content > div ul li {
 	font-size: 1.4rem;
+	line-height: 1.8rem;
 	color: white;
-}
-
-.md-content > div ul li ~ li {
-	margin-top: 30px;
+	font-weight: 400;
+	padding-bottom: 1rem;
 }
 
 #modal-1 .md-content > div ul {
-	margin-top: 50px;
-	line-height: 4rem;
 }
 
 #modal-1 .md-content > div ul li {
@@ -202,8 +198,8 @@
 .x {
 	position: absolute;
 	cursor:pointer;
-    right: 5%;
-    top: -2%;
+    right: 6%;
+    top: 2%;
 }
 
 .square {
@@ -251,12 +247,12 @@
 
 /*img modals*/
 
-#modal- img {
+#modal-2 img {
 	width: 100%;
 }
 
 #modal-3 img {
-	width: 80%;
+	width: 100%;
 }
 
 #modal-4 img {
@@ -279,28 +275,56 @@
 	height: 100%;
 }
 
-
-
 #modal-9 img {
-	width: 80%;
+	width: 100%;
 }
 #modal-10 img {
-	width: 80%;
+	width: 100%;
 }
 #modal-12 img {
 	position: relative;
 	top: -15%;
 	width: 80%;
 }
+
+#modal-16 img {
+	height: 100%;
+}
+
+#modal-17 img {
+	width: 100%;
+}
+
+#modal-18 img {
+	width: 100%;
+}
+
+#modal-19 img {
+	width: 100%;
+}
+
+#modal-20 img {
+	width: 100%;
+}
+
+#modal-21 img {
+	width: 100%;
+}
+
+
+#modal-22 img {
+	height: 100%;
+}
+
 #modal-27 img {
-	width: 80%;
+	width: 100%;
 }
 #modal-28 img {
-	width: 80%;
+	width: 100%;
 }
 
 #modal-26 img {
-	width: 80%;
+	width: 100%;
 }
 
 .col img {
