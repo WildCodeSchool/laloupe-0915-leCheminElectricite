@@ -59,6 +59,15 @@
 	margin-left: -40px;
 }
 
+.risk .md-content {
+    background-color: #e03e52;
+	border: 10px solid #e03e52;
+}
+
+.risk .md-content:after {
+	border-top: 40px solid #e03e52;
+}
+
 /* Vert */
 .md-green {
 	border: 10px solid #CCE821;
@@ -245,7 +254,7 @@
 	width: 80%;
 }
 #modal-8 img {
-	width: 70%;
+height: 100%;
 }
 #modal-9 img {
 	width: 80%;
@@ -258,6 +267,7 @@
 	top: -15%;
 	width: 80%;
 }
+
 
 .col img {
     border: 1px solid black;
