@@ -250,12 +250,37 @@
 }
 
 /*img modals*/
+
+#modal- img {
+	width: 100%;
+}
+
 #modal-3 img {
 	width: 80%;
 }
-#modal-8 img {
-height: 100%;
+
+#modal-4 img {
+	width: 100%;
 }
+
+#modal-5 img {
+	width: 100%;
+}
+
+#modal-6 img {
+	width: 100%;
+}
+
+#modal-7 img {
+	height: 100%;
+}
+
+#modal-8 img {
+	height: 100%;
+}
+
+
+
 #modal-9 img {
 	width: 80%;
 }
@@ -274,6 +299,9 @@ height: 100%;
 	width: 80%;
 }
 
+#modal-26 img {
+	width: 80%;
+}
 
 .col img {
     border: 1px solid black;
