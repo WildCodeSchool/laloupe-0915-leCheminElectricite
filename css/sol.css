@@ -459,7 +459,7 @@
     position: absolute;
     height: 3vw;
     top: 28%;
-    right: 0;
+    left: 10%;
     opacity: 0;
 }
 
