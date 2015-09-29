@@ -331,3 +331,7 @@
 .col img {
     border: 1px solid black;
 }
+
+.video_in_modal {
+	width: 100%;
+}
