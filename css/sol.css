@@ -365,7 +365,7 @@
     bottom: 24.6vh;
     left: 0;
     z-index: 11;
-    width: 26.2vw;
+    width: 26vw;
 }
 
 .distrib1 {
@@ -420,7 +420,7 @@
     position: absolute;
     height: 68px;
     width: 39px;
-    bottom: 23.9vh;
+    bottom: 23.0vh;
     left: 72vw;
     z-index: 13;
 }
@@ -459,7 +459,7 @@
     position: absolute;
     height: 3vw;
     top: 28%;
-    right: 0;
+    left: 10%;
     opacity: 0;
 }
 
