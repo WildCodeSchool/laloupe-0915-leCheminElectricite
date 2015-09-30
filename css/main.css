@@ -284,6 +284,19 @@ article {
     margin-top: 20vh;
 }
 
+#credit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+#credit p {
+    margin-left: 3%;
+}
+#modal-42 h3 {
+    margin-bottom: 2%;
+}
+
 @media (min-width: 1700px) {
   html {
     font-size: 100%;
