@@ -128,6 +128,14 @@
 	padding-right: 1%;
 }
 
+.col_v {
+	display: inline-block;
+	width: 60%;
+	height: 50%;
+	float: left;
+	padding-left: 1%;
+}
+
 .md-content > div p {
 	margin: 0;
 	padding: 10px 0;
@@ -334,6 +342,6 @@
     border: 1px solid black;
 }
 
-.video_in_modal {
+video {
 	width: 100%;
 }
