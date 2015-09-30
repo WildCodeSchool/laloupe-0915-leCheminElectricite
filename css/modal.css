@@ -342,6 +342,11 @@
     border: 1px solid black;
 }
 
+.video {
+    margin: 0 auto;
+    width: 70%;
+}
+
 video {
 	width: 100%;
 }
