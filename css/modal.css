@@ -335,9 +335,10 @@
 }
 
 #modal-29 img {
-	display: block;
+   display: block;
    height: 75%;
    margin: auto;
+   border: 1px solid black;
 }
 
 .col img {
