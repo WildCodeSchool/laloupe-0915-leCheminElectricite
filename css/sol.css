@@ -472,7 +472,7 @@
     width: 105.5vw;
     left: 0;
     bottom: 24.9vh;
-    z-index: 11;
+    z-index: 5;
 }
 
 .distrib2_2 {
@@ -529,7 +529,7 @@
     height: 18vh;
     bottom: 24.9vh;
     left: 70vw;
-    z-index: 13;
+    z-index: 7;
 }
 
 .immeuble_erdf {
@@ -537,7 +537,7 @@
     height: 55vh;
     bottom: 24.9vh;
     right: 5vw;
-    z-index: 12;
+    z-index: 6;
 }
 
 .animPulse {
