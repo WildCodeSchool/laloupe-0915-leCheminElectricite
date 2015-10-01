@@ -80,7 +80,7 @@
     width: 5vw;
     height: 5vh;
     bottom: 25vh;
-    z-index: 9;
+    z-index: 8;
     left: -10%;
 }
 
@@ -472,7 +472,7 @@
     width: 105.5vw;
     left: 0;
     bottom: 24.9vh;
-    z-index: 5;
+    z-index: 9;
 }
 
 .distrib2_2 {
