@@ -324,7 +324,7 @@
 }
 
 #modal-27 img {
-	width: 100%;
+	height: 120%;
 }
 #modal-28 img {
 	width: 100%;
@@ -334,14 +334,10 @@
 	width: 100%;
 }
 
-#modal-27 img {
-	width: 100%;
-}
-
 #modal-29 img {
-    width: 90%;
-   height: 80%;
-   margin: 1vh;
+	display: block;
+   height: 75%;
+   margin: auto;
 }
 
 .col img {
