@@ -338,6 +338,12 @@
 	width: 100%;
 }
 
+#modal-29 img {
+    width: 90%;
+   height: 80%;
+   margin: 1vh;
+}
+
 .col img {
     border: 1px solid black;
 }

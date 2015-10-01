@@ -546,6 +546,23 @@
     -moz-animation-iteration-count: infinite;
 }
 
+.postehtabt {
+   position: absolute;
+   width: 15vw;
+   height: 7vw;
+   bottom: 5vh;
+   left: 10vw;
+   z-index: 22;
+}
+
+.question-postehtabt {
+   position: absolute;
+   opacity: 0;
+   height: 3vw;
+   left: 30%;
+   top: 15%;
+}
+
 
 /*-------FONDS--------*/
 
