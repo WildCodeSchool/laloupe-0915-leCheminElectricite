@@ -383,3 +383,16 @@
 video {
 	width: 100%;
 }
+
+.portrait img {
+    height: 40vh;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+    margin: 0 3vw;
+}
