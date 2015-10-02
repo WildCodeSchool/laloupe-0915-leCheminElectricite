@@ -370,9 +370,10 @@
    border: 1px solid black;
 }
 
-.col img {
+.col img, .col3 img {
     border: 1px solid black;
 }
+
 
 .video {
     margin: 0 auto;

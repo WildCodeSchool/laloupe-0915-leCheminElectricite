@@ -80,7 +80,7 @@
     width: 5vw;
     height: 5vh;
     bottom: 25vh;
-    z-index: 8;
+    z-index: 15;
     left: -10%;
 }
 
@@ -529,7 +529,7 @@
     height: 18vh;
     bottom: 24.9vh;
     left: 70vw;
-    z-index: 7;
+    z-index: 12;
 }
 
 .immeuble_erdf {
@@ -537,7 +537,7 @@
     height: 55vh;
     bottom: 24.9vh;
     right: 5vw;
-    z-index: 6;
+    z-index: 11;
 }
 
 .animPulse {
