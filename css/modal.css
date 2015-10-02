@@ -297,7 +297,7 @@
 }
 
 #modal-5 img {
-	height: 150%;
+	height: 120%;
 }
 
 #modal-6 img {
@@ -313,11 +313,11 @@
 }
 
 #modal-9 img {
-	height: 140%;
+	height: 120%;
 }
 
 #modal-10 img {
-	height: 140%;
+	height: 120%;
 }
 
 #modal-12 img {
@@ -377,16 +377,11 @@
 
 .video {
     margin: 0 auto;
-    width: 60vw;
+    width: 55%;
 }
 
 video {
 	width: 100%;
-}
-
-.video video{
-	width: 70%;
-	padding: 0 15% 0 15%;
 }
 
 .portrait img {
